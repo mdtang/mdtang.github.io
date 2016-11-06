@@ -1,11 +1,28 @@
 body{
 	color: white;
-	font-family: Garamond;
-    background-color:#4286f4;
+	font-family: Century Gothic;
+	background-color: gray;
     /* background-image:url(umsi-logo.jpg); */
     text-align: center;
 	}
-	img {
-		width:40%;
-	}
+img {
+	width:40%;
+	border: 6px solid;
+	border-color: black;
+}
+.nav ul,li,a {
+    display: inline;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+.Submenus{
+	position: relative;
+    right: 30px;
+}
+.Headings {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 30px 0px 30px 0px;
+    text-shadow: 3px 3px grey;
 }
