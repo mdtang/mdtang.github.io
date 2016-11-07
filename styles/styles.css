@@ -5,12 +5,12 @@ body{
     text-align: center;
 }
 
-.image1 img {
+#image1 img {
     width:50%;
     height:auto;
 }
 
-.image2 img{
+#image2 img{
     width:50%;
     height:auto;
 }
@@ -27,38 +27,23 @@ body{
     padding:10px;
 }
 
-.projtext2{
-	display:inline-block;
-    vertical-align:top;
-    position:relative;
-    width:380px;
-    font-size: 20px;
-    background-color:cornflowerblue;
-    margin:10px;
-    border-radius:20px;
+.projtext1 a{
+	color: white;
 }
-
 .text1{
-    display:inline-block;
-    vertical-align:top;
-    position:relative;
-    width:380px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 100%;        /* added full width */
     font-size: 20px;
-    background-color:cornflowerblue;
-    margin:10px;
-    border-radius:20px;
-    padding:10px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
-.text2{
-    display:inline-block;
-    vertical-align:top;
-    position:relative;
-    font-size: 20px;
-    background-color:cornflowerblue;
-    margin:10px;
-    border-radius:20px;
-    padding:10px;
+.text1 a{
+    color: white;
 }
 
 .navbar ul,li,a {
@@ -73,16 +58,21 @@ body{
 	background-size: cover;
 	min-height: 500px;
 }
+
+.jumbotron h2{
+     color: white;
+}
+
 .titleimage img{
 	width:50%;
 	border:1px solid;
 	border-color:black;
 }
 
-.linkedin img{
+#linkedin img{
 	width:15%;
 }
 
-.email{
+#email{
 	color:cornflowerblue;
 }
