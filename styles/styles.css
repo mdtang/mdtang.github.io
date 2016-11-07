@@ -4,11 +4,6 @@ body{
 	background-color: lightgray !important;
     text-align: center;
 }
-.titleimage img {
-	width:50%;
-	border:1px solid;
-	border-color:black;
-}
 
 .image1 img {
     width:50%;
@@ -72,10 +67,16 @@ body{
 }
 
 .Headings {
-    color:cornflowerblue;
-    background-image:url("media/nq.jpg");
+    background-image:url("../media/nq.jpg");
 	background-repeat:no-repeat;
+	background-position: center center;
 }
+.titleimage img{
+	width:50%;
+	border:1px solid;
+	border-color:black;
+}
+
 .linkedin img{
 	width:15%;
 }
