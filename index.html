@@ -11,77 +11,75 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 <body>
+<div class="container">
+<div class="row">
     <div class="titleimage">
         <img src='media/umsi-logo.jpg' alt='UMSI logo'/>
     </div>
-    <div class="Submenus">
-    <ul>
-        <li><a href="aboute.html">About Me</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-    </div>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Mingda Tang</a>
+		    <ul>
+		        <ul class="nav navbar-nav">
+		        <li class="active"><a href="index.html">Home</a></li>
+		        <li><a href="aboutme.html">About Me</a></li>
+		        <li><a href="experience.html">Experience</a></li>
+		        <li><a href="projects.html">Projects</a></li>
+		        <li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</div>
+		</div>
+    </nav>
+</div>
+</div>
     <div class="Headings">
-    <h1> Mingda Tang</h1>
-    <h1> University of Michigan School of Information</h1>
+    <div class="jumbotron">
+	    <h1> Mingda Tang</h1>
+	    <h2> University of Michigan School of Information</h2>
     </div>
-    <div class="text1">
-    <h3> Welcome! My name is Mingda Tang and I am an undergraduate student at the University of Michigan School of Information. </h3>
-	I am studying HCI, Web Design, and UX Design and am currently a research assistant in the Social Innovations Group (SIG) assisting in understanding 
-	how People-Nearby Apps such as Tinder can help newly arrived immigrants expand their social network.
-	Here is the website:
-	<br>
-	<h3> <a href= "http://socialinnovations.us/"><font color="00000FF">(SIG)</font></a></h3>
-    <br/>
     </div>
-    <div class="text2">
-	<h3> Some of my skills are: </h3>
-	Interviewing
-	<br>
-	Git
-	<br>
-	HTML/CSS
-	<br>
-	Bootstrap (Basic)
-	<br>
-	jQuery (Basic)
-	<br>
-	Python (I created a PyGame!)
-	<br>
-	SQL/SQLite (Basic)
-	<br>
-	Sony Vegas Pro
-	<br>
-	Acoustica Mixcraft
-	<br>
-	Microsoft Office Suite (Excel, PowerPoint, Word)</p>
+<div class="container">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+	    <div class="text1">
+	    <h3><a href="#col1content" data-toggle="collapse"><font color="6495ed"> Welcome! My name is Mingda Tang and I am an undergraduate student at the University of Michigan School of Information.</font></a></h3>
+            <div id="col1content" class="collapse">
+			I am studying HCI, Web Design, and UX Design and am currently a research assistant in the Social Innovations Group (SIG) assisting in understanding 
+			how People-Nearby Apps such as Tinder can help newly arrived immigrants expand their social network.
+			Here is the website:
+			<br>
+			<h3> <a href= "http://socialinnovations.us/"><font color="00000FF">(SIG)</font></a></h3>
+		    <br/>
+			</div>
+	    </div>
 	</div>
-	<!--<a href = "http://umich.edu" >
-	<img src = "http://i45.tinypic.com/27x1341.jpg" alt="GO BLUE"/>
-	</a>
-	<br/>
-
-	<a href = "http://umich.edu" >
-	<img class='thumbnail' src = "http://i45.tinypic.com/27x1341.jpg" alt="GO BLUE"/>
-	</a>
-
-	<a href = "http://umich.edu">U of M</a>
-	<br/>
-
-	<a href = "https://www.wikipedia.org/">Wikipedia</a>
-	<br/>
-
-	<a href = "http://i45.tinypic.com/27x1341.jpg">Go Blue!</a> -->
-
-	 <!-- <p class='cursive blue'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquid unde vitae officia nobis blanditiis qui magni pariatur placeat repellendus, repudiandae repellat mollitia doloremque quo. Similique ea iusto doloribus, excepturi.</p> -->
-
-	 <!-- <p class='cursive red'>Alias voluptates facere quis, sapiente impedit libero optio placeat voluptatum, voluptate odit itaque a aut similique dignissimos nam autem quo delectus minus laborum distinctio pariatur fugiat nesciunt at eius quos?</p> -->
-
-	 <!-- <p>Vero cupiditate eos, voluptates, nesciunt aperiam excepturi. Nulla vero delectus voluptate quis, quod dicta omnis vitae deleniti id quos, eius error voluptas. Commodi quasi, quia? Nostrum doloribus, vitae sint dolorem!</p> -->
-	 
-	 <!-- <p>Corporis unde minima dolor qui maiores in, esse reiciendis, possimus nemo dolore doloribus quidem, fugiat odio. Facere accusantium, debitis beatae dolore facilis consequuntur commodi obcaecati voluptate provident non tenetur, velit.</p> -->
-    <!-- <button class="btn btn-success" onclick="$(this).hide();">Click me</button> -->
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+	    <div class="text2">
+            <h3><a href="#col2content" data-toggle="collapse"><font color="6495ed">Some of my skills are:</font></a></h3>
+            <div id="col2content" class="collapse">
+			Interviewing
+			<br>
+			Git
+			<br>
+			HTML/CSS
+			<br>
+			Bootstrap (Basic)
+			<br>
+			jQuery (Basic)
+			<br>
+			Python (I created a PyGame!)
+			<br>
+			SQL/SQLite (Basic)
+			<br>
+			Sony Vegas Pro
+			<br>
+			Acoustica Mixcraft
+			<br>
+			Microsoft Office Suite (Excel, PowerPoint, Word)
+			</div>
+		</div>
+    </div>
+</div>
+</div>
 	<script src="bootstrap/js/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

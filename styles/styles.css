@@ -1,13 +1,12 @@
 body{
-	color: white;
-	font-family: Century Gothic;
-	background-color: gray;
-    /* background-image:url(umsi-logo.jpg); */
+	color:black !important;
+	font-family: "Arial" !important;
+	background-color: lightgray !important;
     text-align: center;
 }
 .titleimage img {
-	width:50%;
-	border:5px solid;
+	width:70%;
+	border:3px solid;
 	border-color:black;
 }
 
@@ -56,11 +55,6 @@ body{
     position:relative;
     width:380px;
     font-size: 20px;
-    right:50px;
-    background-color:cornflowerblue;
-    margin:10px;
-    border-radius:20px;
-    padding:20px;
 }
 
 .text2{
@@ -68,11 +62,6 @@ body{
     vertical-align:top;
     position:relative;
     font-size: 20px;
-    left:50px;
-    background-color:cornflowerblue;
-    margin:10px;
-    border-radius:20px;
-    padding:20px
 }
 
 .nav ul,li,a {
@@ -82,15 +71,12 @@ body{
     color: white;
 }
 
-.Submenus{
-	position: relative;
-    right: 30px;
-    font-size: 26px;
+.navbar{
+    font-size: 18px;
+    border-radius:20px;
 }
 
 .Headings {
-    background-color: cornflowerblue;
-    color: white;
-    padding: 30px 0px 30px 0px;
-    text-shadow: 3px 3px grey;
+    color:cornflowerblue;
+    text-shadow: 2px 2px black;
 }
