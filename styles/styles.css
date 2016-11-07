@@ -5,12 +5,12 @@ body{
     text-align: center;
 }
 
-#image1 img {
+.image1 img {
     width:50%;
     height:auto;
 }
 
-#image2 img{
+.image2 img{
     width:50%;
     height:auto;
 }
