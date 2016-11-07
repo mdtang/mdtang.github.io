@@ -41,7 +41,6 @@ body{
     background-color:cornflowerblue;
     margin:10px;
     border-radius:20px;
-    padding:10px;
 }
 
 .text1{
@@ -69,7 +68,7 @@ body{
 
 .navbar ul,li,a {
     display: inline;
-    font-size:20px;
+    font-size:16px;
 }
 
 .Headings {
