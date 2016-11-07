@@ -73,7 +73,13 @@ body{
 
 .Headings {
     color:cornflowerblue;
+    background-image:url("media/nq.jpg");
+	background-repeat:no-repeat;
 }
 .linkedin img{
 	width:15%;
+}
+
+.email{
+	color:cornflowerblue;
 }
