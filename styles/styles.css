@@ -66,10 +66,12 @@ body{
     font-size:16px;
 }
 
-.Headings {
+.jumbotron {
     background-image:url("../media/nq.jpg");
 	background-repeat:no-repeat;
 	background-position: center center;
+	background-size: cover;
+	min-height: 500px;
 }
 .titleimage img{
 	width:50%;
