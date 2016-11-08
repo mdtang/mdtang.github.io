@@ -1,46 +1,98 @@
 body{
 	color:white !important;
-	font-family: Tahoma !important;
+	font-family: AppleGaramond !important;
 	background-color: lightgray !important;
     text-align: center;
 }
 
-.image1 img {
-    width:50%;
+.btn {
+	padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #659CEF;
+    border-radius:15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.expimage1 img{
+    width:100%;
     height:auto;
 }
 
-.image2 img{
-    width:50%;
+.expimage2 img{
+    width:40%;
     height:auto;
 }
 
+.expimage3 img{
+    width:40%;
+    height:auto;
+}
+
+.expimage4 img{
+    width:40%;
+    height:auto;
+}
+
+.expimage5 img{
+    width:40%;
+    height:auto;
+}
+
+.expimage6 img{
+    width:40%;
+    height:auto;
+}
+
+.exptext1 div{
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+}
+
+.experiencepage{
+	padding-bottom:40px;
+}
+
+.mainpage{
+	padding-bottom:40px;
+}
 .projtext1{
 	display:inline-block;
     vertical-align:top;
     position:relative;
     width:380px;
     font-size: 20px;
-    background-color:cornflowerblue;
-    margin:10px;
-    border-radius:20px;
-    padding:10px;
+    text-shadow: 1px 1px #000000;
 }
 
-.projtext1 a{
-	color: white;
+.projectspage{
+	padding-bottom: 50px;
 }
+
+
+.projimage1 img{
+    width: 50%;
+    height:auto;
+}
+
+.projimage2 img {
+    width:40%;
+    height:auto;
+}
+
 .text1{
     display: inline-block;
     vertical-align: top;
     position: relative;
     width: 100%;        /* added full width */
     font-size: 20px;
+    text-shadow: 1px 1px #000000;
 }
 
 .text1 a{
     color: white;
-    font-family: Tahoma;
 }
 
 .navbar ul,li,a {
@@ -48,20 +100,41 @@ body{
     font-size:16px;
 }
 
-.jumbotron {
+.blurbg{
     background-image:url("../media/nq.jpg");
 	background-repeat:no-repeat;
 	background-position: center center;
 	background-size: cover;
-	min-height: 500px;
+	-webkit-filter: blur(2px);
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(5px);
+     -o-filter: blur(5px);
+     -ms-filter: blur(5px);
+     filter: blur(5px);
+     z-index: -1;
 }
 
-.jumbotron h2{
+.Headings{
+	min-height: 300px;
+
+}
+
+
+.Headings h2{
      color: white;
-     font-family: Tahoma;
+     font-family: AppleGaramond;
      background-color: cornflowerblue;
      border-radius: 20px;
      padding: 10px;
+     text-shadow: 2px 2px #000000;
 }
 
 .titleimage img{
@@ -75,5 +148,18 @@ body{
 }
 
 .email{
-	color:cornflowerblue;
+	color:white;
+	font-family: AppleGaramond;
+	text-shadow: 1px 1px #000000;
+}
+
+@font-face{
+    font-family:AppleGaramond;
+    src:url(../media/AppleGaramond.ttf);
+}
+
+.bottom {
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
 }
