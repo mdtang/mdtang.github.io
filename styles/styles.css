@@ -1,6 +1,6 @@
 body{
 	color:white !important;
-	font-family: "Calisto MT" !important;
+	font-family: Tahoma !important;
 	background-color: lightgray !important;
     text-align: center;
 }
@@ -36,14 +36,11 @@ body{
     position: relative;
     width: 100%;        /* added full width */
     font-size: 20px;
-    background-color: cornflowerblue;
-    margin: 10px;
-    border-radius: 20px;
-    padding: 10px;
 }
 
 .text1 a{
     color: white;
+    font-family: Tahoma;
 }
 
 .navbar ul,li,a {
@@ -61,6 +58,10 @@ body{
 
 .jumbotron h2{
      color: white;
+     font-family: Tahoma;
+     background-color: cornflowerblue;
+     border-radius: 20px;
+     padding: 10px;
 }
 
 .titleimage img{
@@ -69,10 +70,10 @@ body{
 	border-color:black;
 }
 
-#linkedin img{
+.linkedin img{
 	width:15%;
 }
 
-#email{
+.email{
 	color:cornflowerblue;
 }
