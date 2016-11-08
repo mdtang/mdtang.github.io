@@ -158,6 +158,11 @@ body{
     src:url(../media/AppleGaramond.ttf);
 }
 
+.umlogo img{
+    width:25%;
+}
+}
+
 .bottom {
     text-align: center;
     font-size: 20px;
