@@ -3,6 +3,7 @@ body{
 	font-family: AppleGaramond !important;
 	background-color: lightgray !important;
     text-align: center;
+    background-repeat:repeat;
 }
 
 .btn {
@@ -170,31 +171,28 @@ body{
 
 .navbar ul,li,a {
     display: inline;
-    font-size:16px;
+    font-size:18px;
+}
+
+.navbar-text{
+    display: inline;
+    font-size:18px;
 }
 
 .blurbg{
     background-image:url("../media/nq.jpg");
-	background-repeat:repeat-y;
-	background-position: center center;
-	background-size: cover;
+    background-size: cover;
 	position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-position: 0% 25%;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(5px);
-     -o-filter: blur(5px);
-     -ms-filter: blur(5px);
-     filter: blur(5px);
-     z-index: -1;
+    filter: blur(5px);
+    z-index: -1;
 }
 
 .Headings{
 	min-height: 300px;
-
 }
 
 
