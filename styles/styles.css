@@ -22,31 +22,77 @@ body{
 }
 
 .expimage2 img{
-    width:40%;
+    width:60%;
     height:auto;
 }
 
 .expimage3 img{
-    width:40%;
+    width:55%;
     height:auto;
 }
 
 .expimage4 img{
-    width:40%;
+    width:60%;
     height:auto;
 }
 
 .expimage5 img{
-    width:40%;
+    width:60%;
     height:auto;
 }
 
 .expimage6 img{
-    width:40%;
+    width:50%;
     height:auto;
 }
 
+.exptext1{
+}
+
 .exptext1 div{
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+}
+
+
+.exptext2{
+}
+
+.exptext2 div{
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+}
+
+.exptext3{
+}
+
+.exptext3 div{
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+}
+
+.exptext4{
+}
+
+.exptext4 div{
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+}
+
+.exptext5{
+}
+
+.exptext5 div{
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+}
+
+.exptext6 button{
+	position:relative;
+	bottom:20px;
+}
+
+.exptext6 div{
     font-size: 20px;
     text-shadow: 1px 1px #000000;
 }
@@ -62,9 +108,19 @@ body{
 	display:inline-block;
     vertical-align:top;
     position:relative;
-    width:380px;
+    width:450px;
     font-size: 20px;
     text-shadow: 1px 1px #000000;
+}
+
+.projtext2{
+	display:inline-block;
+    vertical-align:top;
+    position:relative;
+    width:450px;
+    font-size: 20px;
+    text-shadow: 2px 2px #000000;
+    top:17px;
 }
 
 .projectspage{
@@ -144,7 +200,8 @@ body{
 }
 
 .linkedin img{
-	width:15%;
+	width:10%;
+	border-radius:15px;
 }
 
 .email{
@@ -158,9 +215,8 @@ body{
     src:url(../media/AppleGaramond.ttf);
 }
 
-.umlogo img{
+img.umlogo{
     width:25%;
-}
 }
 
 .bottom {
