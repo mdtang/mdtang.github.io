@@ -1,6 +1,6 @@
 body{
 	color:white !important;
-	font-family: AppleGaramond !important;
+	font-family: Titillium-Regular !important;
 	background-color: lightgray !important;
     text-align: center;
     background-repeat:repeat;
@@ -166,10 +166,6 @@ body{
     padding:10px;
 }
 
-.projectspage{
-	padding-bottom: 50px;
-}
-
 
 .projimage1 img{
     width: 50%;
@@ -192,11 +188,13 @@ body{
     margin:10px;
     border-radius:20px;
     padding:10px;
+    text-align: center;
 }
 
 .text a, h3{
     color: blue;
     text-shadow: 1px 1px #000000;
+    font-family: Titillium-Regular;
 }
 
 
@@ -212,7 +210,7 @@ body{
 .aboutmetext h3{
     color: blue;
     text-shadow: 1px 1px #000000;
-    font-family: AppleGaramond;
+    font-family: Titillium-Regular;
 }
 
 .navbar ul,li,a {
@@ -244,7 +242,7 @@ body{
 
 .Headings h2{
      color: white;
-     font-family: AppleGaramond;
+     font-family: Titillium-Regular;
      background-color: cornflowerblue;
      border-radius: 20px;
      padding: 10px;
@@ -259,19 +257,19 @@ body{
 }
 
 .linkedin img{
-	width:10%;
+	width:70%;
 	border-radius:15px;
 }
 
 .email{
-	color:blue;
-	font-family: AppleGaramond;
+	color:white;
+	font-family: Titillium-Regular;
 	text-shadow: 1px 1px #000000;
 }
 
 @font-face{
-    font-family:AppleGaramond;
-    src:url(../media/AppleGaramond.ttf);
+    font-family:Titillium-Regular;
+    src:url(../media/Titillium-Regular.otf);
 }
 
 img.umlogo{
