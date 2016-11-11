@@ -62,23 +62,23 @@ footer.page-footer {
 }
 
 .expimage1{
-    width:90%;
-}
-
-.expimage2{
-    width:60%;
-}
-
-.expimage3{
     width:50%;
 }
 
+.expimage2{
+    width:35%;
+}
+
+.expimage3{
+    width:30%;
+}
+
 .expimage4{
-    width:90%;
+    width:50%;
 }
 
 .expimage5{
-    width:65%;
+    width:40%;
 }
 
 .projimg1{
