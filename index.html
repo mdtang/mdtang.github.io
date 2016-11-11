@@ -1,126 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Mingda Tang's Website</title>
-	<!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link href="https://bootswatch.com/cerulean/bootstrap.min.css" rel="stylesheet" type"text/css">
-    <link rel='stylesheet' type='text/css' href='styles/styles.css'/>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Material Design Bootstrap</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <link href="css/style.css" rel="stylesheet">
+
 </head>
-<link rel="shortcut icon" href="media/umlogo.ico" />
-<div class="blurbg"></div>
-<body class="mainpage">
-    <nav class="navbar navbar-default">
-        <div class="navbar-header">
-            <button type='button' class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar">
-	            <span class="icon-bar"></span>
-			    <span class="icon-bar"></span>
-			    <span class="icon-bar"></span>
-		    </button>
-		    <a href="index.html" class="navbar-brand">Mingda Tang</a>
-		</div>
-            <div id="mainNavbar" class="collapse navbar-collapse">
-	        <ul class="nav navbar-nav">
-		        <li class="active"><a href="index.html">Home</a></li>
-		        <li><a href="experience.html">Experience</a></li>
-		        <li><a href="projects.html">Projects</a></li>
-	        </ul>
-	        <div class="navbar-text pull-right">
-                © 2016 Mingda Tang
-            </div>
-	        </div>
-    </nav>
-    <div class="Headings">
+
+<link rel="shortcut icon" href="media/umlogo.ico"/>
+
+<body>
+
+
+    <!--Navbar-->
+    <nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
+
+        <!-- Collapse button-->
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">
+            <i class="fa fa-bars"></i>
+        </button>
+
         <div class="container">
-        <div class="row">
-	        <h2> Welcome! My name is Mingda Tang and I am a prospective undergraduate student at the UM School of Information.</h2>
-	    </div>
-	    </div>
-	    <br>
-	    <br>
-	    <div class="titleimage">
-            <img src='media/umsi-logo.jpg' alt='UMSI logo'/>
+
+            <!--Collapse content-->
+            <div class="collapse navbar-toggleable-xs" id="collapseEx">
+                <!--Navbar Brand-->
+                <a class="navbar-brand" href="index.html" target="_blank">Mingda Tang</a>
+                <!--Links-->
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!--/.Collapse content-->
+
+        </div>
+
+    </nav>
+    <!--/.Navbar-->
+
+    <!--Mask-->
+    <div class="view hm-black-strong">
+        <div class="full-bg-img flex-center">
+            <ul class="animated fadeInUp">
+                <li>
+                    <h1 class="h1-responsive">Mingda Tang</h1></li>
+                <li>
+                    <p>University of Michigan School of Information</p>
+                </li>
+                <img src='media/umsi_alt_logo.png' alt='UMSI alternative logo'/>
+            </ul>
         </div>
     </div>
-<div class="container">
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-	    <div class="text1">
-	        <h3> Current Endeavors: </h3>
-			I am studying HCI, Web Design, and UX Design and am currently a research assistant in the Social Innovations Group (SIG) assisting in understanding 
-			how People-Nearby Apps such as Tinder can help newly arrived immigrants expand their social network.
-			<br>
-			Here is the website:
-			<br>
-			<h3> <a href= "http://socialinnovations.us/">(SIG)</a></h3>
-	    </div>
-	</div>
-	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="text2">
-        <h3>Skills:</h3>
-		Interviewing
-		<br>
-		Git
-		<br>
-		HTML/CSS
-		<br>
-		Bootstrap
-		<br>
-		Python (I created a PyGame!)
-		<br>
-		SQL/SQLite (Basic)
-		<br>
-		Sony Vegas Pro
-		<br>
-		Acoustica Mixcraft
-		<br>
-		Microsoft Office Suite (Excel, PowerPoint, Word)
-		</div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="text3">
-        <h3>Education and Interests:</h3>
-        <img class="umlogo" src="media/umlogo.png" alt="UM logo"/>
-        <br>
-        University of Michigan - Class of 2019
-        <br>
-        First-Gen Student
-        <br>
-        Intended Major: Bachelor of Science in Information (UX Design)
-        <br>
-        Intended Minor: Digital Studies
-        <h3>Interests</h3>
-        UI/UX Design
-        <br>
-        Human-Computer Interaction
-        <br>
-        Video Game Design
-        <br>
-        Cognitive Psychology
-        <br>
-        Artificial Intelligence
-        <br>
-        Community Service (Tutoring)
-        <br>
-        Performing Arts (Choral Music and Theatre)
+    <!--/.Mask-->
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-3 offset-md-1">
+                    <h5 class="title">ABOUT ME</h5>
+                    <img class="umlogo" src="media/umlogo.png" alt="UM logo"/>
+                    <br>
+                    <h4>University of Michigan</h4>
+                    Class of 2019
+                    <br>
+                    First-Gen Student
+                    <br>
+                    Intended Major: Bachelor of Science in Information (UX Design)
+                    <br>
+                    Intended Minor: Digital Studies
+                </div>
+                <!--/.First column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Second column-->
+                <div class="col-md-2 offset-md-1">
+                    <h5 class="title">CURRENT ENDEAVORS</h5>
+                    <ul>
+                        I am studying Human-Computer Interaction, Web Design, and UX Design and am currently a research assistant in the Social Innovations Group (SIG) assisting in understanding 
+                        how People-Nearby Apps such as Tinder can help newly arrived immigrants expand their social network.
+                        <br>
+                        Here is the website:
+                        <br>
+                        <br>
+                        <h4><a href= "http://socialinnovations.us/">(SIG)</a></h4>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Third column-->
+                <div class="col-md-2">
+                    <h5 class="title">SKILLS</h5>
+                    <ul>
+                        Interviewing
+                        <br>
+                        Git
+                        <br>
+                        HTML/CSS
+                        <br>
+                        Bootstrap
+                        <br>
+                        Python (I created a PyGame!)
+                        <br>
+                        SQL/SQLite (Basic)
+                        <br>
+                        Sony Vegas Pro
+                        <br>
+                        Acoustica Mixcraft
+                        <br>
+                        Microsoft Office Suite (Excel, PowerPoint, Word)
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Fourth column-->
+                <div class="col-md-2">
+                    <h5 class="title">INTERESTS</h5>
+                    <ul>
+                        UI/UX Design
+                        <br>
+                        Human-Computer Interaction
+                        <br>
+                        Video Game Design
+                        <br>
+                        Cognitive Psychology
+                        <br>
+                        Artificial Intelligence
+                        <br>
+                        Community Service (Tutoring)
+                        <br>
+                        Performing Arts (Choral Music and Theatre)
+                        <br>
+                        Political Science and History
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
         </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="text4">
-        <h3>Contact information:</h3>
-        <h2 class="email"> Email: mdtang@umich.edu
-	    <br>
-	    <br>
-	    <a class="linkedin" href="https://www.linkedin.com/in/mingda-tang-84546998"><img src="media/linkedin.png" alt="LinkedIn Logo"></a></h2>
-    </div>
-</div>
-</div>
-	<script src="bootstrap/js/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!--/.Footer Links-->
+
+        <hr>
+
+        <!--Call to action-->
+        <div class="call-to-action">
+            <h4>Contact</h4>
+            <ul>
+                <li>
+                    <h5>Email: mdtang@umich.edu</h5></li>
+                <br>
+                <li><a class="linkedin" href="https://www.linkedin.com/in/mingda-tang-84546998"><img src="media/linkedin.png" alt="LinkedIn Logo"></a></li>
+            </ul>
+        </div>
+        <!--/.Call to action-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2016 Mingda Tang
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
 </body>
+
 </html>
