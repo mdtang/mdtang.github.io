@@ -62,71 +62,84 @@ body{
 	background-color:cornflowerblue;
     margin:10px;
     border-radius:20px;
-}
-
-.exptext1 div{
     font-size: 20px;
     text-shadow: 1px 1px #000000;
+    width:100%;
+}
+
+.exptext1 h3{
+	color:white;
 }
 
 .exptext2{
 	background-color:cornflowerblue;
     margin:10px;
     border-radius:20px;
-}
-
-.exptext2 div{
     font-size: 20px;
     text-shadow: 1px 1px #000000;
+    width:100%;
+}
+
+.exptext2 h3{
+	color:white;
 }
 
 .exptext3{
 	background-color:cornflowerblue;
     margin:10px;
     border-radius:20px;
-}
-
-.exptext3 div{
     font-size: 20px;
     text-shadow: 1px 1px #000000;
+    width:100%;
+}
+
+
+.exptext3 h3{
+	color:white;
 }
 
 .exptext4{
 	background-color:cornflowerblue;
     margin:10px;
     border-radius:20px;
-}
-
-.exptext4 div{
     font-size: 20px;
     text-shadow: 1px 1px #000000;
+    width:100%;
+}
+
+
+.exptext4 h3{
+	color:white;
 }
 
 .exptext5{
 	background-color:cornflowerblue;
     margin:10px;
     border-radius:20px;
-}
-
-.exptext5 div{
     font-size: 20px;
     text-shadow: 1px 1px #000000;
+    width:100%;
+}
+
+.exptext5 h3{
+	color:white;
 }
 
 .exptext6{
 	background-color:cornflowerblue;
     margin:10px;
     border-radius:20px;
-}
-
-.exptext6 div{
     font-size: 20px;
     text-shadow: 1px 1px #000000;
+    width:100%;
+}
+
+.exptext6 h3{
+	color:white;
 }
 
 .projtext1{
 	display:inline-block;
-    vertical-align:top;
     position:relative;
     width:450px;
     font-size: 20px;
@@ -134,6 +147,11 @@ body{
     background-color:cornflowerblue;
     margin:10px;
     border-radius:20px;
+    width:100%;
+}
+
+.projtext1 h3{
+	color:white;
 }
 
 .projtext2{
@@ -149,6 +167,9 @@ body{
     border-radius:20px;
 }
 
+.projtext2 h3{
+	color:white;
+}
 
 .projimage1 img{
     width: 50%;
@@ -160,8 +181,7 @@ body{
     height:auto;
 }
 
-.text{
-    display: inline-block;
+.text1{
     vertical-align: top;
     position: relative;
     width: 100%;        /* added full width */
@@ -172,11 +192,66 @@ body{
     border-radius:20px;
 }
 
-.text a, h3{
-    font:white;
+.text1 a, h3{
+    color:white;
     text-shadow: 1px 1px #000000;
     font-family: Titillium-Regular;
 }
+
+.text2{
+    vertical-align: top;
+    position: relative;
+    width: 100%;        /* added full width */
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+    background-color:cornflowerblue;
+    margin:10px;
+    border-radius:20px;
+}
+
+.text2 a, h3{
+    color:white;
+    text-shadow: 1px 1px #000000;
+    font-family: Titillium-Regular;
+}
+
+
+.text3{
+    vertical-align: top;
+    position: relative;
+    width: 100%;        /* added full width */
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+    background-color:cornflowerblue;
+    margin:10px;
+    border-radius:20px;
+}
+
+
+.text3 a, h3{
+    color:white;
+    text-shadow: 1px 1px #000000;
+    font-family: Titillium-Regular;
+}
+
+
+.text4{
+    vertical-align: top;
+    position: relative;
+    width: 100%;        /* added full width */
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+    background-color:cornflowerblue;
+    margin:10px;
+    border-radius:20px;
+}
+
+.text4 a, h3{
+    color:white;
+    text-shadow: 1px 1px #000000;
+    font-family: Titillium-Regular;
+}
+
 
 
 .aboutmetext{
