@@ -1,6 +1,24 @@
 html,
 body,
-.view {
+.homeview {
+    height: 100%;
+}
+
+html,
+body,
+.expview {
+    height: 100%;
+}
+
+html,
+body,
+.projview {
+    height: 100%;
+}
+
+html,
+body,
+.WFview {
     height: 100%;
 }
 /* Navigation*/
@@ -35,8 +53,32 @@ footer.page-footer {
     color: #fff;
 }
 
-.view {
+.homeview {
     background: url("../media/umlibrary.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.expview {
+    background: url("../media/union.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.projview {
+    background: url("../media/southu.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.WFview {
+    background: url("../media/angell.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
