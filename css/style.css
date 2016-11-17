@@ -62,7 +62,7 @@ footer.page-footer {
 }
 
 .expview {
-    background: url("../media/union.jpg")no-repeat center center fixed;
+    background: url("../media/union.JPG")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,7 +70,7 @@ footer.page-footer {
 }
 
 .projview {
-    background: url("../media/southu.jpg")no-repeat center center fixed;
+    background: url("../media/southu.JPG")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
