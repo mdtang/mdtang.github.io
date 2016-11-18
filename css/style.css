@@ -141,42 +141,15 @@ footer.page-footer {
     text-align:center;
 }
 
-.exp-img-circle {
-    border-radius:50%;
-    width:50%;
-}
-
-.exp-img-circle:hover{
-    background: white;
-}
-
-.exp2-img-circle {
-    border-radius:50%;
-    width:80%;
-}
-
-.exp2-img-circle:hover{
-    background: white;
-}
-
-.exp3-img-circle {
-    border-radius:50%;
-    width:50%;
-}
-
-.exp3-img-circle:hover{
-    background: white;
-}
-
 .modal-content{
     color:black;
 }
 
-.mockups-img-circle {
+.img-circle {
     border-radius:50%;
     width:20%;
 }
 
-.mockups-img-circle:hover{
+.img-circle:hover{
     background: white;
 }
