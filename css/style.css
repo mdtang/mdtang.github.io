@@ -104,34 +104,34 @@ footer.page-footer {
 }
 
 .expimage1{
-    width:50%;
-}
-
-.expimage2{
     width:35%;
 }
 
-.expimage3{
+.expimage2{
     width:30%;
 }
 
-.expimage4{
+.expimage3{
     width:50%;
 }
 
-.expimage5{
+.expimage4{
     width:35%;
 }
 
 .projimg1{
-    width:60%;
+    width:50%;
 }
 
- .projimg2{
-    width:40%;
+.projimg2{
+    width:80%;
 }
 
-.WFimage1{
+ .projimg3{
+    width:30%;
+}
+
+.mockupsimage1{
     width:100%;
     display: block;
     margin: auto;
@@ -141,15 +141,43 @@ footer.page-footer {
     text-align:center;
 }
 
-.img-circle {
+.exp-img-circle {
+    border-radius:50%;
+    width:50%;
+}
+
+.exp-img-circle:hover{
+    background: white;
+}
+
+.exp2-img-circle {
+    border-radius:50%;
+    width:80%;
+}
+
+.exp2-img-circle:hover{
+    background: white;
+}
+
+.exp3-img-circle {
+    border-radius:50%;
+    width:50%;
+}
+
+.exp3-img-circle:hover{
+    background: white;
+}
+
+
+.modal-content{
+    color:black;
+}
+
+.mockups-img-circle {
     border-radius:50%;
     width:20%;
 }
 
-.img-circle:hover{
+.mockups-img-circle:hover{
     background: white;
-}
-
-.modal-content{
-    color:black;
 }
