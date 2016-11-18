@@ -130,17 +130,26 @@ footer.page-footer {
  .projimg2{
     width:40%;
 }
-.SIG{
-    color:royalblue !important;
-}
 
 .WFimage1{
-    width:60%;
+    width:100%;
     display: block;
     margin: auto;
 }
 
-.wireframe{
+.mockups{
     text-align:center;
 }
 
+.img-circle {
+    border-radius:50%;
+    width:20%;
+}
+
+.img-circle:hover{
+    background: white;
+}
+
+.modal-content{
+    color:black;
+}

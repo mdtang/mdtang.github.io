@@ -51,10 +51,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="experience.html">Experience</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="projects.html">Projects<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="mockups.html">Mockups</a>
                     </li>
                 </ul>
@@ -68,7 +68,7 @@
     <!--/.Navbar-->
 
     <!--Mask-->
-    <div class="projview hm-black-strong">
+    <div class="WFview hm-black-strong">
         <div class="full-bg-img flex-center">
             <ul class="animated fadeInUp">
                 <li>
@@ -78,7 +78,7 @@
                 </li>
                 <img src='media/umsi_alt_logo.png' alt='UMSI alternative logo'/>
                 <li>
-                    <h3>Projects</h3>
+                    <h3>Mockups</h3>
                 </li>
             </ul>
         </div>
@@ -90,59 +90,75 @@
 
         <!--Footer Links-->
         <div class="container-fluid">
-            <div class="row">
+            <div class="row mockups">
                 <!--First column-->
-                <div class="col-md-3 offset-md-2">
-                    <h4 class="title">UMSI Research Assistant</h4>
-                    <img class="expimage1" src='media/umsi_alt_logo.png' alt='UMSI alternative logo'/>
-                    <p>Conduct interviews, analyze user behavior, and develop human-computer interaction skills 
-                    in the Social Innovations Group (SIG) for the Understand the Benefits of People-Nearby Applications (PNAs) project.</p>
-                    <p>I interview research subjects about their perceptions of and experiences with PNAs, and how they think these apps can benefit them academically, socially, and mentally. I also teach participants who have no previous experience with PNAs how these apps are designed and how to use them, which allows my research team to assess how using these apps affects them.</p>
-                    <p>September 2016 - Present</p>
-                    <p>Ann Arbor, MI</p>
+                <div class="col-md-6">
+                    <!-- Trigger the modal with a button -->
+                    <img src="media/game.png" data-toggle="modal" data-target="#modalmockupsgame" class="img-circle" alt="mockups">
+                    <h5><p>Video Games</p></h5>
+
+                    <!-- Modal -->
+                    <div id="modalmockupsgame" class="modal fade" role="dialog">
+                        <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">First Person Shooter UI</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="WFimage1" src='media/MockupGameUI.jpg' alt='Mockup Game UI JPG'/>
+                                <br>
+                                <p>1) Health and Stamina Bars</p>
+                                <p>2) Objectives - Primary and Optional</p>
+                                <p>3) Special abilities activated with button presses</p>
+                                <p>4) Wireframe Assault Rifle Model</p>
+                                <p>5) On-Screen Destination Marker</p>
+                                <p>6) Radar Map</p>
+                                <p>7) Weapon Name and Ammo Count</p>
+                                <button type="button" class="btn btn-primary" onclick="window.open('media/MockupGameUI.pdf')">Vector PDF Link</button>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
                 </div>
                 <!--/.First column-->
 
                 <hr class="hidden-md-up">
 
                 <!--Second column-->
-                <div class="col-md-3">
-                    <h4 class="title">PyGame</h4>
-                    <img class="projimg1" src='media/pygame_logo.gif' alt='PyGame logo'/>
-                    <br>
-                    Currently in progress
-                    Completed Fall 2016
+                <div class="col-md-6 modal-lg">
+                    <!-- Trigger the modal with a button -->
+                    <img src="media/mobile.png" data-toggle="modal" data-target="#modalmockupsmobile" class="img-circle" alt="Mockup">
+                    <h5><p>Mobile</p></h5>
+
+                    <div id="modalmockupsmobile" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Coming Soon!</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p></p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
                 </div>
                 <!--/.Second column-->
-
-                <hr class="hidden-md-up">
-
-                <!--Third column-->
-                <div class="col-md-3">
-                    <h4 class="title">Creative AI - Python Lyrics and Music Generator</h4>
-                    <img class="projimg2" src='media/treble.png' alt='treble image'/>
-                    <br>
-                    Randomly generated three-part song lyrics from Elvis Presley, Michael Jackson, and The Beatles
-                    and .wav instrumental files with random key signatures
-                    <br>
-                    Completed Fall 2015
-                </div>
-                <!--/.Third column-->
-
-                <hr class="hidden-md-up">
-
-                <!--Fourth column-->
-                <div class="col-md-3">
-                    <h4 class="title">HTML/Python:</h4>
-                    Web Parsing (Beautiful Soup 4)
-                    <br>
-                    Accessing Twitter APIs
-                    <br>
-                    Natural Language Processing (Parts of Speech)
-                    <br>
-                    Completed Fall 2016
-                </div>
-                <!--/.Fourth column-->
 
                 <hr class="hidden-md-up">
 
