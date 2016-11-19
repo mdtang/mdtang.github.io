@@ -150,60 +150,113 @@ footer.page-footer {
 
 .img-circle {
     border-radius:50%;
-    width:20%;
-    border: 3px solid white; 
+    width:30%;
+    border: 5px solid black; 
 }
 
 .img-circle:hover{
-    border: 3px solid cornflowerblue;
+    border: 5px solid cornflowerblue;
 }
 
 .img-circle-exp1{
     border-radius:50%;
-    width:30%;
-    border: 3px solid white; 
+    width:40%;
+    border: 5px solid black; 
 }
 
 .img-circle-exp2{
     border-radius:50%;
-    width:30%;
-    border: 3px solid white; 
+    width:40%;
+    border: 5px solid black; 
 }
 
 .img-circle-exp3{
     border-radius:50%;
-    width:30%;;
-    border: 3px solid white; 
+    width:40%;
+    border: 5px solid black; 
 }
 
 .img-circle-exp4{
     border-radius:50%;
-    width:30%;
-    border: 3px solid white; 
+    width:40%;
+    border: 5px solid black; 
 }
 
 .img-circle-exp5{
     border-radius:50%;
-    width:30%;
-    border: 3px solid white; 
+    width:40%;
+    border: 5px solid black; 
 }
 
 .img-circle-exp1:hover{
-    border: 3px solid cornflowerblue;
+    border: 5px solid cornflowerblue;
 }
 
 .img-circle-exp2:hover{
-    border: 3px solid cornflowerblue;
+    border: 5px solid cornflowerblue;
 }
 
 .img-circle-exp3:hover{
-    border: 3px solid cornflowerblue;
+    border: 5px solid cornflowerblue;
 }
 
 .img-circle-exp4:hover{
-    border: 3px solid cornflowerblue;
+    border: 5px solid cornflowerblue;
 }
 
 .img-circle-exp5:hover{
-    border: 3px solid cornflowerblue;
+    border: 5px solid cornflowerblue;
+}
+
+
+.img-circle-proj1{
+    border-radius:50%;
+    width:60%;
+    border: 5px solid black; 
+}
+
+.img-circle-proj2{
+    border-radius:50%;
+    width:50%;
+    border: 5px solid black; 
+}
+
+.img-circle-proj3{
+    border-radius:50%;
+    width:50%;
+    border: 5px solid black; 
+}
+
+.img-circle-proj4{
+    border-radius:50%;
+    width:50%;
+    border: 5px solid black; 
+}
+
+.img-circle-proj1:hover{
+    border: 5px solid cornflowerblue;
+}
+
+.img-circle-proj2:hover{
+    border: 5px solid cornflowerblue;
+}
+
+.img-circle-proj3:hover{
+    border: 5px solid cornflowerblue;
+}
+
+.img-circle-proj4:hover{
+    border: 5px solid cornflowerblue;
+}
+
+.sigimg{
+    width:100%;
+    display: block;
+    margin: auto;
+}
+
+.progImg{
+    width:100%;
+    display: block;
+    margin: auto;
 }
