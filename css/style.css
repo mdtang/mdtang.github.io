@@ -145,11 +145,65 @@ footer.page-footer {
     color:black;
 }
 
+.carousel-caption{
+}
+
 .img-circle {
     border-radius:50%;
     width:20%;
+    border: 3px solid white; 
 }
 
 .img-circle:hover{
-    background: white;
+    border: 3px solid cornflowerblue;
+}
+
+.img-circle-exp1{
+    border-radius:50%;
+    width:30%;
+    border: 3px solid white; 
+}
+
+.img-circle-exp2{
+    border-radius:50%;
+    width:30%;
+    border: 3px solid white; 
+}
+
+.img-circle-exp3{
+    border-radius:50%;
+    width:30%;;
+    border: 3px solid white; 
+}
+
+.img-circle-exp4{
+    border-radius:50%;
+    width:30%;
+    border: 3px solid white; 
+}
+
+.img-circle-exp5{
+    border-radius:50%;
+    width:30%;
+    border: 3px solid white; 
+}
+
+.img-circle-exp1:hover{
+    border: 3px solid cornflowerblue;
+}
+
+.img-circle-exp2:hover{
+    border: 3px solid cornflowerblue;
+}
+
+.img-circle-exp3:hover{
+    border: 3px solid cornflowerblue;
+}
+
+.img-circle-exp4:hover{
+    border: 3px solid cornflowerblue;
+}
+
+.img-circle-exp5:hover{
+    border: 3px solid cornflowerblue;
 }
