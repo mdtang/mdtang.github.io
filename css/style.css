@@ -137,7 +137,7 @@ footer.page-footer {
     margin: auto;
 }
 
-.mockups{
+.centered{
     text-align:center;
 }
 
@@ -259,4 +259,15 @@ footer.page-footer {
     width:100%;
     display: block;
     margin: auto;
+}
+
+
+.img-circle-aboutme{
+    border-radius:50%;
+    width:15%;
+    border: 2px solid black; 
+}
+
+.aboutme{
+    padding-bottom:80px;
 }
