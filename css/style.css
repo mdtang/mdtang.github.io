@@ -61,6 +61,7 @@ footer.page-footer {
     background-size: cover;
 }
 
+
 .expview {
     background: url("../media/union.JPG")no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -270,4 +271,87 @@ footer.page-footer {
 
 .aboutme{
     padding-bottom:80px;
+}
+
+.coursework1 {
+    border-radius: 15px;
+    background: none;
+    padding: 10px 20px;
+    border: 5px solid darkslateblue;
+    margin: 15px;
+}
+
+.coursework2 {
+    border-radius: 15px;
+    background: none;
+    padding: 10px 20px;
+    border: 5px solid indigo;
+    margin: 15px;
+}
+
+.coursework3 {
+    border-radius: 15px;
+    background: none;
+    padding: 10px 20px;
+    border: 5px solid slateblue;
+    margin: 15px;
+}
+
+.coursework4 {
+    border-radius: 15px;
+    background: none;
+    padding: 10px 20px;
+    border: 5px solid darkslateblue;
+    margin: 15px;
+}
+
+.coursework5 {
+    border-radius: 15px;
+    background: none;
+    padding: 10px 20px;
+    border: 5px solid slateblue;
+    margin: 15px;
+}
+
+.coursework6 {
+    border-radius: 15px;
+    background: none;
+    padding: 10px 20px;
+    border: 5px solid indigo;
+    margin: 15px;
+}
+
+.coursework7 {
+    border-radius: 15px;
+    background: none;
+    padding: 10px 20px;
+    border: 5px solid darkslateblue;
+    margin: 15px;
+}
+
+.coursework1:hover{
+    border: 5px solid cornflowerblue;
+}
+
+.coursework2:hover{
+    border: 5px solid cornflowerblue;
+}
+
+.coursework3:hover{
+    border: 5px solid cornflowerblue;
+}
+.coursework4:hover{
+    border: 5px solid cornflowerblue;
+}
+
+.coursework5:hover{
+    border: 5px solid cornflowerblue;
+}
+
+.coursework6:hover{
+    border: 5px solid cornflowerblue;
+}
+
+.coursework7:hover{
+    border: 5px solid cornflowerblue;
 }
