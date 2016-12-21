@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'CODEBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('CODEBold'), url('../media/CODEBold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Delicious-Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Delicious-Roman'), url('../media/Delicious-Roman.otf') format('truetype');
+}
+
+
 html,
 body,
 .homeview {
@@ -25,6 +40,8 @@ body,
 
 .navbar {
     background-color: transparent;
+    font-family: 'CODEBold';
+    letter-spacing: 1px;
 }
 
 .scrolling-navbar {
@@ -37,9 +54,19 @@ body,
     background-color: #1C2331;
 }
 
-footer.page-footer {
+.content {
     background-color: #1C2331;
+    color: white;
     margin-top: -1px;
+    font-family: 'Delicious-Roman';
+    letter-spacing: 1px;
+}
+
+footer.page-footer {
+    background-color: black;
+    margin-top: -1px;
+    font-family: 'Delicious-Roman';
+    letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -47,23 +74,44 @@ footer.page-footer {
         background-color: #1C2331;
     }
 }
+
+.arrow {
+    position: relative;
+    top: 280px;
+    max-width:13%;
+}
+
+.homearrow {
+    position: relative;
+    top: 200px;
+    max-width:4%;
+}
+
+.WFarrow {
+    position: relative;
+    top: 280px;
+    max-width:7%;
+}
+
 /*Call to action*/
 
 .flex-center {
     color: #fff;
+    font-family: 'CODEBold';
+    font-size: 35px;
+    letter-spacing: 2px;
 }
 
 .homeview {
-    background: url("../media/umlibrary.jpg")no-repeat center center fixed;
+    background: dodgerblue;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-
 .expview {
-    background: url("../media/union.JPG")no-repeat center center fixed;
+    background: steelblue;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,7 +119,7 @@ footer.page-footer {
 }
 
 .projview {
-    background: url("../media/southu.JPG")no-repeat center center fixed;
+    background: darkslategray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,7 +127,7 @@ footer.page-footer {
 }
 
 .WFview {
-    background: url("../media/angell.jpg")no-repeat center center fixed;
+    background: darkslateblue;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -271,87 +319,22 @@ footer.page-footer {
 
 .aboutme{
     padding-bottom:80px;
+    padding-top:60px;
 }
 
-.coursework1 {
+.coursework {
     border-radius: 15px;
     background: none;
-    padding: 10px 20px;
-    border: 5px solid darkslateblue;
+    padding: 10px 10px;
+    border: 3px solid royalblue;
     margin: 15px;
 }
 
-.coursework2 {
-    border-radius: 15px;
-    background: none;
-    padding: 10px 20px;
-    border: 5px solid indigo;
-    margin: 15px;
-}
-
-.coursework3 {
-    border-radius: 15px;
-    background: none;
-    padding: 10px 20px;
-    border: 5px solid slateblue;
-    margin: 15px;
-}
-
-.coursework4 {
-    border-radius: 15px;
-    background: none;
-    padding: 10px 20px;
-    border: 5px solid darkslateblue;
-    margin: 15px;
-}
-
-.coursework5 {
-    border-radius: 15px;
-    background: none;
-    padding: 10px 20px;
-    border: 5px solid slateblue;
-    margin: 15px;
-}
-
-.coursework6 {
-    border-radius: 15px;
-    background: none;
-    padding: 10px 20px;
-    border: 5px solid indigo;
-    margin: 15px;
-}
-
-.coursework7 {
-    border-radius: 15px;
-    background: none;
-    padding: 10px 20px;
-    border: 5px solid darkslateblue;
-    margin: 15px;
-}
-
-.coursework1:hover{
+.coursework:hover{
     border: 5px solid cornflowerblue;
 }
 
-.coursework2:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.coursework3:hover{
-    border: 5px solid cornflowerblue;
-}
-.coursework4:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.coursework5:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.coursework6:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.coursework7:hover{
-    border: 5px solid cornflowerblue;
+.padding {
+    padding-bottom:20px;
+    padding-top:60px;
 }
