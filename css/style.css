@@ -21,6 +21,12 @@ body,
 
 html,
 body,
+.homeview2 {
+    height: 100%;
+}
+
+html,
+body,
 .expview {
     height: 100%;
 }
@@ -104,6 +110,14 @@ footer.page-footer {
 
 .homeview {
     background: dodgerblue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.homeview2 {
+    background: url(../media/angell.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
