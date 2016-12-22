@@ -22,7 +22,8 @@ body,
 html,
 body,
 .homeview2 {
-    height: 50%;
+    height: 55%;
+    width: 100%;
 }
 
 html,
@@ -124,7 +125,7 @@ footer.page-footer {
 }
 
 .homeview2 {
-    background: url(../media/angell.jpg);
+    background: url(../media/logodesign.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
