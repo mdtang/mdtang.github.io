@@ -22,14 +22,13 @@ body,
 html,
 body,
 .homeview2 {
-    height: 55%;
     width: 100%;
 }
 
 html,
 body,
 .expview {
-    height: 100%;
+    width:100%;
 }
 
 html,
@@ -122,17 +121,6 @@ footer.page-footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.homeview2 {
-    background: url(../media/logodesignimg.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #19144E;
 }
 
 .expview {
