@@ -352,3 +352,9 @@ footer.page-footer {
     padding-bottom:20px;
     padding-top:60px;
 }
+
+.modal-content{
+    background-color: darkslategray;
+    color:white;
+    border-radius:50px;
+}
