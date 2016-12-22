@@ -130,6 +130,9 @@ footer.page-footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #19144E;
 }
 
 .expview {
