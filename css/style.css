@@ -147,9 +147,6 @@ footer.page-footer {
     background-size: cover;
 }
 
-.call-to-action img{
-    width:10%;
-}
 
 .umlogo{
     width:20%;
@@ -160,6 +157,7 @@ footer.page-footer {
     display: block;
     margin: 0 auto;
 }
+
 
 .call-to-action img{
     width:10%;
