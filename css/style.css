@@ -6,10 +6,10 @@
 }
 
 @font-face {
-  font-family: 'Delicious-Roman';
+  font-family: 'Lato-Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Delicious-Roman'), url('../media/Delicious-Roman.otf') format('truetype');
+  src: local('Lato-Regular'), url('../media/Lato-Regular.ttf') format('truetype');
 }
 
 
@@ -71,14 +71,14 @@ body,
     background-color: #1C2331;
     color: white;
     margin-top: -1px;
-    font-family: 'Delicious-Roman';
+    font-family: 'Lato-Regular';
     letter-spacing: 1px;
 }
 
 footer.page-footer {
     background-color: black;
     margin-top: -1px;
-    font-family: 'Delicious-Roman';
+    font-family: 'Lato-Regular';
     letter-spacing: 2px;
 }
 
