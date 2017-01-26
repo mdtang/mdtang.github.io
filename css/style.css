@@ -289,9 +289,16 @@ footer.page-footer {
 
 .img-circle-proj4{
     border-radius:50%;
+    width:40%;
+    border: 5px solid black; 
+}
+
+.img-circle-proj5{
+    border-radius:50%;
     width:50%;
     border: 5px solid black; 
 }
+
 
 .img-circle-proj1:hover{
     border: 5px solid cornflowerblue;
@@ -308,6 +315,11 @@ footer.page-footer {
 .img-circle-proj4:hover{
     border: 5px solid cornflowerblue;
 }
+
+.img-circle-proj5:hover{
+    border: 5px solid cornflowerblue;
+}
+
 
 .sigimg{
     width:100%;
