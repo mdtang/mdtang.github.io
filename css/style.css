@@ -100,13 +100,11 @@ footer.page-footer {
     max-width:4%;
 }
 
-.WFarrow {
+.designarrow {
     position: relative;
     top: 280px;
-    max-width:7%;
+    max-width:2.7%;
 }
-
-/*Call to action*/
 
 .flex-center {
     color: #fff;
@@ -158,9 +156,9 @@ footer.page-footer {
     margin: 0 auto;
 }
 
-
 .call-to-action img{
-    width:10%;
+    width:8%;
+    border-radius:10px;
 }
 
 .expimage1{
