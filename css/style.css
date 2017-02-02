@@ -370,3 +370,9 @@ footer.page-footer {
 .mobilescreens{
     width:50%;
 }
+
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+    font-size: 100px;
+}
+
