@@ -371,6 +371,9 @@ footer.page-footer {
     width:50%;
 }
 
+.carousel-control {
+    width:5%;
+}
 .carousel-control .icon-prev, 
 .carousel-control .icon-next {
     font-size: 100px;
