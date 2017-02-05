@@ -189,8 +189,20 @@ footer.page-footer {
     width:30%;
 }
 
-.mockupsimage1{
+.fpsUIimage{
     width:100%;
+    display: block;
+    margin: auto;
+}
+
+.immigrantimage1{
+    width:50%;
+    display: block;
+    margin: auto;
+}
+
+.immigrantimage2{
+    width:70%;
     display: block;
     margin: auto;
 }
@@ -208,7 +220,7 @@ footer.page-footer {
 
 .img-circle {
     border-radius:50%;
-    width:30%;
+    width:50%;
     border: 5px solid black; 
 }
 
@@ -218,31 +230,31 @@ footer.page-footer {
 
 .img-circle-exp1{
     border-radius:50%;
-    width:40%;
+    width:30%;
     border: 5px solid black; 
 }
 
 .img-circle-exp2{
     border-radius:50%;
-    width:40%;
+    width:30%;
     border: 5px solid black; 
 }
 
 .img-circle-exp3{
     border-radius:50%;
-    width:40%;
+    width:30%;
     border: 5px solid black; 
 }
 
 .img-circle-exp4{
     border-radius:50%;
-    width:40%;
+    width:30%;
     border: 5px solid black; 
 }
 
 .img-circle-exp5{
     border-radius:50%;
-    width:40%;
+    width:30%;
     border: 5px solid black; 
 }
 
@@ -269,31 +281,31 @@ footer.page-footer {
 
 .img-circle-proj1{
     border-radius:50%;
-    width:55%;
+    width:30%;
     border: 5px solid black; 
 }
 
 .img-circle-proj2{
     border-radius:50%;
-    width:50%;
+    width:30%;
     border: 5px solid black; 
 }
 
 .img-circle-proj3{
     border-radius:50%;
-    width:50%;
+    width:30%;
     border: 5px solid black; 
 }
 
 .img-circle-proj4{
     border-radius:50%;
-    width:40%;
+    width:30%;
     border: 5px solid black; 
 }
 
 .img-circle-proj5{
     border-radius:50%;
-    width:50%;
+    width:30%;
     border: 5px solid black; 
 }
 
