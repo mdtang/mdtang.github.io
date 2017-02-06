@@ -92,7 +92,7 @@ body,
 }
 
 .projcontent {
-    background-color: #757575;
+    background-color: #149494;
     color: white;
     margin-top: -1px;
     font-family: 'Lato-Regular';
@@ -170,14 +170,30 @@ footer.page-footer {
 }
 
 .projview {
-    background: #616161;
+    background: #008080;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.design-modal-content{
+    background-color: #1E1E64;
+    color:white;
+    border-radius:50px;
+}
 
+.exp-modal-content{
+    background-color: #3E5996;
+    color:white;
+    border-radius:50px;
+}
+
+.proj-modal-content{
+    background-color: #008080;
+    color:white;
+    border-radius:50px;
+}
 
 .umlogo{
     width:20%;
@@ -410,12 +426,6 @@ footer.page-footer {
 .padding {
     padding-bottom:20px;
     padding-top:60px;
-}
-
-.modal-content{
-    background-color: darkslategray;
-    color:white;
-    border-radius:50px;
 }
 
 .mobilescreens{
