@@ -39,7 +39,7 @@ body,
 
 html,
 body,
-.WFview {
+.designview {
     height: 100%;
 }
 /* Navigation*/
@@ -67,8 +67,32 @@ body,
   vertical-align: top;
 }
 
-.content {
-    background-color: #2B3856;
+.homecontent {
+    background-color: #323278;
+    color: white;
+    margin-top: -1px;
+    font-family: 'Lato-Regular';
+    letter-spacing: 1px;
+}
+
+.designcontent {
+    background-color: #28286E;
+    color: white;
+    margin-top: -1px;
+    font-family: 'Lato-Regular';
+    letter-spacing: 1px;
+}
+
+.expcontent {
+    background-color: #526DAA;
+    color: white;
+    margin-top: -1px;
+    font-family: 'Lato-Regular';
+    letter-spacing: 1px;
+}
+
+.projcontent {
+    background-color: #757575;
     color: white;
     margin-top: -1px;
     font-family: 'Lato-Regular';
@@ -88,11 +112,6 @@ footer.page-footer {
     }
 }
 
-.arrow {
-    position: relative;
-    top: 280px;
-    max-width:13%;
-}
 
 .homearrow {
     position: relative;
@@ -106,6 +125,19 @@ footer.page-footer {
     max-width:2.7%;
 }
 
+.exparrow {
+    position: relative;
+    top: 280px;
+    max-width:13%;
+}
+
+.projarrow {
+    position: relative;
+    top: 280px;
+    max-width:13%;
+}
+
+
 .flex-center {
     color: #fff;
     font-family: 'CODEBold';
@@ -114,7 +146,15 @@ footer.page-footer {
 }
 
 .homeview {
-    background: dodgerblue;
+    background: #0A0A50;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.designview {
+    background: #1E1E64;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -122,7 +162,7 @@ footer.page-footer {
 }
 
 .expview {
-    background: steelblue;
+    background: #3E5996;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -130,20 +170,13 @@ footer.page-footer {
 }
 
 .projview {
-    background: darkslategray;
+    background: #616161;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.WFview {
-    background: darkslateblue;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 
 .umlogo{
