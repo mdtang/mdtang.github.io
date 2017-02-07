@@ -278,7 +278,7 @@ footer.page-footer {
 
 .img-circle {
     border-radius:50%;
-    width:50%;
+    width:35%;
     border: 5px solid black; 
 }
 
@@ -288,31 +288,31 @@ footer.page-footer {
 
 .img-circle-exp1{
     border-radius:50%;
-    width:40%;
+    width:35%;
     border: 5px solid black; 
 }
 
 .img-circle-exp2{
     border-radius:50%;
-    width:40%;
+    width:35%;
     border: 5px solid black; 
 }
 
 .img-circle-exp3{
     border-radius:50%;
-    width:40%;
+    width:35%;
     border: 5px solid black; 
 }
 
 .img-circle-exp4{
     border-radius:50%;
-    width:40%;
+    width:35%;
     border: 5px solid black; 
 }
 
 .img-circle-exp5{
     border-radius:50%;
-    width:40%;
+    width:35%;
     border: 5px solid black; 
 }
 
@@ -445,4 +445,13 @@ footer.page-footer {
 
 .btn {
     border-radius:10px;
+}
+
+/* add space between rows */
+.bottom-buffer {
+    margin-bottom:40px;
+}
+
+.modal-bottom-buffer {
+    margin-bottom:40px;
 }
