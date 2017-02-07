@@ -76,7 +76,7 @@ body,
 }
 
 .designcontent {
-    background-color: #28286E;
+    background-color: #3B003B;
     color: white;
     margin-top: -1px;
     font-family: 'Lato-Regular';
@@ -92,7 +92,7 @@ body,
 }
 
 .projcontent {
-    background-color: #149494;
+    background-color: #004E4E;
     color: white;
     margin-top: -1px;
     font-family: 'Lato-Regular';
@@ -154,7 +154,7 @@ footer.page-footer {
 }
 
 .designview {
-    background: #1E1E64;
+    background: #4F144F;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -170,7 +170,7 @@ footer.page-footer {
 }
 
 .projview {
-    background: #008080;
+    background: #006262;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
