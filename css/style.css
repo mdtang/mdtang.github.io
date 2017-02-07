@@ -210,20 +210,40 @@ footer.page-footer {
     border-radius:10px;
 }
 
-.expimage1{
-    width:35%;
+.expimg1{
+    width:80%;
 }
 
-.expimage2{
-    width:30%;
+.expimg2{
+    width:80%;
 }
 
-.expimage3{
-    width:50%;
+.expimg3{
+    width:80%;
 }
 
-.expimage4{
-    width:35%;
+.expimg4{
+    width:80%;
+}
+
+.expimg5{
+    width:80%;
+}
+
+.expimg6{
+    width:80%;
+}
+
+.expimg7{
+    width:80%;
+}
+
+.expimg8{
+    width:80%;
+}
+
+.expimg9{
+    width:60%;
 }
 
 .projimg1{
@@ -449,9 +469,5 @@ footer.page-footer {
 
 /* add space between rows */
 .bottom-buffer {
-    margin-bottom:40px;
-}
-
-.modal-bottom-buffer {
     margin-bottom:40px;
 }
