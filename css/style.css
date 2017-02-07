@@ -256,6 +256,12 @@ footer.page-footer {
     margin: auto;
 }
 
+.mobilegameimage {
+    width:50%;
+    display: block;
+    margin: auto;
+}
+
 .flyerimage {
     width:80%;
     display: block;
