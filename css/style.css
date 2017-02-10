@@ -13,35 +13,31 @@
 }
 
 
-html,
-body,
-.homeview {
-    height: 100%;
-}
 
 html,
 body,
-.homeview2 {
-    width: 100%;
+.homeview {
+    height: 50%;
 }
 
 html,
 body,
 .expview {
-    height:100%;
+    height:50%;
 }
 
 html,
 body,
 .projview {
-    height: 100%;
+    height: 50%;
 }
 
 html,
 body,
 .designview {
-    height: 100%;
+    height: 50%;
 }
+
 /* Navigation*/
 
 .navbar {
@@ -112,69 +108,27 @@ footer.page-footer {
     }
 }
 
-
-.homearrow {
-    position: relative;
-    top: 200px;
-    max-width:4%;
-}
-
-.designarrow {
-    position: relative;
-    top: 280px;
-    max-width:2.7%;
-}
-
-.exparrow {
-    position: relative;
-    top: 280px;
-    max-width:13%;
-}
-
-.projarrow {
-    position: relative;
-    top: 280px;
-    max-width:13%;
-}
-
-
 .flex-center {
     color: #fff;
     font-family: 'CODEBold';
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 2px;
 }
 
 .homeview {
     background: #0A0A50;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .designview {
     background: #4F144F;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .expview {
     background: #3E5996;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .projview {
     background: #006262;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .design-modal-content{
@@ -470,4 +424,24 @@ footer.page-footer {
 /* add space between rows */
 .bottom-buffer {
     margin-bottom:40px;
+}
+
+.leftgrid {
+    width:100%;
+    height:100%;
+}
+.leftgrid div {
+    width:50%;
+    height:100%;
+    float:left;
+}
+
+.rightgrid {
+    width:100%;
+    height:100%;
+}
+.rightgrid div {
+    width:50%;
+    height:100%;
+    float:right;
 }
