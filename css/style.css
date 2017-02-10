@@ -146,11 +146,6 @@ footer.page-footer {
     margin: 0 auto;
 }
 
-.call-to-action {
-    position:relative;
-    top:20px;
-}
-
 .call-to-action img{
     width:8%;
     border-radius:10px;
