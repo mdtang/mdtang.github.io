@@ -12,30 +12,17 @@
   src: local('Lato-Regular'), url('../media/Lato-Regular.ttf') format('truetype');
 }
 
-
-
-html,
-body,
 .homeview {
-    height: 50%;
+    padding:200px;
 }
-
-html,
-body,
 .expview {
-    height:50%;
+    padding:200px;
 }
-
-html,
-body,
 .projview {
-    height: 50%;
+    padding:200px;
 }
-
-html,
-body,
 .designview {
-    height: 50%;
+    padding:200px;
 }
 
 /* Navigation*/
@@ -54,7 +41,7 @@ body,
 }
 
 .top-nav-collapse {
-    background-color: #1C2331;
+    background-color: #000000;
 }
 
 .navbar .navbar-nav {
@@ -104,7 +91,7 @@ footer.page-footer {
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #1C2331;
+        background-color: #000000;
     }
 }
 
@@ -116,7 +103,7 @@ footer.page-footer {
 }
 
 .homeview {
-    background: #0A0A50;
+    background: #2E0854;
 }
 
 .designview {
@@ -157,6 +144,11 @@ footer.page-footer {
     width:60%;
     display: block;
     margin: 0 auto;
+}
+
+.call-to-action {
+    position:relative;
+    top:20px;
 }
 
 .call-to-action img{
@@ -426,22 +418,79 @@ footer.page-footer {
     margin-bottom:40px;
 }
 
-.leftgrid {
+.topgrid1 {
     width:100%;
-    height:100%;
 }
-.leftgrid div {
+.topgrid1 div {
     width:50%;
-    height:100%;
+    padding:112px;
     float:left;
 }
 
-.rightgrid {
+.topgrid2 {
     width:100%;
-    height:100%;
 }
-.rightgrid div {
+.topgrid2 div {
     width:50%;
-    height:100%;
+    padding:96px;
+    float:left;
+}
+
+.botgrid {
+    width:100%;
+}
+.botgrid div {
+    width:100%;
+    padding:70px;
     float:right;
+}
+
+.aboutmegrid {
+    opacity:1;
+    background: #6B238E;
+    text-align:top;
+}
+
+.aboutmegrid:hover {
+    background: #000000;
+}
+
+
+.aboutmegrid .aboutmetext{
+    visibility:hidden;
+}
+.aboutmegrid:hover .aboutmetext {
+    visibility:visible;
+}
+
+.skillsgrid {
+    opacity:1;
+    background:#551A8B;
+}
+
+.skillsgrid:hover {
+    background: #000000;
+}
+
+.skillsgrid .skillstext{
+    visibility:hidden;
+}
+.skillsgrid:hover .skillstext {
+    visibility:visible;
+}
+
+.courseworkgrid {
+    opacity:1;
+    background:#754C78;
+}
+
+.courseworkgrid:hover {
+    background: #000000;
+}
+
+.courseworkgrid .courseworktext{
+    visibility:hidden;
+}
+.courseworkgrid:hover .courseworktext {
+    visibility:visible;
 }
