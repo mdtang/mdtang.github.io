@@ -13,16 +13,16 @@
 }
 
 .homeview {
-    padding:200px;
+    padding:90px;
 }
 .expview {
-    padding:200px;
+    padding:90px;
 }
 .projview {
-    padding:200px;
+    padding:90px;
 }
 .designview {
-    padding:200px;
+    padding:90px;
 }
 
 /* Navigation*/
@@ -99,8 +99,11 @@ footer.page-footer {
     color: #fff;
     font-family: 'CODEBold';
     font-size: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    position:relative;
+    top:40px;
 }
+
 
 .homeview {
     background: #2a0d45;
@@ -243,6 +246,11 @@ footer.page-footer {
     border: 5px solid black; 
 }
 
+.img-circleface {
+    border-radius:50%;
+    width:10%;
+}
+
 .img-circle:hover{
     border: 5px solid cornflowerblue;
 }
@@ -369,24 +377,6 @@ footer.page-footer {
     border: 2px solid black; 
 }
 
-.aboutme{
-    padding-bottom:80px;
-    padding-top:60px;
-    text-align:center;
-}
-
-.coursework {
-    border-radius: 15px;
-    background: none;
-    padding: 10px 10px;
-    border: 3px solid royalblue;
-    margin: 15px;
-}
-
-.coursework:hover{
-    border: 5px solid cornflowerblue;
-}
-
 .padding {
     padding-bottom:20px;
     padding-top:60px;
@@ -418,7 +408,7 @@ footer.page-footer {
 }
 .topgrid1 div {
     width:100%;
-    padding:112px;
+    padding:30px;
     float:left;
 }
 
@@ -427,7 +417,7 @@ footer.page-footer {
 }
 .topgrid2 div {
     width:100%;
-    padding:96px;
+    padding:30px;
     float:left;
 }
 
@@ -436,7 +426,7 @@ footer.page-footer {
 }
 .botgrid div {
     width:100%;
-    padding:70px;
+    padding:40px;
     float:right;
 }
 
@@ -449,7 +439,6 @@ footer.page-footer {
 .aboutmegrid:hover {
     background: #2a0d45;
 }
-
 
 .aboutmegrid .aboutmetext{
     visibility:hidden;
