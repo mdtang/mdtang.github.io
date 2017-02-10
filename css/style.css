@@ -103,7 +103,7 @@ footer.page-footer {
 }
 
 .homeview {
-    background: #2E0854;
+    background: #2a0d45;
 }
 
 .designview {
@@ -417,7 +417,7 @@ footer.page-footer {
     width:100%;
 }
 .topgrid1 div {
-    width:50%;
+    width:100%;
     padding:112px;
     float:left;
 }
@@ -426,7 +426,7 @@ footer.page-footer {
     width:100%;
 }
 .topgrid2 div {
-    width:50%;
+    width:100%;
     padding:96px;
     float:left;
 }
@@ -447,7 +447,7 @@ footer.page-footer {
 }
 
 .aboutmegrid:hover {
-    background: #000000;
+    background: #2a0d45;
 }
 
 
@@ -464,7 +464,7 @@ footer.page-footer {
 }
 
 .skillsgrid:hover {
-    background: #000000;
+    background: #2a0d45;
 }
 
 .skillsgrid .skillstext{
@@ -480,7 +480,7 @@ footer.page-footer {
 }
 
 .courseworkgrid:hover {
-    background: #000000;
+    background: #2a0d45;
 }
 
 .courseworkgrid .courseworktext{
