@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'CODEBold';
+  font-family: 'Futura Oblique';
   font-style: normal;
   font-weight: normal;
-  src: local('CODEBold'), url('../media/CODEBold.otf') format('truetype');
+  src: local('Futura Oblique'), url('../media/Futura Oblique.ttf') format('truetype');
 }
 
 @font-face {
@@ -24,12 +24,15 @@
 .designview {
     padding:90px;
 }
+.immigrationview {
+    padding:200px;
+}
 
 /* Navigation*/
 
 .navbar {
     background-color: transparent;
-    font-family: 'CODEBold';
+    font-family: 'Futura Oblique';
     letter-spacing: 1px;
     text-align: center;
 }
@@ -54,7 +57,7 @@
     background-color: #323278;
     color: white;
     margin-top: -1px;
-    font-family: 'Lato-Regular';
+    font-family: 'Futura Oblique';
     letter-spacing: 1px;
 }
 
@@ -62,7 +65,7 @@
     background-color: #000;
     color: white;
     margin-top: -1px;
-    font-family: 'Lato-Regular';
+    font-family: 'Futura Oblique';
     letter-spacing: 1px;
 }
 
@@ -70,7 +73,7 @@
     background-color: #526DAA;
     color: white;
     margin-top: -1px;
-    font-family: 'Lato-Regular';
+    font-family: 'Futura Oblique';
     letter-spacing: 1px;
 }
 
@@ -78,14 +81,14 @@
     background-color: #004E4E;
     color: white;
     margin-top: -1px;
-    font-family: 'Lato-Regular';
+    font-family: 'Futura Oblique';
     letter-spacing: 1px;
 }
 
 footer.page-footer {
     background-color: black;
     margin-top: -1px;
-    font-family: 'Lato-Regular';
+    font-family: 'Futura Oblique';
     letter-spacing: 2px;
 }
 
@@ -100,13 +103,21 @@ footer.page-footer {
 
 .flex-center {
     color: #fff;
-    font-family: 'CODEBold';
+    font-family: 'Futura Oblique';
     font-size: 30px;
     letter-spacing: 3px;
     position:relative;
     top:40px;
 }
 
+.flex-right {
+    color: #fff;
+    font-family: 'Futura Oblique';
+    font-size: 30px;
+    letter-spacing: 3px;
+    position:relative;
+    text-align:right;
+}
 
 .homeview {
     background: #2a0d45;
@@ -114,6 +125,14 @@ footer.page-footer {
 
 .designview {
     background: #000;
+}
+
+.immigrationview {
+    background-image:url('../media/greencard.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .expview {
@@ -211,17 +230,21 @@ footer.page-footer {
     margin: auto;
 }
 
-.immigrantimage1{
-    width:50%;
+.immigrantimage{
+    max-width:40%;
     display: block;
     margin: auto;
+    border-radius:10px;
+    min-width: 300px;
 }
 
-.immigrantimage2{
-    width:70%;
+.personaimage{
+    width:100%;
     display: block;
     margin: auto;
+    border-radius:10px;
 }
+
 
 .mobilegameimage {
     width:60%;
@@ -237,6 +260,7 @@ footer.page-footer {
 
 .centered{
     text-align:center;
+    justify-content: center;
 }
 
 .modal-content{
@@ -387,6 +411,11 @@ footer.page-footer {
     padding-top:60px;
 }
 
+.halfpadding {
+    padding-bottom:20px;
+    padding-top:30px;
+}
+
 .mobilescreens{
     width:50%;
 }
@@ -401,6 +430,7 @@ footer.page-footer {
 
 .btn {
     border-radius:10px;
+    background:gray;
 }
 
 /* add space between rows */
@@ -585,3 +615,4 @@ footer.page-footer {
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+}
