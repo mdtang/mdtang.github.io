@@ -426,6 +426,9 @@ footer.page-footer {
     padding-top:30px;
 }
 
+.uxpadding {
+    padding-top:200px;
+}
 .mobilescreens{
     width:50%;
 }
@@ -641,7 +644,6 @@ footer.page-footer {
 .loadingcontainer {
     width: 200px;
     height: 100px;
-    padding-top: 100px;
     margin: 0 auto;
 }
 
@@ -771,4 +773,9 @@ footer.page-footer {
     100% {
         transform: translate(15px);
     }
+}
+
+
+.immigrantwrapper p{
+    margin: 0 0 10px;
 }
