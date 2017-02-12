@@ -28,6 +28,19 @@
     padding:200px;
 }
 
+.gametrackview {
+    padding:200px;
+}
+
+.fpsUIview {
+    padding:200px;
+}
+
+.flyerview {
+    padding:200px;
+}
+
+
 /* Navigation*/
 
 .navbar {
@@ -119,6 +132,15 @@ footer.page-footer {
     text-align:right;
 }
 
+
+/* Small devices */
+@media (max-width: 768px) {
+    .flex-right {
+        text-align: left;
+    }
+}
+
+
 .homeview {
     background: #2a0d45;
 }
@@ -133,6 +155,42 @@ footer.page-footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.gametrackview {
+    background-image:url('../media/steamlibrary.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+
+.fpsUIview {
+    background-image:url('../media/deusexui.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+
+.flyerview {
+    background-image:url('../media/skyline.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+
+.black {
+    border-radius:20px;
+    padding:15px;
+}
+
+.black h2{
+    color:gray;
 }
 
 .expview {
@@ -235,9 +293,10 @@ footer.page-footer {
 }
 
 .fpsUIimage{
-    width:100%;
+    width:60%;
     display: block;
     margin: auto;
+    min-width: 320px;
 }
 
 .immigrantimage{
@@ -245,7 +304,7 @@ footer.page-footer {
     display: block;
     margin: auto;
     border-radius:10px;
-    min-width: 300px;
+    min-width: 320px;
 }
 
 .personaimage{
@@ -260,12 +319,29 @@ footer.page-footer {
     width:60%;
     display: block;
     margin: auto;
+    border-radius:10px;
+}
+
+.mobilegameimagehorizontal {
+    width:100%;
+    display: block;
+    margin: auto;
+    border-radius:10px;
 }
 
 .flyerimage {
-    width:80%;
+    width:40%;
     display: block;
     margin: auto;
+    min-width: 320px;
+}
+
+.gametrackimg2 {
+    width:40%;
+}
+
+.gametrackimg3 {
+    width:100%;
 }
 
 .centered{
@@ -416,9 +492,13 @@ footer.page-footer {
     border: 2px solid black; 
 }
 
+.extrapadding {
+    padding-top:200px;
+}
+
 .padding {
     padding-bottom:20px;
-    padding-top:60px;
+    padding-top:160px;
 }
 
 .halfpadding {
@@ -426,9 +506,10 @@ footer.page-footer {
     padding-top:30px;
 }
 
-.uxpadding {
-    padding-top:200px;
+.smallpadding {
+    padding-top:30px;
 }
+
 .mobilescreens{
     width:50%;
 }
@@ -444,11 +525,6 @@ footer.page-footer {
 .btn {
     border-radius:10px;
     background:gray;
-}
-
-/* add space between rows */
-.bottom-buffer {
-    margin-bottom:40px;
 }
 
 .topgrid, .midgrid {
@@ -603,6 +679,20 @@ footer.page-footer {
   background-color: transparent;
 }
 
+@media (max-width: 768px) {
+    .hovereffect h2 {
+        bottom:50px;
+        font-size:12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hovereffect h2 {
+        bottom:35px;
+        font-size:14px;
+    }
+}
+
 .hovereffect h2:after {
   position: absolute;
   bottom: 0;
@@ -642,16 +732,13 @@ footer.page-footer {
 
 /* ball loading animation */
 .loadingcontainer {
-    width: 200px;
-    height: 100px;
-    margin: 0 auto;
 }
 
 .ball {
-    width: 10px;
+    width: 60px;
     height: 10px;
-    margin: 10px auto;
-    border-radius: 50px;
+    margin: 40px auto;
+    border-radius:5px;
 }
 
 .ball:nth-child(1) {
@@ -683,7 +770,7 @@ footer.page-footer {
 }
 
 .ball:nth-child(5) {
-    background: #2d3443;
+    background: #fff;
     -webkit-animation: right 1.1s infinite ease-in-out;
     -moz-animation: right 1.1s infinite ease-in-out;
     animation: right 1.1s infinite ease-in-out;
@@ -705,77 +792,85 @@ footer.page-footer {
 
 @-webkit-keyframes right {
     0% {
-        -webkit-transform: translate(-15px);
+        -webkit-transform: translate(-25px);
     }
     50% {
-        -webkit-transform: translate(15px);
+        -webkit-transform: translate(25px);
     }
     100% {
-        -webkit-transform: translate(-15px);
+        -webkit-transform: translate(-25px);
     }
 }
 
 @-webkit-keyframes left {
     0% {
-        -webkit-transform: translate(15px);
+        -webkit-transform: translate(25px);
     }
     50% {
-        -webkit-transform: translate(-15px);
+        -webkit-transform: translate(-25px);
     }
     100% {
-        -webkit-transform: translate(15px);
+        -webkit-transform: translate(25px);
     }
 }
 
 @-moz-keyframes right {
     0% {
-        -moz-transform: translate(-15px);
+        -moz-transform: translate(-25px);
     }
     50% {
-        -moz-transform: translate(15px);
+        -moz-transform: translate(25px);
     }
     100% {
-        -moz-transform: translate(-15px);
+        -moz-transform: translate(-25px);
     }
 }
 
 @-moz-keyframes left {
     0% {
-        -moz-transform: translate(15px);
+        -moz-transform: translate(25px);
     }
     50% {
-        -moz-transform: translate(-15px);
+        -moz-transform: translate(-25px);
     }
     100% {
-        -moz-transform: translate(15px);
+        -moz-transform: translate(25px);
     }
 }
 
 @keyframes right {
     0% {
-        transform: translate(-15px);
+        transform: translate(-25px);
     }
     50% {
-        transform: translate(15px);
+        transform: translate(25px);
     }
     100% {
-        transform: translate(-15px);
+        transform: translate(-25px);
     }
 }
 
 @keyframes left {
     0% {
-        transform: translate(15px);
+        transform: translate(25px);
     }
     50% {
-        transform: translate(-15px);
+        transform: translate(-25px);
     }
     100% {
-        transform: translate(15px);
+        transform: translate(25px);
     }
 }
 
 
-.immigrantwrapper p{
-    margin: 0 0 10px;
+.textwrapper{
+    width: 40%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .textwrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
