@@ -36,6 +36,10 @@
     padding:200px;
 }
 
+.mobilegameview {
+    padding:200px;
+}
+
 .flyerview {
     padding:200px;
 }
@@ -165,9 +169,17 @@ footer.page-footer {
     background-size: cover;
     color:black;
 }
-
 .fpsUIview {
     background-image:url('../media/deusexui.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+
+.mobilegameview {
+    background-image:url('../media/phonebanner.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
