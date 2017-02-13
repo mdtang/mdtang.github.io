@@ -1,3 +1,9 @@
+body, html{
+    padding:0 !important; 
+    margin:0 !important;
+    background:#000;
+}
+
 @font-face {
   font-family: 'Futura Oblique';
   font-style: normal;
@@ -12,20 +18,14 @@
   src: local('Lato-Regular'), url('../media/Lato-Regular.ttf') format('truetype');
 }
 
-.homeview {
-    padding:90px;
-}
-.expview {
-    padding:170px;
-}
-.projview {
+.homeview, .expview, .projview {
     padding:170px;
 }
 .designview {
     padding:90px;
 }
 .immigrationview, .gametrackview, .fpsUIview, .mobilegameview, .flyerview, .CANview, .fordview, .sqview, .dayspaview, .tutorview, .UMSIview, .socioUXview, .pygameview, .AIview, .miscview {
-    padding:200px;
+    padding: 200px 0px 200px 0px; /* whitespace issue fixed! */
 }
 
 /* Navigation*/
@@ -54,7 +54,7 @@
 }
 
 .homecontent {
-    background-color: #323278;
+    background-color: #000;
     color: white;
     margin-top: -1px;
     font-family: 'Futura Oblique';
@@ -90,6 +90,7 @@ footer.page-footer {
     margin-top: -1px;
     font-family: 'Futura Oblique';
     letter-spacing: 2px;
+    overflow: hidden
 }
 
 @media only screen and (max-width: 768px) {
@@ -110,7 +111,7 @@ footer.page-footer {
     top:40px;
 }
 
-.flex-center h3 {
+.flex-center h3, .flex-right h3 {
     text-shadow: 2px 2px #000000;
 }
 
@@ -123,10 +124,6 @@ footer.page-footer {
     text-align:right;
 }
 
-.flex-right h3 {
-    text-shadow: 2px 2px #000000;
-}
-
 /* Small devices */
 @media (max-width: 768px) {
     .flex-right {
@@ -136,7 +133,7 @@ footer.page-footer {
 
 
 .homeview {
-    background: #2a0d45;
+    background: #000;
 }
 
 .designview {
@@ -275,27 +272,6 @@ footer.page-footer {
     background: #000;
 }
 
-.design-modal-content{
-    background-color: #4F144F;
-    color:white;
-    border-radius:50px;
-}
-
-.exp-modal-content{
-    background-color: #3E5996;
-    color:white;
-    border-radius:50px;
-}
-
-.proj-modal-content{
-    background-color: #008080;
-    color:white;
-    border-radius:50px;
-}
-
-.umlogo{
-    width:20%;
-}
 
 .animated img{
     width:60%;
@@ -447,10 +423,8 @@ footer.page-footer {
     height: auto;
 }
 
-.img-circle-aboutme{
-    border-radius:50%;
-    width:15%;
-    border: 2px solid black; 
+.info img {
+    width:5%;
 }
 
 .extrapadding {
@@ -469,18 +443,6 @@ footer.page-footer {
 
 .smallpadding {
     padding-top:30px;
-}
-
-.mobilescreens{
-    width:50%;
-}
-
-.carousel-control {
-    width:5%;
-}
-.carousel-control .icon-prev, 
-.carousel-control .icon-next {
-    font-size: 120px;
 }
 
 .btn {
@@ -506,7 +468,7 @@ footer.page-footer {
 
 .aboutmegrid {
     opacity:1;
-    background: #694489;
+    background: #220a37;
     text-align:top;
 }
 
@@ -519,13 +481,14 @@ footer.page-footer {
 
 .skillsgrid {
     opacity:1;
-    background:#551A8B;
+    background:#330f53;
 }
 
 
 .courseworkgrid {
     opacity:1;
-    background:#72587F;
+    background:#2a0d45
+;
 }
 
 .header{
@@ -579,7 +542,7 @@ footer.page-footer {
   position: relative;
   text-align: center;
   cursor: default;
-  background:#4B0082; /*hover color bg*/
+  background:#44146f; /*hover color bg*/
 }
 
 .hovereffect .overlay {
@@ -617,23 +580,25 @@ footer.page-footer {
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 20px;
+  font-size: 24px;
   overflow: hidden;
   padding: 0.5em 0;
   background-color: transparent;
+  bottom:35px;
 }
 
-@media (max-width: 768px) {
-    .hovereffect h2 {
-        bottom:50px;
-        font-size:10px;
-    }
-}
 
 @media (max-width: 1024px) {
     .hovereffect h2 {
         bottom:35px;
-        font-size:16px;
+        font-size:18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hovereffect h2 {
+        bottom:45px;
+        font-size:12px;
     }
 }
 
@@ -658,25 +623,16 @@ footer.page-footer {
 
 .hovereffect a, .hovereffect p {
   color: #FFF;
-  opacity: 0;
-  filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(100%,0,0);
-  transform: translate3d(100%,0,0);
-}
-
-.hovereffect:hover a, .hovereffect:hover p {
-  opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+  text-shadow:3px 3px black;
 }
+
 
 /* ball loading animation */
-.loadingcontainer {
-}
-
 .ball {
     width: 60px;
     height: 10px;
@@ -806,7 +762,7 @@ footer.page-footer {
 }
 
 
-.textwrapper{
+.textwrapper p{
     width: 40%;
     margin: 0 auto;
 }
