@@ -827,6 +827,18 @@ footer.page-footer .call-to-action ul li {
     border-radius:10px;
 }
 
+@media (max-width: 768px) {
+    .email,.linkedin,.github {
+        width: 20%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .email,.linkedin,.github {
+        width: 4%;
+    }
+}
+
 .email:hover,.linkedin:hover,.github:hover {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
