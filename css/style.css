@@ -16,7 +16,7 @@
     padding:90px;
 }
 .expview {
-    padding:90px;
+    padding:170px;
 }
 .projview {
     padding:90px;
@@ -24,26 +24,9 @@
 .designview {
     padding:90px;
 }
-.immigrationview {
+.immigrationview, .gametrackview, .fpsUIview, .mobilegameview, .flyerview, .CANview, .fordview, .sqview, .dayspaview, .tutorview {
     padding:200px;
 }
-
-.gametrackview {
-    padding:200px;
-}
-
-.fpsUIview {
-    padding:200px;
-}
-
-.mobilegameview {
-    padding:200px;
-}
-
-.flyerview {
-    padding:200px;
-}
-
 
 /* Navigation*/
 
@@ -87,7 +70,7 @@
 }
 
 .expcontent {
-    background-color: #526DAA;
+    background-color: #000;
     color: white;
     margin-top: -1px;
     font-family: 'Futura Oblique';
@@ -127,6 +110,10 @@ footer.page-footer {
     top:40px;
 }
 
+.flex-center h3 {
+    text-shadow: 2px 2px #000000;
+}
+
 .flex-right {
     color: #fff;
     font-family: 'Futura Oblique';
@@ -136,6 +123,9 @@ footer.page-footer {
     text-align:right;
 }
 
+.flex-right h3 {
+    text-shadow: 2px 2px #000000;
+}
 
 /* Small devices */
 @media (max-width: 768px) {
@@ -196,17 +186,49 @@ footer.page-footer {
     color:black;
 }
 
-.black {
-    border-radius:20px;
-    padding:15px;
+.CANview {
+    background-image:url('../media/bryant1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.black h2{
-    color:gray;
+.fordview {
+    background-image:url('../media/ford2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+.sqview {
+    background-image:url('../media/sq1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.dayspaview {
+    background-image:url('../media/dayspablack.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tutorview {
+    background-image:url('../media/SAT.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 .expview {
-    background: #3E5996;
+    background: #000;
 }
 
 .projview {
@@ -256,40 +278,50 @@ footer.page-footer {
     border-radius:10px;
 }
 
-.expimg1{
-    width:80%;
+.email:hover,.linkedin:hover,.github:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.expimg2{
-    width:80%;
+.canimg1{
+    width:50%;
 }
 
-.expimg3{
-    width:80%;
+.canimg2{
+    width:30%;
 }
 
-.expimg4{
-    width:80%;
+.canimg3{
+    width:40%;
 }
 
-.expimg5{
-    width:80%;
+.fordimg1{
+    width:40%;
 }
 
-.expimg6{
-    width:80%;
+.fordimg2{
+    width:100%;
 }
 
-.expimg7{
-    width:80%;
+.fordimg3{
+    width:100%;
 }
 
-.expimg8{
-    width:80%;
+.sqimg1{
+    width:40%;
 }
 
-.expimg9{
-    width:60%;
+.sqimg2{
+    width:100%;
+}
+
+.sqimg3{
+    width:100%;
+}
+
+.dayspaimg {
+    width:30%;
 }
 
 .projimg1{
@@ -308,7 +340,6 @@ footer.page-footer {
     width:60%;
     display: block;
     margin: auto;
-    min-width: 320px;
 }
 
 .immigrantimage{
@@ -316,7 +347,6 @@ footer.page-footer {
     display: block;
     margin: auto;
     border-radius:10px;
-    min-width: 320px;
 }
 
 .personaimage{
@@ -345,7 +375,11 @@ footer.page-footer {
     width:40%;
     display: block;
     margin: auto;
-    min-width: 320px;
+    min-width: 300px;
+}
+
+.gametrackimg1 {
+    width:50%;
 }
 
 .gametrackimg2 {
@@ -354,6 +388,18 @@ footer.page-footer {
 
 .gametrackimg3 {
     width:100%;
+}
+
+@media (max-width: 768px) {
+    .fpsUIimage,.immigrantimage,.flyerimage,.gametrackimg1,.gametrackimg2, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg {
+        width:100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .fpsUIimage,.immigrantimage,.flyerimage,.gametrackimg1,.gametrackimg2, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg {
+        width:100%;
+    }
 }
 
 .centered{
@@ -379,56 +425,6 @@ footer.page-footer {
 }
 
 .img-circle:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.img-circle-exp1{
-    border-radius:50%;
-    width:35%;
-    border: 5px solid black; 
-}
-
-.img-circle-exp2{
-    border-radius:50%;
-    width:35%;
-    border: 5px solid black; 
-}
-
-.img-circle-exp3{
-    border-radius:50%;
-    width:35%;
-    border: 5px solid black; 
-}
-
-.img-circle-exp4{
-    border-radius:50%;
-    width:35%;
-    border: 5px solid black; 
-}
-
-.img-circle-exp5{
-    border-radius:50%;
-    width:35%;
-    border: 5px solid black; 
-}
-
-.img-circle-exp1:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.img-circle-exp2:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.img-circle-exp3:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.img-circle-exp4:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.img-circle-exp5:hover{
     border: 5px solid cornflowerblue;
 }
 
@@ -685,7 +681,7 @@ footer.page-footer {
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 20px;
   overflow: hidden;
   padding: 0.5em 0;
   background-color: transparent;
@@ -694,14 +690,14 @@ footer.page-footer {
 @media (max-width: 768px) {
     .hovereffect h2 {
         bottom:50px;
-        font-size:12px;
+        font-size:10px;
     }
 }
 
 @media (max-width: 1024px) {
     .hovereffect h2 {
         bottom:35px;
-        font-size:14px;
+        font-size:16px;
     }
 }
 
@@ -740,7 +736,6 @@ footer.page-footer {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
-
 
 /* ball loading animation */
 .loadingcontainer {
