@@ -19,12 +19,12 @@
     padding:170px;
 }
 .projview {
-    padding:90px;
+    padding:170px;
 }
 .designview {
     padding:90px;
 }
-.immigrationview, .gametrackview, .fpsUIview, .mobilegameview, .flyerview, .CANview, .fordview, .sqview, .dayspaview, .tutorview {
+.immigrationview, .gametrackview, .fpsUIview, .mobilegameview, .flyerview, .CANview, .fordview, .sqview, .dayspaview, .tutorview, .UMSIview, .socioUXview, .pygameview, .AIview, .miscview {
     padding:200px;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .projcontent {
-    background-color: #004E4E;
+    background-color: #000;
     color: white;
     margin-top: -1px;
     font-family: 'Futura Oblique';
@@ -226,13 +226,53 @@ footer.page-footer {
     background-size: cover;
 }
 
+.UMSIview {
+    background-image:url('../media/evolution.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.socioUXview {
+    background-image:url('../media/stickynotes.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pygameview {
+    background-image:url('../media/doom.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.AIview {
+    background-image:url('../media/creativeAI.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.miscview {
+    background-image:url('../media/htmlcode.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 .expview {
     background: #000;
 }
 
 .projview {
-    background: #006262;
+    background: #000;
 }
 
 .design-modal-content{
@@ -261,27 +301,6 @@ footer.page-footer {
     width:60%;
     display: block;
     margin: 0 auto;
-}
-
-.email {
-    width:16%;
-    border-radius:10px;
-}
-
-.linkedin {
-    width:8%;
-    border-radius:10px;
-}
-
-.github {
-    width:16%;
-    border-radius:10px;
-}
-
-.email:hover,.linkedin:hover,.github:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 .canimg1{
@@ -390,14 +409,23 @@ footer.page-footer {
     width:100%;
 }
 
+.pygameimg1,.pygameimg2{
+    width:100%;
+}
+
+.AIimg{
+    width:30%;
+}
+
+
 @media (max-width: 768px) {
-    .fpsUIimage,.immigrantimage,.flyerimage,.gametrackimg1,.gametrackimg2, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg {
+    .fpsUIimage,.immigrantimage,.flyerimage,.gametrackimg1,.gametrackimg2, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg {
         width:100%;
     }
 }
 
 @media (max-width: 1024px) {
-    .fpsUIimage,.immigrantimage,.flyerimage,.gametrackimg1,.gametrackimg2, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg {
+    .fpsUIimage,.immigrantimage,.flyerimage,.gametrackimg1,.gametrackimg2, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg {
         width:100%;
     }
 }
@@ -411,11 +439,6 @@ footer.page-footer {
     color:black;
 }
 
-.img-circle {
-    border-radius:50%;
-    width:35%;
-    border: 5px solid black; 
-}
 
 .img-circleface {
     border-radius:50%;
@@ -423,76 +446,6 @@ footer.page-footer {
     min-width: 200px;
     height: auto;
 }
-
-.img-circle:hover{
-    border: 5px solid cornflowerblue;
-}
-
-
-.img-circle-proj1{
-    border-radius:50%;
-    width:40%;
-    border: 5px solid black; 
-}
-
-.img-circle-proj2{
-    border-radius:50%;
-    width:40%;
-    border: 5px solid black; 
-}
-
-.img-circle-proj3{
-    border-radius:50%;
-    width:40%;
-    border: 5px solid black; 
-}
-
-.img-circle-proj4{
-    border-radius:50%;
-    width:40%;
-    border: 5px solid black; 
-}
-
-.img-circle-proj5{
-    border-radius:50%;
-    width:40%;
-    border: 5px solid black; 
-}
-
-
-.img-circle-proj1:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.img-circle-proj2:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.img-circle-proj3:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.img-circle-proj4:hover{
-    border: 5px solid cornflowerblue;
-}
-
-.img-circle-proj5:hover{
-    border: 5px solid cornflowerblue;
-}
-
-
-.sigimg{
-    width:100%;
-    display: block;
-    margin: auto;
-}
-
-.progimg{
-    width:60%;
-    display: block;
-    margin: auto;
-}
-
 
 .img-circle-aboutme{
     border-radius:50%;
@@ -575,27 +528,10 @@ footer.page-footer {
     background:#72587F;
 }
 
-.immigrantheader{
+.header{
     width:100%;
 }
 
-.gametrackheader{
-    width:100%;
-}
-
-.gameuiheader{
-    width:100%;
-}
-
-
-.mobilegameheader{
-    width:100%;
-}
-
-
-.flyerheader{
-    width:100%;
-}
 
 .aboutmetext p, .skillstext p, .courseworktext p {
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
@@ -880,4 +816,19 @@ footer.page-footer {
         width: 100%;
         margin: 0 auto;
     }
+}
+
+footer.page-footer .call-to-action ul li {
+    display: inline;
+}
+
+.email,.linkedin,.github {
+    width:2%;
+    border-radius:10px;
+}
+
+.email:hover,.linkedin:hover,.github:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
