@@ -84,7 +84,7 @@ body, html{
   transform: scale(1.3);
 }
 
-.homecontent {
+.content {
     background-color: #000;
     color: white;
     margin-top: -1px;
@@ -92,29 +92,6 @@ body, html{
     letter-spacing: 1px;
 }
 
-.designcontent {
-    background-color: #000;
-    color: white;
-    margin-top: -1px;
-    font-family: 'Futura Oblique';
-    letter-spacing: 1px;
-}
-
-.expcontent {
-    background-color: #000;
-    color: white;
-    margin-top: -1px;
-    font-family: 'Futura Oblique';
-    letter-spacing: 1px;
-}
-
-.projcontent {
-    background-color: #000;
-    color: white;
-    margin-top: -1px;
-    font-family: 'Futura Oblique';
-    letter-spacing: 1px;
-}
 
 footer.page-footer {
     background-color: black;
