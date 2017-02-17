@@ -30,7 +30,7 @@ body, html{
     }
 }
 
-.immigrationview, .gametrackview, .fpsUIview, .mobilegameview, .flyerview, .CANview, .fordview, .sqview, .dayspaview, .tutorview, .UMSIview, .socioUXview, .pygameview, .AIview, .miscview {
+.immigrationview, .gametrackview, .fpsUIview, .mobilegameview, .flyerview, .CANview, .fordview, .sqview, .dayspaview, .tutorview, .UMSIview, .socioUXview, .pygameview, .AIview, .miscview, .foodview {
     padding: 200px 0px 200px 0px; /* whitespace issue fixed! */
 }
 
@@ -263,6 +263,14 @@ footer.page-footer {
     background-size: cover;
 }
 
+.foodview {
+    background-image:url('../media/foodbg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .miscview {
     background-image:url('../media/htmlcode.jpg');
     -webkit-background-size: cover;
@@ -400,12 +408,15 @@ footer.page-footer {
 .AIimg{
     width:30%;
 }
+.foodimg {
+    width:30%;
+}
 
 
 @media (max-width: 768px) {
     .fpsUIimage,.immigrantimage,.flyerimage,.gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackimg4,
     .gametrackimg5, .gametrackimg6, .gametrackimg7,.canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2,
-    .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg {
+    .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg {
         width:100%;
     }
 }
@@ -413,7 +424,7 @@ footer.page-footer {
 @media (max-width: 1024px) {
     .fpsUIimage,.immigrantimage,.flyerimage, .gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackimg4,
     .gametrackimg5, .gametrackimg6, .gametrackimg7, .canimg1,.canimg2,.canimg3,
-    .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg {
+    .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg {
         width:100%;
     }
 }
