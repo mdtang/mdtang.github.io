@@ -5,6 +5,13 @@ body, html{
 }
 
 @font-face {
+  font-family: 'Futura Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura Bold'), url('../media/Futura Bold.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Futura Oblique';
   font-style: normal;
   font-weight: normal;
@@ -16,6 +23,12 @@ body, html{
   font-style: normal;
   font-weight: normal;
   src: local('Lato-Regular'), url('../media/Lato-Regular.ttf') format('truetype');
+}
+
+.bold {
+    font-family: 'Futura Bold';
+    letter-spacing: 1.5px;
+    font-size:18px;
 }
 
 .homeview, .expview, .projview {
@@ -89,7 +102,7 @@ body, html{
     color: white;
     margin-top: -1px;
     font-family: 'Futura Oblique';
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 
@@ -401,7 +414,7 @@ footer.page-footer {
     width:100%;
 }
 
-.gametrackimg9 {
+.gametrackimg9,.gametrackimg10 {
     width:100%;
 }
 
@@ -419,7 +432,7 @@ footer.page-footer {
 
 @media (max-width: 768px) {
     .fpsUIimage,.immigrantimage,.flyerimage,.gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackimg4,
-    .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2,
+    .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .gametrackimg10, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2,
     .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg {
         width:100%;
     }
@@ -427,7 +440,7 @@ footer.page-footer {
 
 @media (max-width: 1024px) {
     .fpsUIimage,.immigrantimage,.flyerimage, .gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackimg4,
-    .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .canimg1,.canimg2,.canimg3,
+    .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .gametrackimg10, .canimg1,.canimg2,.canimg3,
     .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg {
         width:100%;
     }
@@ -455,12 +468,13 @@ footer.page-footer {
 }
 
 .extrapadding {
-    padding-top:200px;
+    padding-top:250px;
+    padding-bottom:250px;
 }
 
 .padding {
-    padding-bottom:20px;
-    padding-top:160px;
+    padding-bottom:120px;
+    padding-top:120px;
 }
 
 .halfpadding {
