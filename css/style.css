@@ -26,9 +26,10 @@ body, html{
 }
 
 .bold {
-    font-family: 'Futura Bold';
+    font-family: 'Futura Bold', helvetica;
     letter-spacing: 1.5px;
     font-size:18px;
+    font-weight:bold;
 }
 
 .homeview, .expview, .projview {
@@ -51,7 +52,7 @@ body, html{
 
 .navbar {
     background-color: transparent;
-    font-family: 'Futura Oblique';
+    font-family: 'Futura Oblique', helvetica;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -101,7 +102,7 @@ body, html{
     background-color: #000;
     color: white;
     margin-top: -1px;
-    font-family: 'Futura Oblique';
+    font-family: 'Futura Oblique', helvetica;
     letter-spacing: 1.5px;
 }
 
@@ -109,7 +110,7 @@ body, html{
 footer.page-footer {
     background-color: black;
     margin-top: -1px;
-    font-family: 'Futura Oblique';
+    font-family: 'Futura Oblique', helvetica;
     letter-spacing: 2px;
     overflow: hidden
 }
@@ -125,7 +126,7 @@ footer.page-footer {
 
 .flex-center {
     color: #fff;
-    font-family: 'Futura Oblique';
+    font-family: 'Futura Oblique', helvetica;
     font-size: 30px;
     letter-spacing: 3px;
     position:relative;
@@ -138,7 +139,7 @@ footer.page-footer {
 
 .flex-right {
     color: #fff;
-    font-family: 'Futura Oblique';
+    font-family: 'Futura Oblique', helvetica;
     font-size: 30px;
     letter-spacing: 3px;
     position:relative;
