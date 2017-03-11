@@ -452,11 +452,14 @@ footer.page-footer {
     width:30%;
 }
 
+.socioimg1,.socioimg2,.socioimg3,.socioimg4 {
+    width:40%;
+}
 
 @media (max-width: 768px) {
     .fpsUIimage,.immigrantimage,.flyerimage,.gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackflowimg,.gametrackimg4,
     .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .gametrackimg10, .gametrackimg11, .gametrackimg12, .gametrackimg13, .gameguideimg, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2,
-    .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg {
+    .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg1,.socioimg2,.socioimg3,.socioimg4{
         width:100%;
     }
 }
@@ -464,7 +467,7 @@ footer.page-footer {
 @media (max-width: 1024px) {
     .fpsUIimage,.immigrantimage,.flyerimage, .gametrackimg1,.gametrackimg2, .gametrackimg3,.gametrackflowimg, .gametrackimg4,
     .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .gametrackimg10, .gametrackimg11, .gametrackimg12, .gametrackimg13, .gameguideimg,.canimg1,.canimg2,.canimg3,
-    .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg {
+    .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg1,.socioimg2,.socioimg3,.socioimg4 {
         width:100%;
     }
 }
