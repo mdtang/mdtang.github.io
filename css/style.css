@@ -539,28 +539,17 @@ footer.page-footer {
 }
 
 .aboutmegrid {
-    opacity:1;
     background: #220a37;
-    text-align:top;
 }
 
-.aboutmegrid .aboutmetext, .skillsgrid .skillstext, .courseworkgrid .courseworktext{
-    visibility:hidden;
-}
-.aboutmegrid:hover .aboutmetext, .skillsgrid:hover .skillstext, .courseworkgrid:hover .courseworktext {
-    visibility:visible;
-}
 
 .skillsgrid {
-    opacity:1;
-    background:#330f53;
+    background:#190729;
 }
 
 
 .courseworkgrid {
-    opacity:1;
-    background:#2a0d45
-;
+    background:#220a37;
 }
 
 .header{
@@ -569,11 +558,11 @@ footer.page-footer {
 
 
 .aboutmetext p, .skillstext p, .courseworktext p {
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s; /* Firefox < 16 */
-        -ms-animation: fadein 4s; /* Internet Explorer */
-         -o-animation: fadein 4s; /* Opera < 12.1 */
-            animation: fadein 4s;
+    -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 7s; /* Firefox < 16 */
+        -ms-animation: fadein 7s; /* Internet Explorer */
+         -o-animation: fadein 7s; /* Opera < 12.1 */
+            animation: fadein 7s;
 }
 
 @keyframes fadein {
