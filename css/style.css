@@ -617,7 +617,7 @@ footer.page-footer {
 
  h2 span,h3 span, h5 span{
    background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
+   background: rgba(0, 0, 0, 0.4);
    padding: 3px;
    border-radius:5px;
 
