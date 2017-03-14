@@ -134,7 +134,7 @@ footer.page-footer {
     font-size: 30px;
     letter-spacing: 3px;
     position:relative;
-    top:40px;
+    top:50px;
 }
 
 
@@ -149,7 +149,7 @@ footer.page-footer {
 
 /* Small devices */
 @media (max-width: 768px) {
-    .flex-right {
+    .flex-center {
         text-align: left;
     }
 }
@@ -405,11 +405,11 @@ footer.page-footer {
 }
 
 .gametrackimg1 {
-    width:50%;
+    width:40%;
 }
 
 .gametrackimg2 {
-    width:40%;
+    width:30%;
 }
 
 .gametrackimg3 {
@@ -417,7 +417,7 @@ footer.page-footer {
 }
 
 .gametrackflowimg{
-    width:60%;
+    width:50%;
 }
 
 .gametrackimg9,.gametrackimg10, .gametrackimg14 {
@@ -425,7 +425,7 @@ footer.page-footer {
 }
 
 .gameguideimage{
-    max-width:40%;
+    max-width:30%;
     display: block;
     margin: auto;
     border-radius:10px;
@@ -454,7 +454,11 @@ footer.page-footer {
 }
 
 .socioimg1,.socioimg2,.socioimg3,.socioimg4, .socioimg5, .socioimg6 {
-    width:40%;
+    width:30%;
+}
+
+.gametrackimg4, .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg11, .gametrackimg12, .gametrackimg13 {
+    width:25%;
 }
 
 @media (max-width: 768px) {
@@ -611,10 +615,11 @@ footer.page-footer {
   background:#5f6c7a; /*hover color bg*/
 }
 
- h2 span{
+ h2 span,h3 span, h5 span{
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
    padding: 3px;
+   border-radius:5px;
 
 } 
 
@@ -705,7 +710,7 @@ footer.page-footer {
 
 
 .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4{
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
 }
 
