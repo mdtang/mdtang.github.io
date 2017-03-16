@@ -461,10 +461,14 @@ footer.page-footer {
     width:25%;
 }
 
+.UMSIimg1, .UMSIimg2, .UMSIimg3, .UMSIimg4, .UMSIimg5 {
+    width:50%;
+}
+
 @media (max-width: 768px) {
     .fpsUIimage,.immigrantimage,.flyerimage,.gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackflowimg,.gametrackimg4,
     .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .gametrackimg10, .gametrackimg11, .gametrackimg12, .gametrackimg13, .gametrackimg14, .gameguideimg, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2,
-    .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg1,.socioimg2,.socioimg3,.socioimg4, .socioimg5, .socioimg6{
+    .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg1,.socioimg2,.socioimg3,.socioimg4, .socioimg5, .socioimg6, .UMSIimg1, .UMSIimg2, .UMSIimg3, .UMSIimg4, .UMSIimg5{
         width:100%;
     }
 }
@@ -472,7 +476,7 @@ footer.page-footer {
 @media (max-width: 1024px) {
     .fpsUIimage,.immigrantimage,.flyerimage, .gametrackimg1,.gametrackimg2, .gametrackimg3,.gametrackflowimg, .gametrackimg4,
     .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .gametrackimg10, .gametrackimg11, .gametrackimg12, .gametrackimg13, .gametrackimg14, .gameguideimg,.canimg1,.canimg2,.canimg3,
-    .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg1,.socioimg2,.socioimg3,.socioimg4, .socioimg5, .socioimg6{
+    .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg1,.socioimg2,.socioimg3,.socioimg4, .socioimg5, .socioimg6, .UMSIimg1, .UMSIimg2, .UMSIimg3, .UMSIimg4, .UMSIimg5{
         width:100%;
     }
 }
@@ -512,13 +516,13 @@ footer.page-footer {
     padding-top:120px;
 }
 
-.halfpadding {
-    padding-bottom:20px;
+.mediumpadding {
+    padding-bottom:70px;
     padding-top:30px;
 }
 
 .smallpadding {
-    padding-top:30px;
+    padding-top:20px;
 }
 
 .btn {
@@ -531,6 +535,7 @@ footer.page-footer {
         -ms-transform: scale(1.1);
         transform: scale(1.1);
 }
+
 .topgrid, .midgrid {
     width:100%;
 }
@@ -617,7 +622,7 @@ footer.page-footer {
 
  h2 span,h3 span, h5 span{
    background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.4);
+   background: rgba(0, 0, 0, 0.5);
    padding: 3px;
    border-radius:5px;
 
