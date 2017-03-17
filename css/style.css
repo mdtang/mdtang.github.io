@@ -29,6 +29,12 @@ p {
     text-align:left;
 }
 
+ul, ol {
+    display: inline-block;
+    text-align:left;
+}
+
+
 .bold {
     font-family: 'Futura Bold', helvetica;
     letter-spacing: 1.5px;
@@ -376,7 +382,7 @@ footer.page-footer {
 }
 
 .personaimage{
-    width:100%;
+    width:60%;
     display: block;
     margin: auto;
     border-radius:10px;
@@ -571,7 +577,7 @@ footer.page-footer {
 }
 
 
-.aboutmetext p, .skillstext p, .courseworktext p {
+.aboutmetext p, .skillstext p, .courseworktext p,.aboutmetext img,.aboutmetext button {
     -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 7s; /* Firefox < 16 */
         -ms-animation: fadein 7s; /* Internet Explorer */
@@ -714,14 +720,18 @@ footer.page-footer {
 }
 
 
-.textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4{
+.textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper span{
     width: 40%;
     margin: 0 auto;
 }
 
+.listwrapper li {
+    width:70%;
+    margin: 0 auto;
+}
 
 @media (max-width: 768px) {
-    .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4{   
+    .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper span, .listwrapper li{   
         width: 100%;
         margin: 0 auto;
     }
