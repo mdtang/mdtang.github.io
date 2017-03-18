@@ -40,17 +40,39 @@
             <div class="collapse navbar-toggleable-xs" id="collapseEx">
                 <!--Links-->
                 <ul class="nav navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Design<span class="sr-only">(current)</span></a>
+                    <li class="dropdown nav-item active">
+                        <a class="dropbtn-blue nav-link" href="index.html">Design<span class="sr-only">(current)</span></a>
+                        <div class="dropdown-content-blue">
+                            <a href="gametrackapp.html">VIDEO GAME TRACKING APP</a>
+                            <a href="immigrationapp.html">IMMIGRANTS RESOURCES APP</a>
+                            <a href="fpsUI.html">FIRST PERSON SHOOTER UI</a>
+                            <a href="mobilegame.html">MOBILE GAME UI</a>
+                            <a href="flyer.html">COMPANY FLYER</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="aboutme.html">About Me</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="experience.html">Experience</a>
+                    <li class="dropdown nav-item">
+                        <a class="dropbtn-red nav-link" href="experience.html">Experience</a>
+                        <div class="dropdown-content-red">
+                            <a href="CAN.html">COMMUNITY ACTION NETWORK</a>
+                            <a href="ford.html">EFFECTIVENESS OF CHARTER SCHOOLS</a>
+                            <a href="sq.html">SOUTH QUAD DINING</a>
+                            <a href="dayspa.html">BUSINESS MANAGEMENT</a>
+                            <a href="tutor.html">ESL/COLLEGE PREP TUTORING</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
+                    <li class="dropdown nav-item">
+                        <a class="dropbtn-blue nav-link" href="projects.html">Projects</a>
+                        <div class="dropdown-content-blue">
+                            <a href="umsi.html">PEOPLE-NEARBY APPS</a>
+                            <a href="socioux.html">IMPACT OF UX ON USER GOALS</a>
+                            <a href="pygame.html">PYGAME - DOOM</a>
+                            <a href="AI.html">LYRICS GENERATOR</a>
+                            <a href="food.html">FOOD DESERT RESEARCH</a>
+                            <a href="miscproj.html">OTHER PROJECTS</a>
+                        </div>
                     </li>
                 </ul>
 
@@ -74,8 +96,18 @@
     <!--/.Mask-->
 
     <!--Content-->
+
+<div class='sidebar'>
+    <div class="hoverpop"><a href="#bgandgoal" class="sidebar-link"><img class="redlogo" src="media/logoreddot.png"></img>BACKGROUND AND GOAL</a></div>
+    <div class="hoverpop"><a href="#research" class="sidebar-link"><img class="bluelogo" src="media/logobluedot.png"></img>RESEARCH PROCESS</a></div>
+    <div class="hoverpop"><a href="#persona" class="sidebar-link"><img class="redlogo" src="media/logoreddot.png"></img>PERSONAS</a></div>
+    <div class="hoverpop"><a href="#wireframe" class="sidebar-link"><img class="bluelogo" src="media/logobluedot.png"></img>WIREFRAMING PROCESS</a></div>
+    <div class="hoverpop"><a href="#feedback" class="sidebar-link"><img class="redlogo" src="media/logoreddot.png"></img>ITERATION AND FEEDBACK</a></div>
+    <div class="hoverpop"><a href="#hifi" class="sidebar-link"><img class="bluelogo" src="media/logobluedot.png"></img>HIFI PROTOTYPING</a></div>
+</div>
+
      <div class="content container-fluid">
-        <div class="padding centered">
+        <div id="bgandgoal" class="padding centered">
                 <h1>Background and Goal</h1>
                 <div class="smallpadding"></div>
                 <img class="gametrackimg1" src='media/backlog.jpg' alt='backlog image'/>
@@ -84,7 +116,7 @@
                 <p>From personal experience and frequent discussions with friends, I realized that hardcore gamers want a dedicated application to keep track of their video game libraries and statistics. My approach was to create a dedicated application to supplement their needs, including being able to track gameplay hours, allow users to compete and compare themselves to friends, and manage hours spent gaming to hours spent offline.</p>
                 <div class="smallpadding"></div>
                 <p>I define hardcore gamers as gamers who either own over 100 games and/or have played one game for over 500 hours. Most of the interviewees are my close connections. The interviews are semi-structured and lasted for about 30 to 40 minutes.</p>
-                <div class="padding"></div>
+                <div id="research" class="padding"></div>
                 <h1>Research Process</h1>
                 <div class="smallpadding"></div>
                     <p>To design an app that would actually solve these real-world problems that many gamers face, I interviewed 10
@@ -100,7 +132,7 @@
                 <img class="gameguideimage" src='media/gameguide.PNG' alt='game interview guide picture'/>
                 <button type="button" class="btn btn-info" onclick="window.open('media/gameguide.pdf')">Interview Guide PDF</button>
             <div class="textwrapper">
-            <div class="padding"></div>
+            <div id="persona" class="padding"></div>
             <h1>Personas</h1>
             <div class="smallpadding"></div>
                 <p>Through the information gained in these interviews I was able to discern two similar patterns in my sample group, which I used to create the user personas below.</p>
@@ -210,7 +242,7 @@
                         <div class="smallpadding"></div>
                     </div>
                 </div>
-                <div class="padding"></div>
+                <div id="wireframe" class="padding"></div>
                 <h1>Wireframing Process</h1>
                 <div class="smallpadding"></div>
                 <div>Based on patterns I noticed in my research, I sketched out a few ideas as basic wireframes.</div>
@@ -232,7 +264,7 @@
                     <div class="smallpadding"></div>
                     <button type="button" class="btn btn-info" onclick="window.open('media/yourgamepal.pdf')">Vector PDF Link</button>
                     <button type="button" class="btn btn-info" onclick="window.open('https://invis.io/7QA8QWWDT')">Interactive Wireframe</button>
-                <div class="padding"></div>
+                <div id="feedback" class="padding"></div>
                 <h1>Iteration and Feedback</h1>
                 <div class="smallpadding"></div>
                     <div>An essential part of UX design is iterating and reiterating on wireframes and prototypes based on others' feedback.</div>
@@ -263,7 +295,7 @@
                     <div class='textwrapper'>
                     <h5>One of the largest issues was with having too many unnecessary screens and options that did not help to solving the end problem for users.</h5>
                     </div>
-                    <div class="padding"></div>
+                    <div id="hifi" class="padding"></div>
                     <h1>Hi-Fi Prototyping</h1>
                     <div class="smallpadding"></div>
                     <div>With that feedback in mind and another round of feedback, I created the first hi-fi prototype.</div>
@@ -337,6 +369,8 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="js/scroll.js"></script>
 
 
 </body>

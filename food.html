@@ -40,17 +40,39 @@
             <div class="collapse navbar-toggleable-xs" id="collapseEx">
                 <!--Links-->
                 <ul class="nav navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Design</a>
+                    <li class="dropdown nav-item">
+                        <a class="dropbtn-blue nav-link" href="index.html">Design</a>
+                        <div class="dropdown-content-blue">
+                            <a href="gametrackapp.html">VIDEO GAME TRACKING APP</a>
+                            <a href="immigrationapp.html">IMMIGRANTS RESOURCES APP</a>
+                            <a href="fpsUI.html">FIRST PERSON SHOOTER UI</a>
+                            <a href="mobilegame.html">MOBILE GAME UI</a>
+                            <a href="flyer.html">COMPANY FLYER</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="aboutme.html">About Me</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="experience.html">Experience</a>
+                    <li class="dropdown nav-item">
+                        <a class="dropbtn-red nav-link" href="experience.html">Experience</a>
+                        <div class="dropdown-content-red">
+                            <a href="CAN.html">COMMUNITY ACTION NETWORK</a>
+                            <a href="ford.html">EFFECTIVENESS OF CHARTER SCHOOLS</a>
+                            <a href="sq.html">SOUTH QUAD DINING</a>
+                            <a href="dayspa.html">BUSINESS MANAGEMENT</a>
+                            <a href="tutor.html">ESL/COLLEGE PREP TUTORING</a>
+                        </div>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="projects.html">Projects<span class="sr-only">(current)</span></a>
+                    <li class="dropdown nav-item active">
+                        <a class="dropbtn-blue nav-link" href="projects.html">Projects<span class="sr-only">(current)</span></a>
+                        <div class="dropdown-content-blue">
+                            <a href="umsi.html">PEOPLE-NEARBY APPS</a>
+                            <a href="socioux.html">IMPACT OF UX ON USER GOALS</a>
+                            <a href="pygame.html">PYGAME - DOOM</a>
+                            <a href="AI.html">LYRICS GENERATOR</a>
+                            <a href="food.html">FOOD DESERT RESEARCH</a>
+                            <a href="miscproj.html">OTHER PROJECTS</a>
+                        </div>
                     </li>
                 </ul>
 
@@ -74,8 +96,16 @@
     <!--/.Mask-->
 
     <!--Content-->
+
+<div class='sidebar'>
+    <div class="hoverpop"><a href="#bgandproblem" class="sidebar-link"><img class="redlogo" src="media/logoreddot.png"></img>BACKGROUND AND PROBLEM</a></div>
+    <div class="hoverpop"><a href="#research" class="sidebar-link"><img class="bluelogo" src="media/logobluedot.png"></img>PRELIMINARY RESEARCH</a></div>
+    <div class="hoverpop"><a href="#method" class="sidebar-link"><img class="redlogo" src="media/logoreddot.png"></img>METHOD</a></div>
+    <div class="hoverpop"><a href="#results" class="sidebar-link"><img class="bluelogo" src="media/logobluedot.png"></img>RESULTS</a></div>
+</div>
+
      <div class="content container-fluid">
-        <div class="padding centered">
+        <div id="#bgandproblem" class="padding centered">
             <div class="textwrapper">
                 <h1>Background and Problem</h1>
                 <div class="smallpadding"></div>
@@ -88,9 +118,9 @@
                 <img class="foodimg" src="media/union.jpg" alt="union food court image">
                 <div class="mediumpadding"></div>
                 <p>I, along with three other classmates, conducted a study to see whether or not students at U of M are eating healthy, and how much they know about the healthy food resources in and around campus. More specifically, we wanted to explore quality the and price of food in dining halls, restaurants, etc., the price disparity between healthy food and unhealthy food, the organizations that are working to bring healthy food to our campus, and how all of this is related to socioeconomic status and people from different backgrounds.</p>
-                <div class="mediumpadding"></div>
+                <div class="padding"></div>
                 <h1>Research Process</h1>
-                <div class="smallpadding"></div>
+                <div id="research" class="smallpadding"></div>
                 <h3>Preliminary Research</h3>
                 <div class="smallpadding"></div>
                 <p>First I gathered background research online to understand the current status of food deserts in our country and in the Ann Arbor area.</p>
@@ -100,7 +130,7 @@
                 <p>Additionally, Moore and Diz Roux (2006) found in their study that healthy food options such as whole-grain products, dairy products, fruits, and vegetables, are comparatively more expensive than unhealthy food options, and are more readily available in wealthier, predominantly white neighborhoods compared to low-income, racial minority neighborhoods.</p>
                 <div class="smallpadding"></div>
                 <p>Finally, according to the Harvard School of Public Health, <span class='bold'>the healthiest diet available in America cost about $550 more per person annually than unhealthier alternatives.</span> In order to combat this disparity, there are organizations both nationwide and around the University of Michigan campus that work to make healthy food accessible to all people, but, unfortunately, their efforts are not widely known.</p>
-                <div class="mediumpadding"></div>
+                <div id="method" class="mediumpadding"></div>
                 <h2>Method</h2>
                 <div class="smallpadding"></div>
                 <p>In order to conduct real-world research, I administered a survey with 50 responses and a focus group discussion with 10 U of M students. The questions that were asked are:</p>
@@ -120,7 +150,7 @@
                 <p>Which of the following grocery stores/convenience stores have you heard of/shopped at near campus?</p>
                 <div class="smallpadding"></div>
                 <p>Do you know any resources on campus that help students receive healthy, nutritional foods at reasonable prices?</p>
-                <div class="padding"></div>
+                <div id="results" class="padding"></div>
                 <h2>Results</h2>
                 <div class="smallpadding"></div>
                 Out for 50 responses (some respondents didn't answer all questions), here are the results:
@@ -205,6 +235,7 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
 
+    <script type="text/javascript" src="js/scroll.js"></script>
 
 </body>
 

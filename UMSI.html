@@ -40,17 +40,39 @@
             <div class="collapse navbar-toggleable-xs" id="collapseEx">
                 <!--Links-->
                 <ul class="nav navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Design</a>
+                    <li class="dropdown nav-item">
+                        <a class="dropbtn-blue nav-link" href="index.html">Design</a>
+                        <div class="dropdown-content-blue">
+                            <a href="gametrackapp.html">VIDEO GAME TRACKING APP</a>
+                            <a href="immigrationapp.html">IMMIGRANTS RESOURCES APP</a>
+                            <a href="fpsUI.html">FIRST PERSON SHOOTER UI</a>
+                            <a href="mobilegame.html">MOBILE GAME UI</a>
+                            <a href="flyer.html">COMPANY FLYER</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="aboutme.html">About Me</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="experience.html">Experience</a>
+                    <li class="dropdown nav-item">
+                        <a class="dropbtn-red nav-link" href="experience.html">Experience</a>
+                        <div class="dropdown-content-red">
+                            <a href="CAN.html">COMMUNITY ACTION NETWORK</a>
+                            <a href="ford.html">EFFECTIVENESS OF CHARTER SCHOOLS</a>
+                            <a href="sq.html">SOUTH QUAD DINING</a>
+                            <a href="dayspa.html">BUSINESS MANAGEMENT</a>
+                            <a href="tutor.html">ESL/COLLEGE PREP TUTORING</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects<span class="sr-only">(current)</span></a>
+                    <li class="dropdown nav-item active">
+                        <a class="dropbtn-blue nav-link" href="projects.html">Projects<span class="sr-only">(current)</span></a>
+                        <div class="dropdown-content-blue">
+                            <a href="umsi.html">PEOPLE-NEARBY APPS</a>
+                            <a href="socioux.html">IMPACT OF UX ON USER GOALS</a>
+                            <a href="pygame.html">PYGAME - DOOM</a>
+                            <a href="AI.html">LYRICS GENERATOR</a>
+                            <a href="food.html">FOOD DESERT RESEARCH</a>
+                            <a href="miscproj.html">OTHER PROJECTS</a>
+                        </div>
                     </li>
                 </ul>
 
@@ -76,21 +98,29 @@
     <!--/.Mask-->
 
     <!--Content-->
+
+<div class='sidebar'>
+    <div class="hoverpop"><a href="#bg" class="sidebar-link"><img class="redlogo" src="media/logoreddot.png"></img>BACKGROUND</a></div>
+    <div class="hoverpop"><a href="#process" class="sidebar-link"><img class="bluelogo" src="media/logobluedot.png"></img>PROCESS</a></div>
+    <div class="hoverpop"><a href="#survey" class="sidebar-link"><img class="redlogo" src="media/logoreddot.png"></img>SURVEY RESULTS</a></div>
+    <div class="hoverpop"><a href="#interview" class="sidebar-link"><img class="bluelogo" src="media/logobluedot.png"></img>INTERVIEW RESULTS</a></div>
+</div>
+
      <div class="content container-fluid">
-        <div class="padding centered">
+        <div id="bg" class="padding centered">
             <div class="textwrapper">
                 <h1>Background</h1>
                 <div class="smallpadding"></div>
                 <p>Since Fall 2016, I have been working with the Social Innovations Group (SIG) at the University of Michigan School of Information. SIG consists of an interdisciplinary team of individuals specializing in the research and development of ubiquitous and social computing technologies. Our vision is simple: To design, build and enhance innovative technologies to solve real-world problems. Our expertise lies in addressing real-world problems affecting marginalized groups and individuals based primarily in the U.S.</p>
                 <div class="mediumpadding"></div>
-                <h1>Problem</h1>
+                <h2>Problem</h2>
                 <div class="smallpadding"></div>
                 <p>What are the possible benefits and challenges of <span class="bold">People-Nearby Applications (PNAs)</span> and other digital resources for newly-arrived immigrants?</p>
                 <div class="mediumpadding"></div>
-                <h1>Definition</h1>
+                <h2>Definition</h2>
                 <div class="smallpadding"></div>
                 <p>PNAs are a type of social-matching system utilizing location information for people to meet other people nearby. Examples include Tinder, WeChat, MeetMe, and more.</p>
-                <div class="mediumpadding"></div>
+                <div id="process" class="padding"></div>
                 <h1>Process</h1>
                 <div class="smallpadding"></div>
                 <p>I explore the different groups of immigrants that live in the United States and in the Ann Arbor area. Some immigrants do not speak English and just want to live a simple life. Others seek to learn English and are pursuing higher education in order to elevate their socioeconomic status and assimilate into American culture.</p>
@@ -100,9 +130,9 @@
                 <h1>Results</h1>
                 <div class="smallpadding"></div>
                 <p>Some of the results are still in work in progress, and I will present my project at the undergraduate research symposium is April.</p>
-                <div class="mediumpadding"></div>
-                <h4>Survey Results</h4>
-                <div class="smallmpadding"></div>
+                <div id="survey" class="mediumpadding"></div>
+                <h3>Survey Results</h3>
+                <div class="smallpadding"></div>
                     <div class="col-xs-12">
                         <img class="UMSIimg1" src='media/UMSIsurvey1.png' alt='UMSI survey image 1'/>
                         <div class="smallpadding"></div>
@@ -129,10 +159,10 @@
                 <p>Most of our respondents agree that PNAs are more suitable to talk to strangers, make new friends, find dating partners, and find casual sexual partners. Furthermore, they agree that PNAs are not generally as suitable for business advertising and learning local information as those previous reasons.</p>
                 <p>Nevertheless, a significant portion of our respondents conveyed that learning local information can be a successful method for people to learn local information.</p>
             </div>
-                <div class="mediumpadding"></div>
-                <h4>Interview Results</h4>
-                <div class="mediumpadding"></div>
-                <p>Coming soon.</p>
+                <div id="interview" class="padding"></div>
+                <h3>Interview Results</h3>
+                <div class="smallpadding"></div>
+                <div>Coming soon.</div>
 
         </div>
     </div>
@@ -176,6 +206,8 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="js/scroll.js"></script>
 
 
 </body>
