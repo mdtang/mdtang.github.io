@@ -723,7 +723,7 @@ footer.page-footer {
 }
 
 
-.textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper span{
+.textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span{
     width: 40%;
     margin: 0 auto;
 }
@@ -734,7 +734,7 @@ footer.page-footer {
 }
 
 @media (max-width: 768px) {
-    .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper span, .listwrapper li{   
+    .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span, .listwrapper li{   
         width: 100%;
         margin: 0 auto;
     }
@@ -830,7 +830,7 @@ transform: translate(-50%);
     z-index: 1;
     font-size:12px;
     left: 50%;
-transform: translate(-50%); 
+    transform: translate(-50%); 
 }
 
 /* Links inside the dropdown */
