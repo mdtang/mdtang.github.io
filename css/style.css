@@ -817,6 +817,8 @@ footer.page-footer .call-to-action ul li {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 5000;
     font-size:12px;
+    left: 50%;
+transform: translate(-50%); 
 }
 
 .dropdown-content-red {
@@ -827,6 +829,8 @@ footer.page-footer .call-to-action ul li {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     font-size:12px;
+    left: 50%;
+transform: translate(-50%); 
 }
 
 /* Links inside the dropdown */
