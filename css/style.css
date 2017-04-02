@@ -1,7 +1,7 @@
 body, html{
     padding:0 !important; 
     margin:0 !important;
-    background:#5f6c7a;
+    background-color:#fafafa;
 }
 
 @font-face {
@@ -29,9 +29,14 @@ p {
     text-align:left;
 }
 
-a {
-    color:white;
+p, h1,h2,h3,h4,h5,div,span {
+  line-height:160%;
 }
+
+a {
+    color:black;
+}
+
 .listwrapper ul, ol {
     display: inline-block;
     text-align:left;
@@ -51,6 +56,7 @@ a {
 .designview {
     padding:90px;
 }
+
 @media (max-width: 768px) and (min-width: 320px) {
     .designview {
         padding:90px 40px;
@@ -62,6 +68,7 @@ a {
 }
 
 /* Navigation*/
+
 
 .navbar {
     background-color: transparent;
@@ -77,7 +84,7 @@ a {
 }
 
 .top-nav-collapse {
-    background-color: #5f6c7a;
+  background-color: #fafafa;
 }
 
 .navbar .navbar-nav {
@@ -85,6 +92,7 @@ a {
   float: none;
   vertical-align: top;
 }
+
 
 .logo {
     width:3%;
@@ -112,8 +120,7 @@ a {
 }
 
 .content {
-    background-color: #5f6c7a;
-    color: white;
+    color: black;
     margin-top: -1px;
     font-family: 'Futura Oblique', helvetica;
     letter-spacing: 1.5px;
@@ -121,16 +128,17 @@ a {
 
 
 footer.page-footer {
-    background-color: #5f6c7a;
+    background-color: #fafafa;
     margin-top: -1px;
     font-family: 'Futura Oblique', helvetica;
     letter-spacing: 2px;
-    overflow: hidden
+    overflow: hidden;
+    color:black
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #545454;
+        background-color: #fafafa;
     }
     .img-circleface {
         width:2000%;
@@ -138,7 +146,7 @@ footer.page-footer {
 }
 
 .flex-center {
-    color: #fff;
+    color: #fff; /*color of text on top modal */
     font-family: 'Futura Oblique', helvetica;
     font-size: 30px;
     letter-spacing: 3px;
@@ -146,14 +154,14 @@ footer.page-footer {
     top:50px;
 }
 
-
-.flex-right {
-    color: #fff;
+.flex-center-main {
+    color: #000; /*color of text on top modal */
     font-family: 'Futura Oblique', helvetica;
     font-size: 30px;
     letter-spacing: 3px;
     position:relative;
-    text-align:right;
+    top:50px;
+    text-align:center;
 }
 
 /* Small devices */
@@ -165,11 +173,11 @@ footer.page-footer {
 
 
 .homeview {
-    background: #5f6c7a;
+    background: #fafafa;
 }
 
 .designview {
-    background: #5f6c7a;
+    background: #fafafa;
 }
 
 .immigrationview {
@@ -305,11 +313,11 @@ footer.page-footer {
 
 
 .expview {
-    background: #5f6c7a;
+    background: #fafafa;
 }
 
 .projview {
-    background: #5f6c7a;
+    background: #fafafa;
 }
 
 
@@ -568,17 +576,17 @@ footer.page-footer {
 }
 
 .aboutmegrid {
-    background: #8493a3;
+    background: #ededed;
 }
 
 
 .skillsgrid {
-    background:#708090;
+    background: #fafafa;
 }
 
 
 .courseworkgrid {
-    background:#535f6b;
+    background:#f6f6f6;
 }
 
 .header{
@@ -633,6 +641,7 @@ footer.page-footer {
   text-align: center;
   cursor: default;
   background:#5f6c7a; /*hover color bg*/
+  border-radius:30px;
 }
 
  h2 span,h3 span, h5 span{
@@ -688,8 +697,8 @@ footer.page-footer {
 
 @media (max-width: 1024px) {
     .hovereffect h2 {
-        bottom:35px;
-        font-size:18px;
+        bottom:50px;
+        font-size:12px;
     }
 }
 
@@ -730,7 +739,7 @@ footer.page-footer {
 
 
 .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span{
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -776,7 +785,7 @@ footer.page-footer .call-to-action ul li {
 
 
 .container-fluid {
-    background-color:#5f6c7a;
+    background-color:#fafafa;
 }
 
 
@@ -784,14 +793,24 @@ footer.page-footer .call-to-action ul li {
 
 .sidebar {
    position: fixed;
-   left: 150px;
+   left: 50px;
    top: 400px;
    font-family: 'Futura Oblique', helvetica;
    font-size:14px;
+   background-color:#fafafa;
+   border-radius:10px;
+   padding:8px 8px 8px 8px;
+   z-index: 1;
 }
 
 .sidebar a {
-    color:white;
+    color:black;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+  display: none;
+  }
 }
 
 .hoverpop:hover {
@@ -821,7 +840,6 @@ footer.page-footer .call-to-action ul li {
     background-color: rgba(41,171,226,0.8);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 5000;
     font-size:12px;
     left: 50%;
 transform: translate(-50%); 
@@ -833,7 +851,6 @@ transform: translate(-50%);
     background-color: rgba(180,28,36,0.8);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 5000;
     font-size:12px;
     left: 50%;
     transform: translate(-50%); 
