@@ -77,6 +77,10 @@ a {
     text-align: center;
 }
 
+.navbar text {
+    color:black;
+}
+
 .scrolling-navbar {
     -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -796,6 +800,7 @@ footer.page-footer .call-to-action ul li {
 
 .container-fluid {
     background-color:#fafafa;
+    color:black;
 }
 
 
