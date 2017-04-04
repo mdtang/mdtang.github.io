@@ -902,3 +902,7 @@ transform: translate(-50%);
 .dropdown:hover .dropbtn-blue {
     background-color: #29ABE2;
 }
+
+.fa-bars {
+  color:black;
+}
