@@ -5,24 +5,17 @@ body, html{
 }
 
 @font-face {
-  font-family: 'Futura Bold';
+  font-family: 'OpenSans-Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Futura Bold'), url('../media/Futura Bold.ttf') format('truetype');
+  src: local('OpenSans-Bold'), url('../media/OpenSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Futura Oblique';
+  font-family: 'OpenSans-Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Futura Oblique'), url('../media/Futura Oblique.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato-Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Lato-Regular'), url('../media/Lato-Regular.ttf') format('truetype');
+  src: local('OpenSans-Regular'), url('../media/OpenSans-Regular.ttf') format('truetype');
 }
 
 p {
@@ -44,7 +37,7 @@ a {
 
 
 .bold {
-    font-family: 'Futura Bold', helvetica;
+    font-family: 'OpenSans-Bold', helvetica;
     letter-spacing: 1.5px;
     font-size:18px;
     font-weight:bold;
@@ -72,7 +65,7 @@ a {
 
 .navbar {
     background-color: rgba(250, 250, 250, 0.9);
-    font-family: 'Futura Oblique', helvetica;
+    font-family: 'OpenSans-Regular', helvetica;
     letter-spacing: 1px;
     text-align: center;
     opacity:50%;
@@ -133,7 +126,7 @@ a {
 .content {
     color: black;
     margin-top: -1px;
-    font-family: 'Futura Oblique', helvetica;
+    font-family: 'OpenSans-Regular', helvetica;
     letter-spacing: 1.5px;
 }
 
@@ -141,7 +134,7 @@ a {
 footer.page-footer {
     background-color: #fafafa;
     margin-top: -1px;
-    font-family: 'Futura Oblique', helvetica;
+    font-family: 'OpenSans-Regular', helvetica;
     letter-spacing: 2px;
 }
 
@@ -156,7 +149,7 @@ footer.page-footer {
 
 .flex-center {
     color: #fff; /*color of text on top modal */
-    font-family: 'Futura Oblique', helvetica;
+    font-family: 'OpenSans-Regular', helvetica;
     font-size: 30px;
     letter-spacing: 3px;
     position:relative;
@@ -165,7 +158,7 @@ footer.page-footer {
 
 .flex-center-main {
     color: #000; /*color of text on top modal */
-    font-family: 'Futura Oblique', helvetica;
+    font-family: 'OpenSans-Regular', helvetica;
     font-size: 30px;
     letter-spacing: 3px;
     position:relative;
@@ -822,7 +815,7 @@ footer.page-footer .call-to-action ul li {
    position: fixed;
    left: 50px;
    top: 400px;
-   font-family: 'Futura Oblique', helvetica;
+   font-family: 'OpenSans-Regular', helvetica;
    font-size:14px;
    background-color:#fafafa;
    border-radius:10px;
