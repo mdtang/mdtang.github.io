@@ -171,6 +171,9 @@ footer.page-footer {
     .flex-center {
         text-align: left;
     }
+    .flex-center-main {
+        text-align: left;
+    }
 }
 
 
