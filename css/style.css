@@ -463,7 +463,6 @@ footer.page-footer {
 }
 
 .gameguideimage{
-    max-width:30%;
     display: block;
     margin: auto;
     border-radius:10px;
@@ -507,16 +506,16 @@ footer.page-footer {
   width:30%;
 }
 @media (max-width: 768px) {
-    .fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7, .flyerimage,.gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackflowimg,.gametrackimg4,
-    .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .gametrackimg10, .gametrackimg11, .gametrackimg12, .gametrackimg13, .gametrackimg14, .gameguideimg, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2,
+    .fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7, .immigrantimage8, .flyerimage,.gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackflowimg,.gametrackimg4,
+    .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .gametrackimg10, .gametrackimg11, .gametrackimg12, .gametrackimg13, .gametrackimg14, .gameguideimage, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2,
     .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg1,.socioimg2,.socioimg3,.socioimg4, .socioimg5, .socioimg6, .UMSIimg1, .UMSIimg2, .UMSIimg3, .UMSIimg4, .UMSIimg5,.UMSIimg6, .miscprojimg1,.miscprojimg2,.miscprojimg3{
         width:100%;
     }
 }
 
 @media (max-width: 1024px) {
-    .fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7, .flyerimage, .gametrackimg1,.gametrackimg2, .gametrackimg3,.gametrackflowimg, .gametrackimg4,
-    .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .gametrackimg10, .gametrackimg11, .gametrackimg12, .gametrackimg13, .gametrackimg14, .gameguideimg,.canimg1,.canimg2,.canimg3,
+    .fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7,.immigrantimage8, .flyerimage, .gametrackimg1,.gametrackimg2, .gametrackimg3,.gametrackflowimg, .gametrackimg4,
+    .gametrackimg5, .gametrackimg6, .gametrackimg7, .gametrackimg8, .gametrackimg9, .gametrackimg10, .gametrackimg11, .gametrackimg12, .gametrackimg13, .gametrackimg14, .gameguideimage,.canimg1,.canimg2,.canimg3,
     .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg1,.socioimg2,.socioimg3,.socioimg4, .socioimg5, .socioimg6, .UMSIimg1, .UMSIimg2, .UMSIimg3, .UMSIimg4, .UMSIimg5,.UMSIimg6, .miscprojimg1,.miscprojimg2,.miscprojimg3{
         width:100%;
     }
