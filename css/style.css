@@ -38,9 +38,6 @@ a {
 
 .bold {
     font-family: 'OpenSans-Bold', helvetica;
-    letter-spacing: 1.5px;
-    font-size:18px;
-    font-weight:bold;
 }
 
 .homeview, .expview, .projview {
