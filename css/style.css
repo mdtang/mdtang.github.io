@@ -1,7 +1,7 @@
 body, html{
     padding:0 !important; 
     margin:0 !important;
-    background-color:#fafafa;
+    background-color:white;
 }
 
 @font-face {
@@ -79,7 +79,7 @@ a {
 }
 
 .top-nav-collapse {
-  background-color: #fafafa;
+  background-color: white;
 }
 
 .navbar .navbar-nav {
@@ -97,7 +97,7 @@ a {
 .logo {
     width:3%;
     position:absolute;
-    left:7px;
+    left:15px;
     top:20px;
 }
 
@@ -129,7 +129,7 @@ a {
 
 
 footer.page-footer {
-    background-color: #fafafa;
+    background-color: white;
     margin-top: -1px;
     font-family: 'OpenSans-Regular', helvetica;
     letter-spacing: 2px;
@@ -137,7 +137,7 @@ footer.page-footer {
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #fafafa;
+        background-color: white;
     }
     .img-circleface {
         width:2000%;
@@ -185,11 +185,11 @@ footer.page-footer {
 
 
 .homeview {
-    background: #fafafa;
+    background: white;
 }
 
 .designview {
-    background: #fafafa;
+    background: white;
 }
 
 .immigrationview {
@@ -325,11 +325,11 @@ footer.page-footer {
 
 
 .expview {
-    background: #fafafa;
+    background: white;
 }
 
 .projview {
-    background: #fafafa;
+    background: white;
 }
 
 
@@ -590,17 +590,17 @@ footer.page-footer {
 }
 
 .aboutmegrid {
-    background: #ededed;
+    background: #e9f6fc;
 }
 
 
 .skillsgrid {
-    background: #fafafa;
+    background: #bee5f6;
 }
 
 
 .courseworkgrid {
-    background:#f6f6f6;
+    background:#94d5f0;
 }
 
 .header{
@@ -655,7 +655,6 @@ footer.page-footer {
   text-align: center;
   cursor: default;
   background:#5f6c7a; /*hover color bg*/
-  border-radius:30px;
 }
 
  h2 span,h3 span, h5 span{
@@ -812,7 +811,7 @@ footer.page-footer .call-to-action ul li {
 
 
 .container-fluid {
-    background-color:#fafafa;
+    background-color:white;
     color:black;
 }
 
@@ -825,7 +824,7 @@ footer.page-footer .call-to-action ul li {
    top: 400px;
    font-family: 'OpenSans-Regular', helvetica;
    font-size:14px;
-   background-color:#fafafa;
+   background-color:white;
    border-radius:10px;
    padding:8px 8px 8px 8px;
    z-index: 1;
@@ -854,74 +853,228 @@ footer.page-footer .call-to-action ul li {
 }
 
 
+/* full page hamburger bar */
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
+body { 
+  -webkit-animation: bugfix infinite 1s; 
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content-blue{
-    display: none;
-    position: absolute;
-    background-color: rgba(41,171,226,0.8);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-size:12px;
-    left: 50%;
-  transform: translate(-50%); 
+@-webkit-keyframes bugfix { 
+  from {padding:0;} 
+  to {padding:0;} 
 }
 
-.dropdown-content-red {
-    display: none;
-    position: absolute;
-    background-color: rgba(180,28,36,0.8);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-size:12px;
-    left: 50%;
-    transform: translate(-50%); 
+input[type="checkbox"]#togglebox {
+  /* checkbox used to toggle menu state */
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
 }
 
-/* Links inside the dropdown */
-.dropdown-content-blue a, .dropdown-content-red a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+label#navtoggler{  /* Main label icon to toggle menu state */
+  z-index: 0;
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 12px;
+  /* change font size to change label dimensions. Leave width/height below alone */
+  width: 3.5em;
+  height: 2.5em;
+  text-indent: -1000px;
+  border: 0.6em solid #B41C24;
+  /* border color */
+  border-width: 0.6em 0;
+  cursor: pointer;
 }
 
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content-blue, .dropdown:hover .dropdown-content-red {
-    display: block;
+label#navtoggler::before{
+  /* inner strip inside label */
+  content: "";
+  display: block;
+  position: absolute;
+  top: 7.5px;
+  right: 0px;
+  width: 100%;
+  height: 0.6em;
+  margin-top: -0.3em;
+  background: #B41C24; /* stripes background color. Change to match border color of parent label above */
+  border-radius: 4px;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn-red {
-    background-color: #B41C24;
+label#navtoggler:hover {
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition:.35s;
 }
 
-.dropdown:hover .dropbtn-blue {
-    background-color: #29ABE2;
+
+nav#expand-fullpagemenu{ /* Full screen nav menu */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: scale(0.9);  /* initially scale down nav size */
+  transform: scale(0.9);
+  background: #29ABE2;
+  display: block;
+  position: fixed;
+  z-index: 100;
+  opacity: 0;
+  text-align: center;
+  overflow: auto;
+  -moz-transition: visibility 0s 0.5s, opacity 0.5s, -moz-transform 0.5s; /* transition settings */
+  -webkit-transition: visibility 0s 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+  transition: visibility 0s 0.5s, opacity 0.5s, transform 0.5s;
 }
 
-.fa-bars {
-  color:black;
+input[type="checkbox"]#togglebox:checked ~ nav#expand-fullpagemenu{ /* nav state when corresponding checkbox is checked */
+  visibility: visible;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -ms-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  -transition-delay: 0s;
 }
 
-@media only screen and (max-width: 768px) {
-  .dropdown:hover .dropdown-content-blue, .dropdown:hover .dropdown-content-red{
-  display: none;
+nav#expand-fullpagemenu label#closex{ /* Large x close button inside nav */
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  text-indent: -1000px;
+  z-index: 10;
+  top: 0;
+  right: 0;
+}
+
+label#closex:hover {
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition:.35s;
+}
+
+
+nav#expand-fullpagemenu label#closex::before, nav label#closex::after{ /* render large cross inside close button */
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 9px;
+  background: #B41C24;
+  top: 50%;
+  margin-top: -3px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+nav#expand-fullpagemenu label#closex::after{ /* render large cross inside close button */
+  -ms-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+nav#expand-fullpagemenu a{
+  text-decoration: none;
+  color: #B41C24;
+  text-transform: uppercase;
+  font-family: 'OpenSans-Regular', helvetica;
+}
+
+nav#expand-fullpagemenu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-height: 100%;
+  top: 50%; /* center UL vertically inside nav */
+  -webkit-transform: translateY(-50%); /* center UL vertically inside nav */
+  transform: translateY(-50%);
+  font: bold 2em 'Bitter', sans-serif; /* use google font inside nav UL */
+}
+
+nav#expand-fullpagemenu ul li{
+  margin-bottom: 30px;
+}
+
+nav#expand-fullpagemenu ul li a{
+  padding: 8px;
+  border-radius: 5px;
+}
+
+nav#expand-fullpagemenu ul li a:hover{
+  background: white;
+}
+
+
+
+</style>
+
+<script>
+
+  // Extra function to control menu state from anywhere on your page/ inside your script
+  function expandfullscreenmenu(action){ //param: 'open', 'close', or empty to toggle menu state
+    var togglebox = document.getElementById("togglebox")
+    var newstate =  (action == 'open')? true : (action == 'close')? false : !togglebox.checked
+    togglebox.checked = newstate
   }
-  .dropdown:hover .dropbtn-red {
-    background-color:transparent;
+
+</script>
+
+<!--[if lte IE 8]>
+
+  <style>
+
+  /* IE8 specific CSS */
+
+  label#navtoggler{
+    border-width: 0.6em;
   }
-  .dropdown:hover .dropbtn-blue {
-    background-color:transparent;
+
+nav#expand-fullpagemenu label#closex{
+  font-size: 2em;
+  text-indent: 0;
+}
+
+  #expand-fullpagemenu{
+    visibility: hidden;
   }
-  .flex-center-main {
-    right:120px;
-}
-}
+
+  </style>
+
+  <script>
+   // IE8 MENU COMPATIBILITY CODE:
+  document.createElement("nav")
+
+  function expandfullscreenmenu(action){
+    var nav = document.getElementById("expand-fullpagemenu")
+    var newstate =  (action == 'open')? 'visible' : (action == 'close')? 'hidden' : nav.style.visibility == 'hidden'? 'visible' : 'hidden'
+    nav.style.visibility = newstate
+  }
+
+  window.attachEvent("onload", function(){
+    document.getElementById("navtoggler").onclick = function(){
+      expandfullscreenmenu('open')
+    }
+    document.getElementById("closex").onclick = function(){
+      expandfullscreenmenu('close')
+    }
+  })
+  
+  </script>
+
+<![endif]-->
+
