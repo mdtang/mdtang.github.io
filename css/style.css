@@ -175,16 +175,11 @@ footer.page-footer {
 
 /* Small devices */
 @media (max-width: 768px) {
-    .flex-center {
-        position:absolute;
-        left:50px;
-        top:50px;
-    }
     .flex-center-main {
         position:absolute;
-        left:50px;
-        top:100px;
-        font-size: 25px;
+        left:-10px;
+        top:140px;
+        font-size: 20px;
     }
 }
 
