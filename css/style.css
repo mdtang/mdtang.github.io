@@ -176,10 +176,15 @@ footer.page-footer {
 /* Small devices */
 @media (max-width: 768px) {
     .flex-center {
-        text-align: left;
+        position:absolute;
+        left:50px;
+        top:50px;
     }
     .flex-center-main {
-        text-align: left;
+        position:absolute;
+        left:50px;
+        top:100px;
+        font-size: 25px;
     }
 }
 
@@ -583,6 +588,7 @@ footer.page-footer {
 
 .botgrid {
     width:100%;
+
 }
 .botgrid div {
     width:100%;
@@ -597,7 +603,6 @@ footer.page-footer {
 .skillsgrid {
     background: #bee5f6;
 }
-
 
 .courseworkgrid {
     background:#94d5f0;
