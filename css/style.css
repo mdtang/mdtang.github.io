@@ -208,7 +208,7 @@ footer.page-footer {
 */
 
 .immigrationview {
-    background-image:url('../media/greencard.jpg');
+    background-image:url('../media/statueofliberty.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -943,7 +943,7 @@ nav#expand-fullpagemenu{ /* Full screen nav menu */
   box-sizing: border-box;
   -webkit-transform: scale(0.9);  /* initially scale down nav size */
   transform: scale(0.9);
-  background: #29ABE2;
+  background: #29ABE2; /* blue logo color */
   display: block;
   position: fixed;
   z-index: 100;
