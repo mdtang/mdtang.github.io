@@ -248,6 +248,7 @@ footer.page-footer {
     -o-background-size: cover;
     background-size: cover;
     color:black;
+    background-position: 50% 0%;
 }
 
 .CANview {
