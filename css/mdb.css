@@ -2975,7 +2975,7 @@ body {
 .tooltip .tooltip-inner {
   padding: 0.4rem 0.8rem;
 }
-
+/*
 @font-face {
   font-family: "Roboto";
   src: local(Roboto Thin), url("../font/roboto/Roboto-Thin.eot");
@@ -3014,7 +3014,7 @@ body {
 body {
   font-family: "Roboto", sans-serif;
 }
-
+*/
 h1,
 h2,
 h3,
