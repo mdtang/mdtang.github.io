@@ -1,5 +1,5 @@
 body, html, footer, .footer-copyright{
-    padding:0 !important; 
+    padding:0 !important;
     margin:0 !important;
     background-color:#fcfdff !important;
 }
@@ -536,7 +536,7 @@ footer.page-footer {
 }
 
 .centered{
-    text-align:center; 
+    text-align:center;
     justify-content: center;
 }
 
@@ -684,8 +684,11 @@ footer.page-footer {
    padding: 3px;
    border-radius:5px;
 
-} 
+}
 
+.hovereffect {
+  box-shadow: 1px 1px 1px black;
+}
 .hovereffect .overlay {
   width: 100%;
   height: 100%;
@@ -795,7 +798,7 @@ footer.page-footer {
 }
 
 @media (max-width: 768px) {
-    .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span, .listwrapper li{   
+    .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span, .listwrapper li{
         width: 100%;
         margin: 0 auto;
     }
@@ -876,13 +879,13 @@ footer.page-footer .call-to-action ul li {
 
 /* full page hamburger bar */
 
-body { 
-  -webkit-animation: bugfix infinite 1s; 
+body {
+  -webkit-animation: bugfix infinite 1s;
 }
 
-@-webkit-keyframes bugfix { 
-  from {padding:0;} 
-  to {padding:0;} 
+@-webkit-keyframes bugfix {
+  from {padding:0;}
+  to {padding:0;}
 }
 
 input[type="checkbox"]#togglebox {
@@ -1029,6 +1032,7 @@ nav#expand-fullpagemenu ul{
 
 nav#expand-fullpagemenu ul li{
   margin-bottom: 30px;
+  text-shadow: 1px 1px 1px darkred;
 }
 
 nav#expand-fullpagemenu ul li a{
@@ -1094,7 +1098,7 @@ nav#expand-fullpagemenu label#closex{
       expandfullscreenmenu('close')
     }
   })
-  
+
   </script>
 
 <![endif]-->
