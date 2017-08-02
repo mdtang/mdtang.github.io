@@ -208,7 +208,7 @@ footer.page-footer {
 */
 
 .immigrationview {
-    background-image:url('../media/statueofliberty.jpg');
+    background-image:url('../media/immigrationapp/statueofliberty.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -216,7 +216,7 @@ footer.page-footer {
 }
 
 .gametrackview {
-    background-image:url('../media/steamlibrary.png');
+    background-image:url('../media/immigrationapp/steamlibrary.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -504,6 +504,9 @@ footer.page-footer {
     width:30%;
 }
 
+.gametrackimgearly {
+  width:14.5%;
+}
 .socioimg1,.socioimg2,.socioimg3,.socioimg4, .socioimg5, .socioimg6 {
     width:30%;
 }
