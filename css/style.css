@@ -1,11 +1,8 @@
+/* GENERAL STYLES */
 body, html, footer, .footer-copyright{
     padding:0 !important;
     margin:0 !important;
     background-color:#fcfdff !important;
-}
-/* overriding text color of footer */
-.footer-copyright {
-  color:black !important;
 }
 
 @font-face {
@@ -20,6 +17,13 @@ body, html, footer, .footer-copyright{
   font-style: normal;
   font-weight: normal;
   src: local('OpenSans-Regular'), url('../media/OpenSans-Regular.ttf') format('truetype');
+}
+
+.content {
+    color: black;
+    margin-top: -1px;
+    font-family: 'OpenSans-Regular', helvetica;
+    letter-spacing: 1.5px;
 }
 
 p {
@@ -44,6 +48,110 @@ a {
     font-family: 'OpenSans-Bold', helvetica;
 }
 
+.extrapadding {
+    padding-top:250px;
+    padding-bottom:250px;
+}
+
+.padding {
+    padding-bottom:120px;
+    padding-top:120px;
+}
+
+.mediumpadding {
+    padding-bottom:70px;
+    padding-top:30px;
+}
+
+.smallpadding {
+    padding-top:20px;
+}
+
+/* SHRINKS TEXT WIDTH */
+.textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.listwrapper li {
+    width:70%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span, .listwrapper li{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.centered{
+    text-align:center;
+    justify-content: center;
+}
+
+.leftalign {
+    text-align:left;
+}
+
+/* TEXT START UP FADE IN STYLES */
+.fadeIn {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.aboutmetext p, .skillstext p, .courseworktext p,.aboutmetext img,.aboutmetext button {
+    -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 7s; /* Firefox < 16 */
+        -ms-animation: fadein 7s; /* Internet Explorer */
+         -o-animation: fadein 7s; /* Opera < 12.1 */
+            animation: fadein 7s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* BUTTON STYLES */
+
+.btn {
+    border-radius:10px;
+    background:gray;
+}
+
+.btn:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+/* HEADER STYLES */
 .homeview, .expview, .projview {
     padding:170px;
 }
@@ -59,92 +167,6 @@ a {
 
 .immigrationview, .gametrackview, .fpsUIview, .mobilegameview, .flyerview, .CANview, .fordview, .sqview, .dayspaview, .tutorview, .UMSIview, .socioUXview, .pygameview, .AIview, .miscview, .foodview {
     padding: 200px 0px 200px 0px; /* whitespace issue fixed! */
-}
-
-/* Navigation*/
-
-
-.navbar {
-    background-color: rgba(250, 250, 250, 0.9);
-    font-family: 'OpenSans-Regular', helvetica;
-    letter-spacing: 1px;
-    text-align: center;
-    opacity:50%;
-}
-
-.navbar text {
-    color:black;
-}
-
-.scrolling-navbar {
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
-
-.top-nav-collapse {
-  background-color: white;
-}
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
- .navbar.navbar-dark .breadcrumb a, .navbar.navbar-dark .navbar-nav .nav-item a {
-    color: black;
-    transition: .35s;
-}
-
-
-.logo {
-    width:3%;
-    position:absolute;
-    left:15px;
-    top:20px;
-}
-
-@media (max-width: 768px) {
-    .logo {
-        width:30px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .logo {
-        width:40px;
-    }
-}
-
-.logo:hover {
-  -moz-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  transition:.35s;
-}
-
-.content {
-    color: black;
-    margin-top: -1px;
-    font-family: 'OpenSans-Regular', helvetica;
-    letter-spacing: 1.5px;
-}
-
-
-footer.page-footer {
-    margin-top: -1px;
-    font-family: 'OpenSans-Regular', helvetica;
-    letter-spacing: 2px;
-}
-
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: white;
-    }
-    .img-circleface {
-        width:2000%;
-    }
 }
 
 .flex-center {
@@ -339,22 +361,345 @@ footer.page-footer {
     background-size: cover;
 }
 
+/* NAV STYLES*/
 
-/*
-.expview {
-    background: white;
+.navbar {
+    background-color: rgba(250, 250, 250, 0.9);
+    font-family: 'OpenSans-Regular', helvetica;
+    letter-spacing: 1px;
+    text-align: center;
+    opacity:50%;
 }
 
-.projview {
-    background: white;
+.navbar text {
+    color:black;
 }
-*/
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+  background-color: white;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+ .navbar.navbar-dark .breadcrumb a, .navbar.navbar-dark .navbar-nav .nav-item a {
+    color: black;
+    transition: .35s;
+}
+
+.logo {
+    width:3%;
+    position:absolute;
+    left:15px;
+    top:20px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width:30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        width:40px;
+    }
+}
+
+.logo:hover {
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition:.35s;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: white;
+    }
+    .img-circleface {
+        width:2000%;
+    }
+}
 
 .animated img{
     width:60%;
     display: block;
     margin: 0 auto;
 }
+
+/* SCROLLING SIDEBAR NAV STYLES*/
+
+.sidebar {
+   position: fixed;
+   left: 50px;
+   top: 400px;
+   font-family: 'OpenSans-Regular', helvetica;
+   font-size:14px;
+   background-color: #fcfdff;
+   border-radius:10px;
+   padding:8px 8px 8px 8px;
+   z-index: 1;
+}
+
+.sidebar a {
+    color:black;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+  display: none;
+  }
+}
+
+.hoverpop:hover {
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.redlogo, .bluelogo {
+    width:20px;
+    padding-bottom:8px;
+    padding-right:6px;
+}
+
+
+/* FULL PAGE HAMBURGER BAR STYLES */
+
+body {
+  -webkit-animation: bugfix infinite 1s;
+}
+
+@-webkit-keyframes bugfix {
+  from {padding:0;}
+  to {padding:0;}
+}
+
+input[type="checkbox"]#togglebox {
+  /* checkbox used to toggle menu state */
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+}
+
+label#navtoggler{  /* Main label icon to toggle menu state */
+  z-index: 0;
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 12px;
+  /* change font size to change label dimensions. Leave width/height below alone */
+  width: 3.5em;
+  height: 2.5em;
+  text-indent: -1000px;
+  border: 0.6em solid #B41C24;
+  /* border color */
+  border-width: 0.6em 0;
+  cursor: pointer;
+}
+
+
+label#navtoggler::before{
+  /* inner strip inside label */
+  content: "";
+  display: block;
+  position: absolute;
+  top: 7.5px;
+  right: 0px;
+  width: 100%;
+  height: 0.6em;
+  margin-top: -0.3em;
+  background: #B41C24; /* stripes background color. Change to match border color of parent label above */
+  border-radius: 4px;
+}
+
+label#navtoggler:hover {
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition:.35s;
+}
+
+
+nav#expand-fullpagemenu{ /* Full screen nav menu */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: scale(0.9);  /* initially scale down nav size */
+  transform: scale(0.9);
+  background: #29ABE2; /* blue logo color */
+  display: block;
+  position: fixed;
+  z-index: 100;
+  opacity: 0;
+  text-align: center;
+  overflow: auto;
+  -moz-transition: visibility 0s 0.5s, opacity 0.5s, -moz-transform 0.5s; /* transition settings */
+  -webkit-transition: visibility 0s 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+  transition: visibility 0s 0.5s, opacity 0.5s, transform 0.5s;
+}
+
+input[type="checkbox"]#togglebox:checked ~ nav#expand-fullpagemenu{ /* nav state when corresponding checkbox is checked */
+  visibility: visible;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -ms-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  -transition-delay: 0s;
+}
+
+nav#expand-fullpagemenu label#closex{ /* Large x close button inside nav */
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  text-indent: -1000px;
+  z-index: 10;
+  top: 0;
+  right: 0;
+}
+
+label#closex:hover {
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition:.35s;
+}
+
+
+nav#expand-fullpagemenu label#closex::before, nav label#closex::after{ /* render large cross inside close button */
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 9px;
+  background: #B41C24;
+  top: 50%;
+  margin-top: -3px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+nav#expand-fullpagemenu label#closex::after{ /* render large cross inside close button */
+  -ms-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+nav#expand-fullpagemenu a{
+  text-decoration: none;
+  color: #B41C24;
+  text-transform: uppercase;
+  font-family: 'OpenSans-Regular', helvetica;
+}
+
+nav#expand-fullpagemenu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-height: 100%;
+  top: 50%; /* center UL vertically inside nav */
+  -webkit-transform: translateY(-50%); /* center UL vertically inside nav */
+  transform: translateY(-50%);
+  font: bold 2em 'Bitter', sans-serif; /* use google font inside nav UL */
+}
+
+nav#expand-fullpagemenu ul li{
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 1px darkred;
+}
+
+nav#expand-fullpagemenu ul li a{
+  padding: 8px;
+  border-radius: 5px;
+}
+
+nav#expand-fullpagemenu ul li a:hover{
+  background: white;
+}
+
+</style>
+
+<script>
+
+  // Extra function to control menu state from anywhere on your page/ inside your script
+  function expandfullscreenmenu(action){ //param: 'open', 'close', or empty to toggle menu state
+    var togglebox = document.getElementById("togglebox")
+    var newstate =  (action == 'open')? true : (action == 'close')? false : !togglebox.checked
+    togglebox.checked = newstate
+  }
+
+</script>
+
+<!--[if lte IE 8]>
+
+  <style>
+
+  /* IE8 specific CSS */
+
+  label#navtoggler{
+    border-width: 0.6em;
+  }
+
+nav#expand-fullpagemenu label#closex{
+  font-size: 2em;
+  text-indent: 0;
+}
+
+  #expand-fullpagemenu{
+    visibility: hidden;
+  }
+
+  </style>
+
+  <script>
+   // IE8 MENU COMPATIBILITY CODE:
+  document.createElement("nav")
+
+  function expandfullscreenmenu(action){
+    var nav = document.getElementById("expand-fullpagemenu")
+    var newstate =  (action == 'open')? 'visible' : (action == 'close')? 'hidden' : nav.style.visibility == 'hidden'? 'visible' : 'hidden'
+    nav.style.visibility = newstate
+  }
+
+  window.attachEvent("onload", function(){
+    document.getElementById("navtoggler").onclick = function(){
+      expandfullscreenmenu('open')
+    }
+    document.getElementById("closex").onclick = function(){
+      expandfullscreenmenu('close')
+    }
+  })
+
+  </script>
+
+<![endif]-->
+
+/* IMAGE STYLES */
 
 .canimg1{
     width:50%;
@@ -533,59 +878,20 @@ footer.page-footer {
     }
 }
 
-.centered{
-    text-align:center;
-    justify-content: center;
+.info img {
+    width:5%;
 }
 
-.leftalign {
-    text-align:left;
+.header{
+    width:100%;
 }
 
-.modal-content{
-    color:black;
-}
-
-
+/* ABOUT ME PAGE STYLES */
 .img-circleface {
     border-radius:50%;
     max-width: 10%;
     min-width: 200px;
     height: auto;
-}
-
-.info img {
-    width:5%;
-}
-
-.extrapadding {
-    padding-top:250px;
-    padding-bottom:250px;
-}
-
-.padding {
-    padding-bottom:120px;
-    padding-top:120px;
-}
-
-.mediumpadding {
-    padding-bottom:70px;
-    padding-top:30px;
-}
-
-.smallpadding {
-    padding-top:20px;
-}
-
-.btn {
-    border-radius:10px;
-    background:gray;
-}
-
-.btn:hover {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
 }
 
 .topgrid, .midgrid {
@@ -618,52 +924,7 @@ footer.page-footer {
     background:#94d5f0;
 }
 
-.header{
-    width:100%;
-}
-
-.fadeIn {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-.aboutmetext p, .skillstext p, .courseworktext p,.aboutmetext img,.aboutmetext button {
-    -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 7s; /* Firefox < 16 */
-        -ms-animation: fadein 7s; /* Internet Explorer */
-         -o-animation: fadein 7s; /* Opera < 12.1 */
-            animation: fadein 7s;
-}
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
+/* MAIN PAGE HOVER GRID STYLES */
 /*hover animations*/
 .hovereffect {
   width: 100%;
@@ -784,22 +1045,16 @@ footer.page-footer {
   transform: translate3d(0,0,0);
 }
 
-
-.textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span{
-    width: 50%;
-    margin: 0 auto;
+/* FOOTER STYLES */
+/* overriding text color of footer */
+.footer-copyright {
+  color:black !important;
 }
 
-.listwrapper li {
-    width:70%;
-    margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-    .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span, .listwrapper li{
-        width: 100%;
-        margin: 0 auto;
-    }
+footer.page-footer {
+    margin-top: -1px;
+    font-family: 'OpenSans-Regular', helvetica;
+    letter-spacing: 2px;
 }
 
 footer.page-footer .call-to-action ul li {
@@ -830,273 +1085,3 @@ footer.page-footer .call-to-action ul li {
     transform: scale(1.1);
     transition:.35s;
 }
-
-/*
-.container-fluid {
-    background-color:white;
-    color:black;
-}
-*/
-
-/* scrolling sidebar nav */
-
-.sidebar {
-   position: fixed;
-   left: 50px;
-   top: 400px;
-   font-family: 'OpenSans-Regular', helvetica;
-   font-size:14px;
-   background-color: #fcfdff;
-   border-radius:10px;
-   padding:8px 8px 8px 8px;
-   z-index: 1;
-}
-
-.sidebar a {
-    color:black;
-}
-
-@media only screen and (max-width: 768px) {
-  .sidebar {
-  display: none;
-  }
-}
-
-.hoverpop:hover {
-  -moz-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-}
-
-.redlogo, .bluelogo {
-    width:20px;
-    padding-bottom:8px;
-    padding-right:6px;
-}
-
-
-/* full page hamburger bar */
-
-body {
-  -webkit-animation: bugfix infinite 1s;
-}
-
-@-webkit-keyframes bugfix {
-  from {padding:0;}
-  to {padding:0;}
-}
-
-input[type="checkbox"]#togglebox {
-  /* checkbox used to toggle menu state */
-  position: absolute;
-  left: 0;
-  top: 0;
-  visibility: hidden;
-}
-
-label#navtoggler{  /* Main label icon to toggle menu state */
-  z-index: 0;
-  display: block;
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  font-size: 12px;
-  /* change font size to change label dimensions. Leave width/height below alone */
-  width: 3.5em;
-  height: 2.5em;
-  text-indent: -1000px;
-  border: 0.6em solid #B41C24;
-  /* border color */
-  border-width: 0.6em 0;
-  cursor: pointer;
-}
-
-
-label#navtoggler::before{
-  /* inner strip inside label */
-  content: "";
-  display: block;
-  position: absolute;
-  top: 7.5px;
-  right: 0px;
-  width: 100%;
-  height: 0.6em;
-  margin-top: -0.3em;
-  background: #B41C24; /* stripes background color. Change to match border color of parent label above */
-  border-radius: 4px;
-}
-
-label#navtoggler:hover {
-  -moz-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  transition:.35s;
-}
-
-
-nav#expand-fullpagemenu{ /* Full screen nav menu */
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  visibility: hidden;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transform: scale(0.9);  /* initially scale down nav size */
-  transform: scale(0.9);
-  background: #29ABE2; /* blue logo color */
-  display: block;
-  position: fixed;
-  z-index: 100;
-  opacity: 0;
-  text-align: center;
-  overflow: auto;
-  -moz-transition: visibility 0s 0.5s, opacity 0.5s, -moz-transform 0.5s; /* transition settings */
-  -webkit-transition: visibility 0s 0.5s, opacity 0.5s, -webkit-transform 0.5s;
-  transition: visibility 0s 0.5s, opacity 0.5s, transform 0.5s;
-}
-
-input[type="checkbox"]#togglebox:checked ~ nav#expand-fullpagemenu{ /* nav state when corresponding checkbox is checked */
-  visibility: visible;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  opacity: 1;
-  -ms-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  -webkit-transition-delay: 0s;
-  -transition-delay: 0s;
-}
-
-nav#expand-fullpagemenu label#closex{ /* Large x close button inside nav */
-  width: 80px;
-  height: 80px;
-  overflow: hidden;
-  display: block;
-  position: absolute;
-  cursor: pointer;
-  text-indent: -1000px;
-  z-index: 10;
-  top: 0;
-  right: 0;
-}
-
-label#closex:hover {
-  -moz-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  transition:.35s;
-}
-
-
-nav#expand-fullpagemenu label#closex::before, nav label#closex::after{ /* render large cross inside close button */
-  content: "";
-  display: block;
-  position: absolute;
-  width: 50%;
-  height: 9px;
-  background: #B41C24;
-  top: 50%;
-  margin-top: -3px;
-  -ms-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-nav#expand-fullpagemenu label#closex::after{ /* render large cross inside close button */
-  -ms-transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
-}
-
-nav#expand-fullpagemenu a{
-  text-decoration: none;
-  color: #B41C24;
-  text-transform: uppercase;
-  font-family: 'OpenSans-Regular', helvetica;
-}
-
-nav#expand-fullpagemenu ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  max-height: 100%;
-  top: 50%; /* center UL vertically inside nav */
-  -webkit-transform: translateY(-50%); /* center UL vertically inside nav */
-  transform: translateY(-50%);
-  font: bold 2em 'Bitter', sans-serif; /* use google font inside nav UL */
-}
-
-nav#expand-fullpagemenu ul li{
-  margin-bottom: 30px;
-  text-shadow: 1px 1px 1px darkred;
-}
-
-nav#expand-fullpagemenu ul li a{
-  padding: 8px;
-  border-radius: 5px;
-}
-
-nav#expand-fullpagemenu ul li a:hover{
-  background: white;
-}
-
-
-
-</style>
-
-<script>
-
-  // Extra function to control menu state from anywhere on your page/ inside your script
-  function expandfullscreenmenu(action){ //param: 'open', 'close', or empty to toggle menu state
-    var togglebox = document.getElementById("togglebox")
-    var newstate =  (action == 'open')? true : (action == 'close')? false : !togglebox.checked
-    togglebox.checked = newstate
-  }
-
-</script>
-
-<!--[if lte IE 8]>
-
-  <style>
-
-  /* IE8 specific CSS */
-
-  label#navtoggler{
-    border-width: 0.6em;
-  }
-
-nav#expand-fullpagemenu label#closex{
-  font-size: 2em;
-  text-indent: 0;
-}
-
-  #expand-fullpagemenu{
-    visibility: hidden;
-  }
-
-  </style>
-
-  <script>
-   // IE8 MENU COMPATIBILITY CODE:
-  document.createElement("nav")
-
-  function expandfullscreenmenu(action){
-    var nav = document.getElementById("expand-fullpagemenu")
-    var newstate =  (action == 'open')? 'visible' : (action == 'close')? 'hidden' : nav.style.visibility == 'hidden'? 'visible' : 'hidden'
-    nav.style.visibility = newstate
-  }
-
-  window.attachEvent("onload", function(){
-    document.getElementById("navtoggler").onclick = function(){
-      expandfullscreenmenu('open')
-    }
-    document.getElementById("closex").onclick = function(){
-      expandfullscreenmenu('close')
-    }
-  })
-
-  </script>
-
-<![endif]-->
