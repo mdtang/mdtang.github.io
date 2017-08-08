@@ -889,7 +889,7 @@ nav#expand-fullpagemenu label#closex{
 /* ABOUT ME PAGE STYLES */
 .img-circleface {
     border-radius:50%;
-    max-width: 10%;
+    max-width: 25%;
     min-width: 200px;
     height: auto;
 }
