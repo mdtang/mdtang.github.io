@@ -937,7 +937,15 @@ nav#expand-fullpagemenu label#closex{
   background:#5f6c7a; /*hover color bg*/
 }
 
- h2 span,h3 span, h5 span{
+/*special case */
+@media (min-width: 770px) {
+  #nasa {
+    width:30%;
+    left:35%;
+  }
+}
+
+  h2 span,h3 span, h5 span{
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.5);
    padding: 3px;
