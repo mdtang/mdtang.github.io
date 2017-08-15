@@ -6,17 +6,17 @@ body, html, footer, .footer-copyright{
 }
 
 @font-face {
-  font-family: 'OpenSans-Bold';
-  font-style: normal;
-  font-weight: normal;
-  src: local('OpenSans-Bold'), url('../media/OpenSans-Bold.ttf') format('truetype');
+    font-family: 'OpenSans-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('OpenSans-Bold'), url('../media/OpenSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'OpenSans-Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('OpenSans-Regular'), url('../media/OpenSans-Regular.ttf') format('truetype');
+    font-family: 'OpenSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('OpenSans-Regular'), url('../media/OpenSans-Regular.ttf') format('truetype');
 }
 
 .content {
@@ -31,7 +31,7 @@ p {
 }
 
 p, h1,h2,h3,h4,h5,div,span {
-  line-height:160%;
+    line-height:160%;
 }
 
 a {
@@ -102,10 +102,10 @@ a {
 
 .aboutmetext p, .skillstext p, .courseworktext p,.aboutmetext img,.aboutmetext button {
     -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 7s; /* Firefox < 16 */
+        -moz-animation: fadein 7s; /* Firefox < 16 */
         -ms-animation: fadein 7s; /* Internet Explorer */
-         -o-animation: fadein 7s; /* Opera < 12.1 */
-            animation: fadein 7s;
+        -o-animation: fadein 7s; /* Opera < 12.1 */
+        animation: fadein 7s;
 }
 
 @keyframes fadein {
@@ -146,8 +146,8 @@ a {
 
 .btn:hover {
     -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
@@ -201,21 +201,21 @@ a {
 /* Small devices */
 @media (max-width: 768px) {
     .flex-center-main {
-      position:absolute;
-      left:-10px;
-      top:140px;
-      font-size: 20px;
+        position:absolute;
+        left:-10px;
+        top:140px;
+        font-size: 20px;
     }
 }
 
 /* Small devices */
 @media (max-width: 768px) and (min-width: 440px) {
     .flex-center-main {
-      position:absolute;
-      left:0;
-      right:0;
-      margin-left:auto;
-      margin-right:auto;
+        position:absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
     }
 }
 
@@ -239,8 +239,8 @@ a {
 }
 
 .nasaview div ul {
-  position:relative;
-  top:300px;
+    position:relative;
+    top:300px;
 }
 
 .immigrationview {
@@ -396,13 +396,13 @@ a {
 }
 
 .top-nav-collapse {
-  background-color: white;
+    background-color: white;
 }
 
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 }
 
  .navbar.navbar-dark .breadcrumb a, .navbar.navbar-dark .navbar-nav .nav-item a {
@@ -471,15 +471,15 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-  .sidebar {
-  display: none;
-  }
+    .sidebar {
+    display: none;
+    }
 }
 
 .hoverpop:hover {
-  -moz-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .redlogo, .bluelogo {
@@ -492,224 +492,223 @@ a {
 /* FULL PAGE HAMBURGER BAR STYLES */
 
 body {
-  -webkit-animation: bugfix infinite 1s;
+    -webkit-animation: bugfix infinite 1s;
 }
 
 @-webkit-keyframes bugfix {
-  from {padding:0;}
-  to {padding:0;}
+    from {padding:0;}
+    to {padding:0;}
 }
 
 input[type="checkbox"]#togglebox {
-  /* checkbox used to toggle menu state */
-  position: absolute;
-  left: 0;
-  top: 0;
-  visibility: hidden;
+    /* checkbox used to toggle menu state */
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
 }
 
 label#navtoggler{  /* Main label icon to toggle menu state */
-  z-index: 0;
-  display: block;
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  font-size: 12px;
-  /* change font size to change label dimensions. Leave width/height below alone */
-  width: 3.5em;
-  height: 2.5em;
-  text-indent: -1000px;
-  border: 0.6em solid #B41C24;
-  /* border color */
-  border-width: 0.6em 0;
-  cursor: pointer;
+    z-index: 0;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 12px;
+    /* change font size to change label dimensions. Leave width/height below alone */
+    width: 3.5em;
+    height: 2.5em;
+    text-indent: -1000px;
+    border: 0.6em solid #B41C24;
+    /* border color */
+    border-width: 0.6em 0;
+    cursor: pointer;
 }
 
 
 label#navtoggler::before{
-  /* inner strip inside label */
-  content: "";
-  display: block;
-  position: absolute;
-  top: 7.5px;
-  right: 0px;
-  width: 100%;
-  height: 0.6em;
-  margin-top: -0.3em;
-  background: #B41C24; /* stripes background color. Change to match border color of parent label above */
-  border-radius: 4px;
+    /* inner strip inside label */
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7.5px;
+    right: 0px;
+    width: 100%;
+    height: 0.6em;
+    margin-top: -0.3em;
+    background: #B41C24; /* stripes background color. Change to match border color of parent label above */
+    border-radius: 4px;
 }
 
 label#navtoggler:hover {
-  -moz-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  transition:.35s;
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    transition:.35s;
 }
 
 
 nav#expand-fullpagemenu{ /* Full screen nav menu */
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  visibility: hidden;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transform: scale(0.9);  /* initially scale down nav size */
-  transform: scale(0.9);
-  background: #29ABE2; /* blue logo color */
-  display: block;
-  position: fixed;
-  z-index: 100;
-  opacity: 0;
-  text-align: center;
-  overflow: auto;
-  -moz-transition: visibility 0s 0.5s, opacity 0.5s, -moz-transform 0.5s; /* transition settings */
-  -webkit-transition: visibility 0s 0.5s, opacity 0.5s, -webkit-transform 0.5s;
-  transition: visibility 0s 0.5s, opacity 0.5s, transform 0.5s;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: scale(0.9);  /* initially scale down nav size */
+    transform: scale(0.9);
+    background: #29ABE2; /* blue logo color */
+    display: block;
+    position: fixed;
+    z-index: 100;
+    opacity: 0;
+    text-align: center;
+    overflow: auto;
+    -moz-transition: visibility 0s 0.5s, opacity 0.5s, -moz-transform 0.5s; /* transition settings */
+    -webkit-transition: visibility 0s 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    transition: visibility 0s 0.5s, opacity 0.5s, transform 0.5s;
 }
 
 input[type="checkbox"]#togglebox:checked ~ nav#expand-fullpagemenu{ /* nav state when corresponding checkbox is checked */
-  visibility: visible;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  opacity: 1;
-  -ms-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  -webkit-transition-delay: 0s;
-  -transition-delay: 0s;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -ms-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+    -transition-delay: 0s;
 }
 
 nav#expand-fullpagemenu label#closex{ /* Large x close button inside nav */
-  width: 80px;
-  height: 80px;
-  overflow: hidden;
-  display: block;
-  position: absolute;
-  cursor: pointer;
-  text-indent: -1000px;
-  z-index: 10;
-  top: 0;
-  right: 0;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    text-indent: -1000px;
+    z-index: 10;
+    top: 0;
+    right: 0;
 }
 
 label#closex:hover {
-  -moz-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  transition:.35s;
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    transition:.35s;
 }
 
 
 nav#expand-fullpagemenu label#closex::before, nav label#closex::after{ /* render large cross inside close button */
-  content: "";
-  display: block;
-  position: absolute;
-  width: 50%;
-  height: 9px;
-  background: #B41C24;
-  top: 50%;
-  margin-top: -3px;
-  -ms-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 9px;
+    background: #B41C24;
+    top: 50%;
+    margin-top: -3px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 nav#expand-fullpagemenu label#closex::after{ /* render large cross inside close button */
-  -ms-transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
 }
 
 nav#expand-fullpagemenu a{
-  text-decoration: none;
-  color: #B41C24;
-  text-transform: uppercase;
-  font-family: 'OpenSans-Regular', helvetica;
+    text-decoration: none;
+    color: #B41C24;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Regular', helvetica;
 }
 
 nav#expand-fullpagemenu ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  max-height: 100%;
-  top: 50%; /* center UL vertically inside nav */
-  -webkit-transform: translateY(-50%); /* center UL vertically inside nav */
-  transform: translateY(-50%);
-  font: bold 2em 'Bitter', sans-serif; /* use google font inside nav UL */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%; /* center UL vertically inside nav */
+    -webkit-transform: translateY(-50%); /* center UL vertically inside nav */
+    transform: translateY(-50%);
+    font: bold 2em 'Bitter', sans-serif; /* use google font inside nav UL */
 }
 
 nav#expand-fullpagemenu ul li{
-  margin-bottom: 30px;
-  text-shadow: 1px 1px 1px darkred;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px darkred;
 }
 
 nav#expand-fullpagemenu ul li a{
-  padding: 8px;
-  border-radius: 5px;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 nav#expand-fullpagemenu ul li a:hover{
-  background: white;
+    background: white;
 }
 
 </style>
 
 <script>
 
-  // Extra function to control menu state from anywhere on your page/ inside your script
-  function expandfullscreenmenu(action){ //param: 'open', 'close', or empty to toggle menu state
-    var togglebox = document.getElementById("togglebox")
-    var newstate =  (action == 'open')? true : (action == 'close')? false : !togglebox.checked
-    togglebox.checked = newstate
-  }
+    // Extra function to control menu state from anywhere on your page/ inside your script
+    function expandfullscreenmenu(action){ //param: 'open', 'close', or empty to toggle menu state
+      var togglebox = document.getElementById("togglebox")
+      var newstate =  (action == 'open')? true : (action == 'close')? false : !togglebox.checked
+      togglebox.checked = newstate
+    }
 
 </script>
 
 <!--[if lte IE 8]>
 
-  <style>
+    <style>
 
-  /* IE8 specific CSS */
+    /* IE8 specific CSS */
 
-  label#navtoggler{
-    border-width: 0.6em;
-  }
-
-nav#expand-fullpagemenu label#closex{
-  font-size: 2em;
-  text-indent: 0;
-}
-
-  #expand-fullpagemenu{
-    visibility: hidden;
-  }
-
-  </style>
-
-  <script>
-   // IE8 MENU COMPATIBILITY CODE:
-  document.createElement("nav")
-
-  function expandfullscreenmenu(action){
-    var nav = document.getElementById("expand-fullpagemenu")
-    var newstate =  (action == 'open')? 'visible' : (action == 'close')? 'hidden' : nav.style.visibility == 'hidden'? 'visible' : 'hidden'
-    nav.style.visibility = newstate
-  }
-
-  window.attachEvent("onload", function(){
-    document.getElementById("navtoggler").onclick = function(){
-      expandfullscreenmenu('open')
+    label#navtoggler{
+        border-width: 0.6em;
     }
-    document.getElementById("closex").onclick = function(){
-      expandfullscreenmenu('close')
-    }
-  })
 
-  </script>
+    nav#expand-fullpagemenu label#closex{
+        font-size: 2em;
+        text-indent: 0;
+    }
+
+    #expand-fullpagemenu {
+        visibility: hidden;
+    }
+
+    </style>
+
+<script>
+     // IE8 MENU COMPATIBILITY CODE:
+    document.createElement("nav")
+
+    function expandfullscreenmenu(action){
+        var nav = document.getElementById("expand-fullpagemenu")
+        var newstate =  (action == 'open')? 'visible' : (action == 'close')? 'hidden' : nav.style.visibility == 'hidden'? 'visible' : 'hidden'
+        nav.style.visibility = newstate
+    }
+
+    window.attachEvent("onload", function(){
+        document.getElementById("navtoggler").onclick = function(){
+            expandfullscreenmenu('open')
+      }
+        document.getElementById("closex").onclick = function(){
+            expandfullscreenmenu('close')
+      }
+    })
+
+</script>
 
 <![endif]-->
 
@@ -879,15 +878,20 @@ nav#expand-fullpagemenu label#closex{
   width:30%;
 }
 @media (max-width: 768px) {
-    .fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7, .immigrantimage8, .flyerimage,.gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackflowimg,.gametrackimg7, .gametrackimg8, .gametrackimg, .gametrackimg14, .gameguideimage, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2,
-    .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg, .UMSIimg, .miscprojimg1,.miscprojimg2,.miscprojimg3{
+    .fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7,
+    .immigrantimage8, .flyerimage,.gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackflowimg,.gametrackimg7, .gametrackimg8, .gametrackimg,
+    .gametrackimg14, .gameguideimage, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg,
+    .AIimg, .foodimg, .socioimg, .UMSIimg, .miscprojimg1,.miscprojimg2,.miscprojimg3{
         width:100%;
     }
 }
 
 @media (max-width: 1024px) {
-    .fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7,.immigrantimage8, .flyerimage, .gametrackimg1, .gametrackimg2, .gametrackimg3,.gametrackflowimg, .gametrackimg7, .gametrackimg8, .gametrackimg, .gametrackimg14, .gameguideimage,.canimg1,.canimg2,.canimg3,
-    .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg, .UMSIimg, .miscprojimg1,.miscprojimg2,.miscprojimg3{
+    .fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7,
+    .immigrantimage8, .flyerimage, .gametrackimg1, .gametrackimg2, .gametrackimg3,.gametrackflowimg, .gametrackimg7, .gametrackimg8, .gametrackimg,
+    .gametrackimg14, .gameguideimage,.canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg,
+    .AIimg, .foodimg, .socioimg, .UMSIimg, .miscprojimg1,
+    .miscprojimg2,.miscprojimg3{
         width:100%;
     }
 }
@@ -941,25 +945,25 @@ nav#expand-fullpagemenu label#closex{
 /* MAIN PAGE HOVER GRID STYLES */
 /*hover animations*/
 .hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-  background:#5f6c7a; /*hover color bg*/
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background:#5f6c7a; /*hover color bg*/
 }
 
 /*special case */
 @media (min-width: 770px) {
-  #nasa {
-    width:30%;
-    left:35%;
-  }
+    #nasa {
+        width:30%;
+        left:35%;
+    }
 }
 
-  h2 span,h3 span, h5 span{
+h2 span,h3 span, h5 span{
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.5);
    padding: 3px;
@@ -968,47 +972,47 @@ nav#expand-fullpagemenu label#closex{
 }
 
 .hovereffect {
-  box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
 }
 .hovereffect .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  padding: 50px 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 50px 20px;
 }
 
 .hovereffect img {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: calc(100% + 20px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-10px,0,0);
-  transform: translate3d(-10px,0,0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+    display: block;
+    position: relative;
+    max-width: none;
+    width: calc(100% + 20px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .hovereffect:hover img {
-  opacity: 0.4;
-  filter: alpha(opacity=40);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .hovereffect h2 {
-  color: #fff;
-  text-align: center;
-  position: relative;
-  font-size: 24px;
-  overflow: hidden;
-  padding: 0.5em 0;
-  background-color: transparent;
-  bottom:35px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+    overflow: hidden;
+    padding: 0.5em 0;
+    background-color: transparent;
+    bottom:35px;
 }
 
 @media (max-width: 1740px) {
@@ -1040,37 +1044,37 @@ nav#expand-fullpagemenu label#closex{
 }
 
 .hovereffect h2:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: #fff;
-  content: '';
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(-100%,0,0);
-  transform: translate3d(-100%,0,0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
 }
 
 .hovereffect:hover h2:after {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .hovereffect a, .hovereffect p {
-  color: #FFF;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+    color: #FFF;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 /* FOOTER STYLES */
 /* overriding text color of footer */
 .footer-copyright {
-  color:black !important;
+    color:black !important;
 }
 
 footer.page-footer {
