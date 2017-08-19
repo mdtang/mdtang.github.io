@@ -26,12 +26,9 @@ body, html, footer, .footer-copyright{
     letter-spacing: 1.5px;
 }
 
-p {
-    text-align:left;
-}
-
-p, h1,h2,h3,h4,h5,div,span {
-    line-height:160%;
+/* line space between each letter */
+p, h1,h2,h3,h4,h5,div,span,li {
+    line-height:170%;
 }
 
 a {
@@ -71,11 +68,13 @@ a {
 .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span{
     width: 50%;
     margin: 0 auto;
+    text-align:left;
 }
 
 .listwrapper li {
-    width:70%;
+    width:40%;
     margin: 0 auto;
+    text-align:left;
 }
 
 @media (max-width: 768px) {
@@ -759,7 +758,7 @@ nav#expand-fullpagemenu ul li a:hover{
 }
 
 .nasaintroimage {
-    width:40%;
+    width:90%;
 }
 
 .gametrackimg1 {
@@ -824,14 +823,6 @@ nav#expand-fullpagemenu ul li a:hover{
 
 .UMSIimg6 {
   width:30%;
-}
-@media (max-width: 768px) {
-    .fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7,
-    .immigrantimage8, .flyerimage,.gametrackimg1,.gametrackimg2, .gametrackimg3, .gametrackflowimg,.gametrackimg7, .gametrackimg8, .gametrackimg,
-    .gametrackimg14, .gameguideimage, .canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg,
-    .AIimg, .foodimg, .socioimg, .UMSIimg, .miscprojimg1,.miscprojimg2,.miscprojimg3{
-        width:100%;
-    }
 }
 
 @media (max-width: 1024px) {
