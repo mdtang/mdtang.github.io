@@ -761,6 +761,10 @@ nav#expand-fullpagemenu ul li a:hover{
     width:90%;
 }
 
+.nasaimage {
+    width:60%;
+}
+
 .gametrackimg1 {
     width:40%;
 }
@@ -826,7 +830,7 @@ nav#expand-fullpagemenu ul li a:hover{
 }
 
 @media (max-width: 1024px) {
-    .fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7,
+    .nasaintroimage,.nasaimage,.fpsUIimage,.immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7,
     .immigrantimage8, .flyerimage, .gametrackimg1, .gametrackimg2, .gametrackimg3,.gametrackflowimg, .gametrackimg7, .gametrackimg8, .gametrackimg,
     .gametrackimg14, .gameguideimage,.canimg1,.canimg2,.canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg,
     .AIimg, .foodimg, .socioimg, .UMSIimg, .miscprojimg1,
