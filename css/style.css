@@ -65,7 +65,7 @@ a {
 }
 
 /* SHRINKS TEXT WIDTH */
-.textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span{
+.textwrapper p, .textwrapper span{
     width: 50%;
     margin: 0 auto;
     text-align:left;
