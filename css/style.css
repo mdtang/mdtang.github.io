@@ -45,6 +45,10 @@ a {
     font-family: 'OpenSans-Bold', helvetica;
 }
 
+.underline:hover{
+  text-decoration: underline;
+}
+
 .extrapadding {
     padding-top:250px;
     padding-bottom:250px;
