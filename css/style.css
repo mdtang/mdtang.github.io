@@ -871,18 +871,15 @@ nav#expand-fullpagemenu ul li a:hover{
     padding:40px;
 }
 
-.aboutmegrid {
-    background: #e9f6fc;
+.aboutmegrid, .courseworkgrid {
+    background: #e5f9f9;
 }
 
 
 .skillsgrid {
-    background: #bee5f6;
+    background: #ccf4f4;
 }
 
-.courseworkgrid {
-    background:#94d5f0;
-}
 
 /* MAIN PAGE HOVER GRID STYLES */
 /*hover animations*/
