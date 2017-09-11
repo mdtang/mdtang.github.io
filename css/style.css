@@ -28,7 +28,7 @@ body, html, footer, .footer-copyright{
 
 /* line space between each letter */
 p, h1,h2,h3,h4,h5,div,span,li {
-    line-height:170%;
+    line-height:150%;
 }
 
 a {
@@ -60,7 +60,7 @@ a {
 }
 
 .mediumpadding {
-    padding-bottom:70px;
+    padding-bottom:40px;
     padding-top:30px;
 }
 
@@ -155,19 +155,35 @@ a {
 
 
 /* HEADER STYLES */
-.homeview, .expview, .projview {
-    padding:170px;
+
+.designview ul li {
+  line-height:100%;
 }
-.designview {
-    padding:90px;
+
+.designview ul li:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) and (min-width: 320px) {
     .designview {
-        padding:90px 40px;
+        padding:30px 0px 50px;
     }
 }
 
+.designview {
+      color: #000; /*color of text on top modal */
+      font-family: 'OpenSans-Regular', helvetica;
+      font-size: 25px;
+      position:relative;
+      text-align:center;
+      padding:20px 0 0 0;
+}
+
+.menufont {
+  font-size:15px;
+}
 .nasaview, .immigrationview, .gametrackview, .fpsUIview, .mobilegameview, .flyerview, .CANview, .fordview, .sqview, .dayspaview, .tutorview, .UMSIview, .socioUXview, .pygameview, .AIview, .miscview, .foodview {
     padding: 200px 0px 200px 0px; /* whitespace issue fixed! */
 }
@@ -176,7 +192,6 @@ a {
     color: #fff; /*color of text on top modal */
     font-family: 'OpenSans-Regular', helvetica;
     font-size: 30px;
-    letter-spacing: 3px;
     position:relative;
     top:50px;
 }
@@ -185,21 +200,11 @@ a {
     color: #000; /*color of text on top modal */
     font-family: 'OpenSans-Regular', helvetica;
     font-size: 30px;
-    letter-spacing: 3px;
     position:relative;
     top:50px;
     text-align:center;
 }
 
-.flex-center-index {
-    color: #000; /*color of text on top modal */
-    font-family: 'OpenSans-Regular', helvetica;
-    font-size: 30px;
-    letter-spacing: 3px;
-    position:relative;
-    top:50px;
-    text-align:center;
-}
 
 /* Small devices */
 @media (max-width: 768px) {
@@ -222,15 +227,6 @@ a {
     }
 }
 
-/*
-.homeview {
-    background: white;
-}
-
-.designview {
-    background: white;
-}
-*/
 .nasaview {
     background-image:url('../media/nasa/appontv.jpg');
     -webkit-background-size: cover;
@@ -420,6 +416,18 @@ a {
     top:20px;
 }
 
+.homepagelogo {
+  width:30%;
+  padding-bottom:20px;
+}
+
+@media (max-width: 768px) {
+    .homepagelogo {
+        width:60px;
+    }
+}
+
+
 @media (max-width: 768px) {
     .logo {
         width:30px;
@@ -449,12 +457,6 @@ a {
     }
 }
 
-.animated img{
-    width:60%;
-    display: block;
-    margin: 0 auto;
-}
-
 /* SCROLLING SIDEBAR NAV STYLES*/
 
 .sidebar {
@@ -463,8 +465,7 @@ a {
    top: 400px;
    font-family: 'OpenSans-Regular', helvetica;
    font-size:14px;
-   background-color: #fcfdff;
-   border-radius:10px;
+   background-color: white;
    padding:8px 8px 8px 8px;
    z-index: 1;
 }
@@ -522,7 +523,7 @@ label#navtoggler{  /* Main label icon to toggle menu state */
     width: 3.5em;
     height: 2.5em;
     text-indent: -1000px;
-    border: 0.6em solid #cb0000;
+    border: 0.6em solid #91a8d0;
     /* border color */
     border-width: 0.6em 0;
     cursor: pointer;
@@ -539,7 +540,7 @@ label#navtoggler::before{
     width: 100%;
     height: 0.6em;
     margin-top: -0.3em;
-    background: #cb0000; /* stripes background color. Change to match border color of parent label above */
+    background: #91a8d0; /* stripes background color. Change to match border color of parent label above */
 }
 
 label#navtoggler:hover {
@@ -561,7 +562,7 @@ nav#expand-fullpagemenu{ /* Full screen nav menu */
     box-sizing: border-box;
     -webkit-transform: scale(0.9);  /* initially scale down nav size */
     transform: scale(0.9);
-    background: #00cbcb; /* logo bg color */
+    background: #91a8d0; /* logo bg color */
     display: block;
     position: fixed;
     z-index: 100;
@@ -611,7 +612,7 @@ nav#expand-fullpagemenu label#closex::before, nav label#closex::after{ /* render
     position: absolute;
     width: 50%;
     height: 9px;
-    background: #cb0000;
+    background: #f7cac9;
     top: 50%;
     margin-top: -3px;
     -ms-transform: rotate(-45deg);
@@ -627,7 +628,7 @@ nav#expand-fullpagemenu label#closex::after{ /* render large cross inside close 
 
 nav#expand-fullpagemenu a{
     text-decoration: none;
-    color: #cb0000;
+    color: #f7cac9;
     text-transform: uppercase;
     font-family: 'OpenSans-Regular', helvetica;
 }
@@ -645,7 +646,7 @@ nav#expand-fullpagemenu ul{
 
 nav#expand-fullpagemenu ul li{
     margin-bottom: 30px;
-    text-shadow: 1px 1px 2px rgba(139,0,0, 0.4);
+    text-shadow: 1px 1px 2px rgba(86,70,70, 0.4);
 }
 
 nav#expand-fullpagemenu ul li a{
@@ -875,13 +876,10 @@ nav#expand-fullpagemenu ul li a:hover{
     padding:40px;
 }
 
-.aboutmegrid, .courseworkgrid {
-    background: #e5f9f9;
-}
-
-
-.skillsgrid {
-    background: #ccf4f4;
+/* creating boxes for about me page sections */
+.aboutmegrid,.skillsgrid,.courseworkgrid {
+  background:#dee4f0;
+  border:50px solid white;
 }
 
 
@@ -896,15 +894,17 @@ nav#expand-fullpagemenu ul li a:hover{
     text-align: center;
     cursor: default;
     background:#5f6c7a; /*hover color bg*/
+    border:100px solid white;
 }
 
-/*special case */
+/*special case
 @media (min-width: 770px) {
     #nasa {
         width:30%;
-        left:35%;
+        left:65%;
     }
 }
+*/
 
 h2 span,h3 span, h5 span{
    background: rgb(0, 0, 0); /* fallback color */
@@ -914,9 +914,6 @@ h2 span,h3 span, h5 span{
 
 }
 
-.hovereffect {
-    box-shadow: 1px 1px 1px black;
-}
 .hovereffect .overlay {
     width: 100%;
     height: 100%;
@@ -1016,6 +1013,7 @@ h2 span,h3 span, h5 span{
 
 /* FOOTER STYLES */
 /* overriding text color of footer */
+
 .footer-copyright {
     color:black !important;
 }

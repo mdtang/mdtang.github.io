@@ -27,66 +27,34 @@
 
 <body>
 
-<!--Navbar-->
-<nav>
-
-    <div class="container">
-        <!--logo placement-->
-        <a href="index.html"><img class="logo" src="media/logo.png" alt=""></a>
-        <!--Collapse content-->
-                    <div class="menuwrapper">
-
-        <input type="checkbox" id="togglebox" />
-        <label for="togglebox" id="navtoggler"></label>
-
-        <nav id="expand-fullpagemenu">
-
-        <label for="togglebox" id="closex"></label>
-
-                <ul>
-                    <li><a href="index.html">Design Projects</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="experience.html">Extracurricular Activities</a></li>
-                    <li><a href="projects.html">Other Projects</a></li>
-                </ul>
-
-        </nav>
-
-        </div>
-
-        <!--/.Collapse content-->
-
-    </div>
-
-</nav>
-<!--/.Navbar-->
-
-<!--Mask-->
-<div class="designview">
-    <div class="flex-center-index">
+<!--Menu-->
+<div class="col-md-3 col-xs-12 designview">
         <ul class="animated fadeIn">
-            <li>
-                <h1 class="h1-responsive">Hi! I'm Mingda Tang.</h1></li>
-            <li>
-            <br>
-                <h3>I approach everything as an active problem-solver.</h3>
-            </li>
+            <img class="homepagelogo" src="media/logo.png" alt="">
+            <h5 class="h5-responsive">Mingda Tang</h5>
+            <li><a class="col-md-12 col-xs-3 menufont bold" href="index.html">design projects</a></li>
+            <li><a class="col-md-12 col-xs-3 menufont" href="aboutme.html">about me</a></li>
+            <li><a class="col-md-12 col-xs-3 menufont" href="experience.html">extracurricular activities</a></li>
+            <li><a class="col-md-12 col-xs-3 menufont" href="projects.html">other projects</a></li>
         </ul>
-    </div>
+        <div class="mediumpadding"></div>
 </div>
 <!--/.Mask-->
 
 <!--Content-->
 <div class="content container-fluid">
-  <div class="col-xs-12">
-      <div class="hovereffect" id="nasa">
-          <a class="info" href="nasa.html"><img class="img-responsive header" src="media/nasa/nasa.png" alt="">
-          <div class="overlay">
-             <h2><span>UI and Visual Design - NASA AgroSphere</span></h2>
-          </div>
-      </div>
-  </div>
-    <div class="col-md-4 col-xs-12">
+    <div class="col-md-9 col-xs-12">
+        <div class="hovereffect" id="nasa">
+            <a class="info" href="nasa.html"><img class="img-responsive header" src="media/nasa/nasa.png" alt="">
+            <div class="overlay">
+                <h2><span>UI and Visual Design - NASA AgroSphere</span></h2>
+            </div>
+        </div>
+    </div>
+    <!-- only way to trick bootstrap into making my sidebar menu work !-->
+    <div class="col-md-3 col-xs-12">
+    </div>
+    <div class="col-md-9 col-xs-12">
         <div class="hovereffect">
             <a class="info" href="gametrackapp.html"><img class="img-responsive header" src="media/gametrackapp/toomanygames.jpg" alt="">
             <div class="overlay">
@@ -94,7 +62,9 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4 col-xs-12">
+    <div class="col-md-3 col-xs-12">
+    </div>
+    <div class="col-md-9 col-xs-12">
         <div class="hovereffect">
             <a class="info" href="immigrationapp.html"><img class="img-responsive header" src="media/immigrationapp/statueofliberty.jpg" alt="">
             <div class="overlay">
@@ -102,7 +72,9 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4 col-xs-12">
+    <div class="col-md-3 col-xs-12">
+    </div>
+    <div class="col-md-9 col-xs-12">
         <div class="hovereffect">
             <a class="info" href="fpsUI.html"><img class="img-responsive header" src="media/deusexui.png" alt="">
             <div class="overlay">
@@ -110,7 +82,9 @@
             </div>
         </div>
     </div>
-    <div class="col-md-6 col-xs-12">
+    <div class="col-md-3 col-xs-12">
+    </div>
+    <div class="col-md-9 col-xs-12">
         <div class="hovereffect">
             <a class="info" href="mobilegame.html"><img class="img-responsive header" src="media/phone.jpg" alt="">
             <div class="overlay">
@@ -118,7 +92,9 @@
             </div>
         </div>
     </div>
-    <div class="col-md-6 col-xs-12">
+    <div class="col-md-3 col-xs-12">
+    </div>
+    <div class="col-md-9 col-xs-12">
         <div class="hovereffect">
             <a class="info" href="flyer.html"><img class="img-responsive header" src="media/skyline.jpg" alt="">
             <div class="overlay">
@@ -130,10 +106,10 @@
 
 <!--/.Content-->
 
-    <!--Footer-->
-    <footer class="page-footer center-on-small-only">
+<!--Footer-->
+<footer class="page-footer center-on-small-only">
 
-    <div class="call-to-action">
+    <div class="call-to-action col-xs-12">
         <ul>
             <li><a href="mdtang@umich.edu"><img class="email" src="media/email.png" alt="Email Logo"></a></li>
             <li><a href="https://www.linkedin.com/in/mingda-tang-84546998" target="_blank" target="_blank"><img class="linkedin" src="media/linkedin.png" alt="LinkedIn Logo"></a></li>
@@ -143,7 +119,7 @@
     <!--/.Call to action-->
 
     <!--Copyright-->
-    <div class="footer-copyright">
+    <div class="footer-copyright col-xs-12">
         <div class="container-fluid">
             © 2017 Mingda Tang
             <div class="mediumpadding"></div>
