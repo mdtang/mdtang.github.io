@@ -144,13 +144,14 @@ a {
 
 .btn {
     border-radius:10px;
-    background:gray;
+    background:#034f84;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+    background:black !important;
 }
 
 
@@ -523,7 +524,7 @@ label#navtoggler{  /* Main label icon to toggle menu state */
     width: 3.5em;
     height: 2.5em;
     text-indent: -1000px;
-    border: 0.6em solid #91a8d0;
+    border: 0.6em solid #034f84;
     /* border color */
     border-width: 0.6em 0;
     cursor: pointer;
@@ -540,7 +541,7 @@ label#navtoggler::before{
     width: 100%;
     height: 0.6em;
     margin-top: -0.3em;
-    background: #91a8d0; /* stripes background color. Change to match border color of parent label above */
+    background: #034f84; /* stripes background color. Change to match border color of parent label above */
 }
 
 label#navtoggler:hover {
@@ -562,7 +563,7 @@ nav#expand-fullpagemenu{ /* Full screen nav menu */
     box-sizing: border-box;
     -webkit-transform: scale(0.9);  /* initially scale down nav size */
     transform: scale(0.9);
-    background: #91a8d0; /* logo bg color */
+    background: #034f84; /* hamburger bar bg color */
     display: block;
     position: fixed;
     z-index: 100;
@@ -628,7 +629,7 @@ nav#expand-fullpagemenu label#closex::after{ /* render large cross inside close 
 
 nav#expand-fullpagemenu a{
     text-decoration: none;
-    color: #f7cac9;
+    color: white;
     text-transform: uppercase;
     font-family: 'OpenSans-Regular', helvetica;
 }
@@ -655,7 +656,7 @@ nav#expand-fullpagemenu ul li a{
 }
 
 nav#expand-fullpagemenu ul li a:hover{
-    background: white;
+    background: black;
 }
 
 /* IMAGE STYLES */
@@ -878,7 +879,7 @@ nav#expand-fullpagemenu ul li a:hover{
 
 /* creating boxes for about me page sections */
 .aboutmegrid,.skillsgrid,.courseworkgrid {
-  background:#dee4f0;
+  background:white;
   border-width: 40px;
   border-style: solid;
   border-image: url('../media/greyzz.png') 25% round;
