@@ -879,9 +879,8 @@ nav#expand-fullpagemenu ul li a:hover{
 /* creating boxes for about me page sections */
 .aboutmegrid,.skillsgrid,.courseworkgrid {
   background:#dee4f0;
-  border-width: 50px;
+  border-width: 40px;
   border-style: solid;
-  border-left:0;
   border-image: url('../media/greyzz.png') 25% round;
 }
 
@@ -897,9 +896,8 @@ nav#expand-fullpagemenu ul li a:hover{
     text-align: center;
     cursor: default;
     background:#5f6c7a; /*hover color bg*/
-    border-width: 60px;
+    border-width: 50px;
     border-style: solid;
-    border-left:0;
     border-image: url('../media/greyzz.png') 25% round;
 }
 
@@ -1042,13 +1040,13 @@ footer.page-footer .call-to-action ul li {
 
 @media (max-width: 768px) {
     .email,.linkedin,.github {
-        width: 20%;
+        width: 30%;
     }
 }
 
 @media (max-width: 1024px) {
     .email,.linkedin,.github {
-        width: 4%;
+        width: 5%;
     }
 }
 
