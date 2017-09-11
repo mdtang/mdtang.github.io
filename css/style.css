@@ -879,7 +879,10 @@ nav#expand-fullpagemenu ul li a:hover{
 /* creating boxes for about me page sections */
 .aboutmegrid,.skillsgrid,.courseworkgrid {
   background:#dee4f0;
-  border:50px solid white;
+  border-width: 50px;
+  border-style: solid;
+  border-left:0;
+  border-image: url('../media/greyzz.png') 25% round;
 }
 
 
