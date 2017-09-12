@@ -639,8 +639,12 @@ a {
     border-right: 1px solid white;
 }
 
-.pygameimg1,.pygameimg2{
+.pygameimg1, .pygameimg2{
     width:100%;
+}
+
+.pygamegif {
+  width: 90%;
 }
 
 .AIimg{
