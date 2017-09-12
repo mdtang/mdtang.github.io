@@ -27,83 +27,66 @@
 
 <body>
 
-<!--Navbar-->
-<nav>
-
-    <div class="container">
-        <!--logo placement-->
-        <a href="index.html"><img class="logo" src="media/logo.png" alt=""></a>
-        <!--Collapse content-->
-                    <div class="menuwrapper">
-
-        <input type="checkbox" id="togglebox" />
-        <label for="togglebox" id="navtoggler"></label>
-
-        <nav id="expand-fullpagemenu">
-
-        <label for="togglebox" id="closex"></label>
-
-                <ul>
-                    <li><a href="index.html">Design Projects</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="experience.html">Extracurricular Activities</a></li>
-                    <li><a href="projects.html">Other Projects</a></li>
-                </ul>
-
-        </nav>
-
-        </div>
-        <!--/.Collapse content-->
-
-    </div>
-
-</nav>
-<!--/.Navbar-->
-
-<!--Mask-->
-<div class="fpsUIview">
-    <div class="flex-center">
+    <!--Menu-->
+    <div class="col-md-3 col-xs-12 menuview">
         <ul class="animated fadeIn">
-                <h3 class="h3-responsive"><span>First Person Shooter</span></h3></li>
-                <h5><span>UI Design</span></h5></li>
+            <img class="homepagelogo" src="media/logo.png" alt="">
+            <h5 class="h5-responsive">Mingda Tang</h5>
+            <li><a class="col-md-12 col-xs-6 menufont bold" href="index.html">design projects</a></li>
+            <li><a class="col-md-12 col-xs-6 menufont" href="aboutme.html">about me</a></li>
+            <li><a class="col-md-12 col-xs-6 menufont" href="experience.html">extracurricular activities</a></li>
+            <li><a class="col-md-12 col-xs-6 menufont" href="projects.html">other projects</a></li>
         </ul>
+        <div class="smallpadding"></div>
     </div>
-</div>
-<!--/.Mask-->
+    <!--/.Menu-->
 
-<!--Content-->
- <div class="content container-fluid">
-    <div class="padding centered">
-            <img class="fpsUIimage" src='media/GameUI.png' alt='Mockup Game UI'/>
-            <div class="smallpadding"></div>
-        <div class="textwrapper">
-            <h1>Objective</h1>
-            <div class="smallpadding"></div>
-            <p>Design a UI mockup of a first person shooter game with branching story paths, special abilities, and an open-world map to explore.</p>
-            <p>I took inspiration from the Deus Ex games, hence the header background.</p>
-            <div class="smallpadding"></div>
-            <p>I personally wanted to explore how a video game user interface was designed with interactive elements.</p>
-            <div class="smallpadding"></div>
-            <div class="listwrapper">
-            <ol>
-                <li>Health and Stamina Bars (Green = Health; Orange = Stamina)</li>
-                <li>Objectives - Primary and Optional (Players can retreive a secret weapon by discovering the optional weapon cache)</li>
-                <li>Special abilities activated with button prompts (More abilities can be discovered by exploring)</li>
-                <li>Wireframe Assault Rifle Model</li>
-                <li>On-Screen Destination Marker for the Primary Objective</li>
-                <li>Radar Map</li>
-                <li>Weapon Crosshair</li>
-                <li>Weapon Name and Ammo Count</li>
-            </ol>
-            </div>
-            <div class="smallpadding"></div>
-            <button type="button" class="btn btn-info" onclick="window.open('media/FPSUI.pdf')">PDF Download</button>
-            <div class="mediumpadding"></div>
-            <h5>Designed in Adobe Illustrator</h5>
+    <!--Mask-->
+    <div class="fpsUIview col-md-9 col-xs-12">
+        <div class="flex-center">
+            <ul class="animated fadeIn">
+                    <h3 class="h3-responsive"><span>First Person Shooter</span></h3></li>
+                    <h5><span>UI Design</span></h5></li>
+            </ul>
         </div>
     </div>
-</div>
-<!--/.Content-->
+    <!--/.Mask-->
+
+    <!--Content-->
+     <div class="content container-fluid">
+        <div class="col-md-3 col-xs-12">
+        </div>
+        <div class="col-md-9 col-xs-12 padding centered">
+                <img class="fpsUIimage" src='media/GameUI.png' alt='Mockup Game UI'/>
+                <div class="smallpadding"></div>
+            <div class="textwrapper">
+                <h1>Objective</h1>
+                <div class="smallpadding"></div>
+                <p>Design a UI mockup of a first person shooter game with branching story paths, special abilities, and an open-world map to explore.</p>
+                <p>I took inspiration from the Deus Ex games, hence the header background.</p>
+                <div class="smallpadding"></div>
+                <p>I personally wanted to explore how a video game user interface was designed with interactive elements.</p>
+                <div class="smallpadding"></div>
+                <div class="listwrapper">
+                <ol>
+                    <li>Health and Stamina Bars (Green = Health; Orange = Stamina)</li>
+                    <li>Objectives - Primary and Optional (Players can retreive a secret weapon by discovering the optional weapon cache)</li>
+                    <li>Special abilities activated with button prompts (More abilities can be discovered by exploring)</li>
+                    <li>Wireframe Assault Rifle Model</li>
+                    <li>On-Screen Destination Marker for the Primary Objective</li>
+                    <li>Radar Map</li>
+                    <li>Weapon Crosshair</li>
+                    <li>Weapon Name and Ammo Count</li>
+                </ol>
+                </div>
+                <div class="smallpadding"></div>
+                <button type="button" class="btn btn-info" onclick="window.open('media/FPSUI.pdf')">PDF Download</button>
+                <div class="mediumpadding"></div>
+                <h5>Designed in Adobe Illustrator</h5>
+            </div>
+        </div>
+    </div>
+    <!--/.Content-->
 
     <!--Footer-->
     <footer class="page-footer center-on-small-only">

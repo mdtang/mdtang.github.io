@@ -20,50 +20,29 @@
 
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    
+
 </head>
 
 <link rel="shortcut icon" href="media/logo.ico"/>
 
 <body>
 
-
-    <!--Navbar-->
-    <nav>
-
-        <div class="container">
-            <!--logo placement-->
-            <a href="index.html"><img class="logo" src="media/logo.png" alt=""></a> 
-            <!--Collapse content-->
-                        <div class="menuwrapper">
-
-            <input type="checkbox" id="togglebox" />
-            <label for="togglebox" id="navtoggler"></label>
-
-            <nav id="expand-fullpagemenu">
-
-            <label for="togglebox" id="closex"></label>
-
-                    <ul>
-                        <li><a href="index.html">Design Projects</a></li>
-                        <li><a href="aboutme.html">About Me</a></li>
-                        <li><a href="experience.html">Extracurricular Activities</a></li>
-                        <li><a href="projects.html">Other Projects</a></li>
-                    </ul>
-
-            </nav>
-
-            </div>
-
-            <!--/.Collapse content-->
-
-        </div>
-
-    </nav>
-    <!--/.Navbar-->
+    <!--Menu-->
+    <div class="col-md-3 col-xs-12 menuview">
+        <ul class="animated fadeIn">
+            <img class="homepagelogo" src="media/logo.png" alt="">
+            <h5 class="h5-responsive">Mingda Tang</h5>
+            <li><a class="col-md-12 col-xs-6 menufont" href="index.html">design projects</a></li>
+            <li><a class="col-md-12 col-xs-6 menufont" href="aboutme.html">about me</a></li>
+            <li><a class="col-md-12 col-xs-6 menufont" href="experience.html">extracurricular activities</a></li>
+            <li><a class="col-md-12 col-xs-6 menufont bold" href="projects.html">other projects</a></li>
+        </ul>
+        <div class="smallpadding"></div>
+    </div>
+    <!--/.Menu-->
 
     <!--Mask-->
-    <div class="AIview">
+    <div class="AIview col-md-9 col-xs-12">
         <div class="flex-center">
             <ul class="animated fadeIn">
                     <li><h3 class="h3-responsive"><span>Creative AI - Python Lyrics Generator</span></h3></li>
@@ -75,7 +54,9 @@
 
     <!--Content-->
      <div class="content container-fluid">
-        <div class="padding centered">
+         <div class="col-md-3 col-xs-12">
+         </div>
+         <div class="padding centered col-md-9 col-xs-12">
                 <img class="AIimg" src="media/AIimg.png" alt="creative ai program image">
                 <div class="mediumpadding"></div>
             <div class="textwrapper">

@@ -55,8 +55,8 @@ a {
 }
 
 .padding {
-    padding-bottom:120px;
-    padding-top:120px;
+    padding-bottom:100px;
+    padding-top:100px;
 }
 
 .mediumpadding {
@@ -186,6 +186,7 @@ a {
 .menufont {
   font-size:15px;
 }
+
 .nasaview, .immigrationview, .gametrackview, .fpsUIview, .mobilegameview, .flyerview, .CANview, .fordview, .sqview, .dayspaview, .tutorview, .UMSIview, .socioUXview, .pygameview, .AIview, .miscview, .foodview {
     padding: 200px 0px 200px 0px; /* whitespace issue fixed! */
 }
@@ -495,174 +496,7 @@ a {
 }
 
 
-/* FULL PAGE HAMBURGER BAR STYLES */
-
-body {
-    -webkit-animation: bugfix infinite 1s;
-}
-
-@-webkit-keyframes bugfix {
-    from {padding:0;}
-    to {padding:0;}
-}
-
-input[type="checkbox"]#togglebox {
-    /* checkbox used to toggle menu state */
-    position: absolute;
-    left: 0;
-    top: 0;
-    visibility: hidden;
-}
-
-label#navtoggler{  /* Main label icon to toggle menu state */
-    z-index: 0;
-    display: block;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    font-size: 12px;
-    /* change font size to change label dimensions. Leave width/height below alone */
-    width: 3.5em;
-    height: 2.5em;
-    text-indent: -1000px;
-    border: 0.6em solid #034f84;
-    /* border color */
-    border-width: 0.6em 0;
-    cursor: pointer;
-}
-
-
-label#navtoggler::before{
-    /* inner strip inside label */
-    content: "";
-    display: block;
-    position: absolute;
-    top: 7.5px;
-    right: 0px;
-    width: 100%;
-    height: 0.6em;
-    margin-top: -0.3em;
-    background: #034f84; /* stripes background color. Change to match border color of parent label above */
-}
-
-label#navtoggler:hover {
-    -moz-transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    transition:.35s;
-}
-
-
-nav#expand-fullpagemenu{ /* Full screen nav menu */
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    visibility: hidden;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transform: scale(0.9);  /* initially scale down nav size */
-    transform: scale(0.9);
-    background: #034f84; /* hamburger bar bg color */
-    display: block;
-    position: fixed;
-    z-index: 100;
-    opacity: 0;
-    text-align: center;
-    overflow: auto;
-    -moz-transition: visibility 0s 0.5s, opacity 0.5s, -moz-transform 0.5s; /* transition settings */
-    -webkit-transition: visibility 0s 0.5s, opacity 0.5s, -webkit-transform 0.5s;
-    transition: visibility 0s 0.5s, opacity 0.5s, transform 0.5s;
-}
-
-input[type="checkbox"]#togglebox:checked ~ nav#expand-fullpagemenu{ /* nav state when corresponding checkbox is checked */
-    visibility: visible;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-    -ms-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -webkit-transition-delay: 0s;
-    -transition-delay: 0s;
-}
-
-nav#expand-fullpagemenu label#closex{ /* Large x close button inside nav */
-    width: 80px;
-    height: 80px;
-    overflow: hidden;
-    display: block;
-    position: absolute;
-    cursor: pointer;
-    text-indent: -1000px;
-    z-index: 10;
-    top: 0;
-    right: 0;
-}
-
-label#closex:hover {
-    -moz-transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    transition:.35s;
-}
-
-
-nav#expand-fullpagemenu label#closex::before, nav label#closex::after{ /* render large cross inside close button */
-    content: "";
-    display: block;
-    position: absolute;
-    width: 50%;
-    height: 9px;
-    background: #f7cac9;
-    top: 50%;
-    margin-top: -3px;
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-nav#expand-fullpagemenu label#closex::after{ /* render large cross inside close button */
-    -ms-transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-    transform: rotate(-135deg);
-}
-
-nav#expand-fullpagemenu a{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-family: 'OpenSans-Regular', helvetica;
-}
-
-nav#expand-fullpagemenu ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    top: 50%; /* center UL vertically inside nav */
-    -webkit-transform: translateY(-50%); /* center UL vertically inside nav */
-    transform: translateY(-50%);
-    font: bold 2em sans-serif; /* use google font inside nav UL */
-}
-
-nav#expand-fullpagemenu ul li{
-    margin-bottom: 30px;
-    text-shadow: 1px 1px 2px rgba(86,70,70, 0.4);
-}
-
-nav#expand-fullpagemenu ul li a{
-    padding: 8px;
-    border-radius: 5px;
-}
-
-nav#expand-fullpagemenu ul li a:hover{
-    background: black;
-}
-
 /* IMAGE STYLES */
-
-
 .canimg1{
     width:40%;
 }
