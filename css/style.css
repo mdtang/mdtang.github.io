@@ -74,7 +74,7 @@ a {
 /* SHRINKS TEXT WIDTH */
 
 .textwrapper p, .textwrapper span {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   text-align: left;
 }
