@@ -220,7 +220,7 @@ a {
   font-size: 25px;
   position: relative;
   text-align: center;
-  padding: 20px 0 0 0;
+  padding: 20px 0 0 10px;
 }
 
 .menufont {
@@ -792,7 +792,6 @@ a {
   /*hover color bg*/
   border-width: 50px;
   border-style: solid;
-  border-left: 0;
   border-image: url('../media/greyzz.png') 25% round;
 }
 
