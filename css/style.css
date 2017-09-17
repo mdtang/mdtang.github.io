@@ -87,8 +87,7 @@ a {
 
 @media (max-width: 768px) {
   .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span, .listwrapper li {
-    width: 100%;
-    margin: 0 auto;
+    width: 80%;
   }
 }
 
@@ -746,22 +745,14 @@ a {
   height: auto;
 }
 
-.topgrid, .midgrid {
+.topgrid, .midgrid, .botgrid {
   width: 100%;
 }
 
-.topgrid div, .midgrid div {
+.topgrid div, .midgrid div, .botgrid div {
   width: 100%;
-  padding: 30px;
-}
-
-.botgrid {
-  width: 100%;
-}
-
-.botgrid div {
-  width: 100%;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 
@@ -769,7 +760,7 @@ a {
 
 .aboutmegrid, .skillsgrid, .courseworkgrid {
   background: white;
-  border-width: 40px;
+  border-width: 30px;
   border-style: solid;
   border-image: url('../media/greyzz.png') 25% round;
 }
@@ -790,7 +781,7 @@ a {
   cursor: default;
   background: #5f6c7a;
   /*hover color bg*/
-  border-width: 50px;
+  border-width: 30px;
   border-style: solid;
   border-image: url('../media/greyzz.png') 25% round;
 }
