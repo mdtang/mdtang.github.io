@@ -38,7 +38,7 @@ a {
   color: black;
 }
 
-.listwrapper ul, ol {
+.listwrapper ul, .listwrapper ol {
   display: inline-block;
   text-align: left;
 }
@@ -709,7 +709,7 @@ a {
 }
 
 .socioimg {
-  width: 30%;
+  width: 40%;
 }
 
 .gametrackimg {
