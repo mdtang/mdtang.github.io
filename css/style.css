@@ -203,6 +203,9 @@ a {
   -moz-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+.menuview ul li a:hover {
   text-decoration: underline !important;
 }
 
