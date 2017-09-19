@@ -785,6 +785,8 @@ a {
   background: #5f6c7a;
   /*hover color bg*/
   border-width: 30px;
+  border-left: 0;
+  border-right: 0;
   border-style: solid;
   border-image: url('../media/greyzz.png') 25% round;
 }
