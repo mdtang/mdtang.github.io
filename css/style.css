@@ -208,12 +208,6 @@ a {
   text-decoration: underline !important;
 }
 
-@media (max-width: 768px) and (min-width: 320px) {
-  .menuview {
-    /* work in progress */
-  }
-}
-
 .menuview {
   color: #000;
   /*color of text on top modal */
@@ -222,6 +216,12 @@ a {
   position: fixed;
   text-align: center;
   padding: 20px 0 0 10px;
+}
+
+@media (max-width: 768px) {
+  .menuview {
+    position: relative;
+  }
 }
 
 .menufont {
