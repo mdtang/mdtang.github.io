@@ -109,15 +109,15 @@ a {
 }
 
 .aboutmetext p, .skillstext p, .courseworktext p, .aboutmetext img, .aboutmetext button {
-  -webkit-animation: fadein 7s;
+  -webkit-animation: fadein 3s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 7s;
+  -moz-animation: fadein 3s;
   /* Firefox < 16 */
-  -ms-animation: fadein 7s;
+  -ms-animation: fadein 3s;
   /* Internet Explorer */
-  -o-animation: fadein 7s;
+  -o-animation: fadein 3s;
   /* Opera < 12.1 */
-  animation: fadein 7s;
+  animation: fadein 3s;
 }
 
 @keyframes fadein {
@@ -307,7 +307,6 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: black;
 }
 
 .fpsUIview {
@@ -316,7 +315,6 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: black;
 }
 
 .mobilegameview {
@@ -325,7 +323,6 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: black;
 }
 
 .flyerview {
@@ -334,7 +331,6 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: black;
   background-position: 50% 0%;
 }
 
@@ -804,7 +800,7 @@ a {
 h2 span, h3 span, h5 span {
   background: rgb(0, 0, 0);
   /* fallback color */
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   padding: 3px;
   border-radius: 5px;
 }
