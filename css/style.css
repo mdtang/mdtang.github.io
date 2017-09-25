@@ -219,7 +219,7 @@ a {
   /*color of text on top modal */
   font-family: 'OpenSans-Regular', helvetica;
   font-size: 25px;
-  position: relative;
+  position: fixed;
   text-align: center;
   padding: 20px 0 0 10px;
 }
