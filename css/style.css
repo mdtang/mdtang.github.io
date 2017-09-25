@@ -82,11 +82,10 @@ a {
 .listwrapper li {
   width: 90%;
   margin: 0 auto;
-  text-align: left;
 }
 
 @media (max-width: 768px) {
-  .textwrapper p, .textwrapper h1, .textwrapper h3, .textwrapper h4, .textwrapper h5, .textwrapper span, .listwrapper li {
+  .textwrapper p, .textwrapper h3, .textwrapper h4, .textwrapper span, .listwrapper li {
     width: 80%;
   }
 }
@@ -186,9 +185,9 @@ a {
 }
 
 .btn:hover, .btn:focus {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
   background: black !important;
 }
 
@@ -908,8 +907,8 @@ h2 span, h3 span, h5 span {
 
 /* overriding text color of footer */
 
-.footer-copyright {
-  color: black !important;
+.footer-copyright, .call-to-action {
+  color: black !Important;
 }
 
 footer.page-footer {
