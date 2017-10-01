@@ -24,6 +24,7 @@ body, html, footer, .footer-copyright {
   color: black;
   margin-top: -1px;
   font-family: 'OpenSans-Regular', helvetica;
+  font-size: 1.1rem;
   letter-spacing: 1.5px;
 }
 
@@ -80,7 +81,7 @@ a {
 }
 
 .listwrapper li {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -275,6 +276,15 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.quoraview {
+  background-image: url('../media/quora.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
 }
 
 .nasaview {
