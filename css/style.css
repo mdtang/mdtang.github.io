@@ -279,7 +279,7 @@ a {
 }
 
 .quoraview {
-  background-image: url('../media/quora.jpg');
+  background-image: url('../media//quora/quora.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -552,6 +552,14 @@ a {
 
 /* IMAGE STYLES */
 
+
+/* zooms in to image when clicked */
+
+img:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
 .canimg1 {
   width: 40%;
 }
@@ -658,6 +666,18 @@ a {
 
 .nasaimage {
   width: 40%;
+}
+
+.quoraimage {
+  width: 90%
+}
+
+.quoramobileimage {
+  width: 70%
+}
+
+.quoraaltmobileimage {
+  width: 30%
 }
 
 .gametrackimg1 {
@@ -910,6 +930,9 @@ h2 span, h3 span, h5 span {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+
+
+/* Quora page slideshow styles */
 
 
 /* FOOTER STYLES */
