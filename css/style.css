@@ -284,7 +284,13 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center bottom;
   height: 500px;
+}
+
+.quoraview div ul {
+  position: relative;
+  top: 100px;
 }
 
 .nasaview {
@@ -324,6 +330,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center bottom;
 }
 
 .mobilegameview {
@@ -332,6 +339,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center bottom;
 }
 
 .flyerview {
@@ -340,7 +348,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: center bottom;
 }
 
 .CANview {
@@ -365,6 +373,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center bottom;
 }
 
 .dayspaview {
@@ -421,6 +430,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center bottom;
 }
 
 .miscview {
