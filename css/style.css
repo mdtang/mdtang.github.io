@@ -86,7 +86,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  .textwrapper p, .textwrapper h3, .textwrapper h4, .textwrapper span, .listwrapper li {
+  .textwrapper p, .textwrapper h4, .textwrapper span, .listwrapper li {
     width: 80%;
   }
 }
