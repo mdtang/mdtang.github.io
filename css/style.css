@@ -186,9 +186,6 @@ a {
 }
 
 .btn:hover, .btn:focus {
-  -webkit-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  transform: scale(1.03);
   background: black !important;
 }
 
@@ -197,12 +194,6 @@ a {
 
 .menuview ul li {
   line-height: 100%;
-}
-
-.menuview ul li:hover {
-  -moz-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
 }
 
 .menuview ul li a:hover {
@@ -507,12 +498,15 @@ a {
   }
 }
 
+
+/*
 .logo:hover {
   -moz-transform: scale(1.3);
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   transition: .35s;
 }
+*/
 
 @media only screen and (max-width: 768px) {
   .navbar {
@@ -547,11 +541,14 @@ a {
   }
 }
 
+
+/*
 .hoverpop:hover {
-  -moz-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
+*/
 
 .sidebarlogo {
   width: 20px;
@@ -868,10 +865,7 @@ h2 span, h3 span, h5 span {
 }
 
 .hovereffect:hover img {
-  opacity: 0.4;
-  filter: alpha(opacity=40);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+  opacity: 0.6;
 }
 
 .hovereffect h2 {
