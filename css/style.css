@@ -563,8 +563,8 @@ a {
 /* zooms in to image when clicked */
 
 img:active {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .canimg1 {
