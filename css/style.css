@@ -39,7 +39,7 @@ a {
   color: black;
 }
 
-.listwrapper ul, .listwrapper ol {
+.listwrapper ul, .listwrapper ol, .listwrapper li {
   display: inline-block;
   text-align: left;
 }
