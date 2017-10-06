@@ -915,8 +915,8 @@ h2 span, h3 span, h5 span {
   height: 2px;
   background: #fff;
   content: '';
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
   -webkit-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
 }
@@ -976,8 +976,8 @@ footer.page-footer .call-to-action ul li {
 }
 
 .email:hover, .linkedin:hover, .github:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: .35s;
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: .1s;
 }
