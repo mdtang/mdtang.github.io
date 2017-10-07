@@ -757,7 +757,7 @@ img:active {
 }
 
 @media (max-width: 1024px) {
-  .nasaintroimage, .nasaimage, .fpsUIimage, .immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7, .immigrantimage8, .flyerimage, .gametrackimg1, .gametrackimg2, .gametrackimg3, .gametrackflowimg, .gametrackimg7, .gametrackimg8, .gametrackimg, .gametrackimg14, .gameguideimage, .canimg1, .canimg2, .canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg, .UMSIimg, .miscprojimg1, .miscprojimg2, .miscprojimg3 {
+  .nasaintroimage, .nasaimage, .fpsUIimage, .immigrantimage, .immigrantimage2, .immigrantimage3, .immigrantimage4, .immigrantimage5, .immigrantimage6, .immigrantimage7, .immigrantimage8, .immigrantimage9, .flyerimage, .gametrackimg1, .gametrackimg2, .gametrackimg3, .gametrackflowimg, .gametrackimg7, .gametrackimg8, .gametrackimg, .gametrackimg14, .gametrackimg15, .gameguideimage, .canimg1, .canimg2, .canimg3, .fordimg1, .fordimg2, .fordimg3, .sqimg1, .sqimg2, .sqimg3, .dayspaimg, .tutorimg, .AIimg, .foodimg, .socioimg, .UMSIimg, .miscprojimg1, .miscprojimg2, .miscprojimg3 {
     width: 100%;
   }
 }
