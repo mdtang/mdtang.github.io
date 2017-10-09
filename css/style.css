@@ -39,9 +39,8 @@ a {
   color: black;
 }
 
-.listwrapper ul, .listwrapper ol, .listwrapper li {
-  display: inline-block;
-  text-align: left;
+ul, li {
+  list-style: disc !important
 }
 
 .bold {
@@ -80,13 +79,14 @@ a {
   text-align: left;
 }
 
-.listwrapper li {
-  width: 80%;
+.listwrapper ul, .listwrapper ol, .listwrapper li {
+  text-align: left;
+  width: 70%;
   margin: 0 auto;
 }
 
 @media (max-width: 768px) {
-  .textwrapper p, .textwrapper h4, .textwrapper span, .listwrapper li {
+  .textwrapper p, .textwrapper span, .listwrapper li {
     width: 80%;
   }
 }
@@ -668,11 +668,11 @@ img:active {
 }
 
 .nasaintroimage {
-  width: 90%;
+  width: 100%;
 }
 
 .nasaimage {
-  width: 40%;
+  width: 50%;
 }
 
 .quoraimage {
