@@ -39,10 +39,6 @@ a {
   color: black;
 }
 
-ul, li {
-  list-style: disc !important
-}
-
 .bold {
   font-family: 'OpenSans-Bold', helvetica;
 }
@@ -73,21 +69,35 @@ ul, li {
 
 /* SHRINKS TEXT WIDTH */
 
-.textwrapper p, .textwrapper span {
-  width: 70%;
+.textwrapper p, .textwrapper span, .textwrapper h1, .textwrapper h2, .textwrapper h3, .textwrapper h4 {
+  width: 60%;
   margin: 0 auto;
   text-align: left;
 }
 
-.listwrapper ul, .listwrapper ol, .listwrapper li {
+.textwrapper h1, .textwrapper h2, .textwrapper h3 {
+  font-family: 'OpenSans-Bold', helvetica;
+}
+
+.listwrapper li {
   text-align: left;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
+}
+
+
+/* removes bullet points for heading text */
+
+.flex-center ul {
+  list-style: none
 }
 
 @media (max-width: 768px) {
-  .textwrapper p, .textwrapper span, .listwrapper li {
+  .textwrapper p, .textwrapper span, .listwrapper li, .textwrapper h1, .textwrapper h2, .textwrapper h3, .textwrapper h4 {
     width: 80%;
+  }
+  .listwrapper ul li, .listwrapper ol li {
+    width: 85%
   }
 }
 
@@ -688,7 +698,7 @@ img:active {
 }
 
 .gametrackimg1 {
-  width: 40%;
+  width: 50%;
 }
 
 .gametrackimg2 {
