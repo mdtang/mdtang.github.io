@@ -76,13 +76,13 @@ a {
 }
 
 table {
-  width: 95% !important;
+  width: 100%;
   margin: 0 auto;
   text-align: left;
 }
 
 .table {
-  width: 65% !important
+  width: 65%
 }
 
 td, tr {
@@ -113,6 +113,9 @@ table a:hover {
   }
   .listwrapper li {
     width: 85%
+  }
+  .table {
+    width: 100% !important
   }
 }
 
