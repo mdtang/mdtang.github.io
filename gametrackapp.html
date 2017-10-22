@@ -45,7 +45,7 @@
   <!--Mask-->
   <div class="col-md-3 col-xs-12">
   </div>
-  <div class="col-md-9 col-xs-12 gametrackview ">
+  <div class="col-md-9 col-xs-12 gametrackview">
     <div class="flex-center">
       <ul class="animated fadeIn">
         <ll>
@@ -208,44 +208,89 @@
               <li>Puzzle Games</li>
               <li>Casual Game</li>
             </ol>
+            <div class="smallpadding"></div>
+            <div class="mediumpadding"></div>
+            <h1>Competitive Analysis</h1>
+            <div id="companalysis" class="smallpadding"></div>
+            <p>Before designing the app, I wanted to identify the competitors that already exist in this market.</p>
+            <div class="smallpadding"></div>
+            <p>There are three categories of competitor products I want to mention:</p>
+            <div class="smallpadding"></div>
+            <ul class="listwrapper">
+              <li>Tier 1 - Main competitors who are directly competitive</li>
+              <li>Tier 2 - Competitors who are mostly directly competitive</li>
+              <li>Niche - Competitors that focus on specific features and have a smaller, niche audience</li>
+            </ul>
+            <div class="smallpadding"></div>
+            <table class="table table-hover table-inverse table-bordered table-sm table-responsive">
+              <thead>
+                <tr class="tablecolor">
+                  <th></th>
+                  <th>HowLongToBeat - HLTB (Tier 1)</th>
+                  <th>Completionator (Tier 1)</th>
+                  <th>The Backloggery (Tier 2)</th>
+                  <th>Grouvee (Tier 2)</th>
+                  <th>My Game Collection Mobile App (Niche)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="tablecolor" scope="row">Account/Profile</th>
+                  <td>Yes. Required, but website still can be used without logging in. Users can view the games in their backlog and set playthroughs for specific games.</td>
+                  <td>Yes. Required, but website still can be used without logging in. Users can view the games in their backlog and set playthroughs and missions for specific games. There is also a chat feature on user profiles where other users can leave
+                    comments.
+                    <div class="smallpadding"></div>
+                    <img class="gametrackimg3" src='media/gametrackapp/chatbox.png' alt='completionator chat picture' /></td>
+                  <td>Yes. Required to use any features. Users can create unique profiles and showcase their gaming backlogs.</td>
+                  <td>Yes. Required, but website still can be used without logging in.</td>
+                  <td>No need to create an account. Data is saved on the device.</td>
+                </tr>
+                <tr>
+                  <th class="tablecolor" scope="row">Forum/Community</th>
+                  <td>Yes. There is an active forum with members discussing specific video games and giving site feedback. There is also an off-topic section.</td>
+                  <td>Yes. There is an active forum with members discussing video games in general, video game collecting, and giving site feedback. There is also an off-topic section.</td>
+                  <td>No.</td>
+                  <td>Yes. There is an active forum with members discussing specific video games in their backlog and Grouvee's own gaming podcast. There is also an off-topic section.</td>
+                  <td>Yes, but the app links to a Reddit subreddit for any discussions.</td>
+                </tr>
+                <tr>
+                  <th class="tablecolor" scope="row">Browse Games</th>
+                  <td>Yes. Users can search through thousands of games from different platforms with different search parameters. Users can also search for their Steam Profile to see how long it would take to beat their game collection.</td>
+                  <td>Yes. Users can search through games with search parameters.</td>
+                  <td>Users cannot search through games. They only can manually add their games by typing in the title and choosing the platform.</td>
+                  <td>Yes, but users cannot search with specific search parameters.</td>
+                  <td>Yes, users can search through a collection of games and are able to import their game backlog from their Steam profile, PlayStation 4 account, Xbox One account, and more.</td>
+                </tr>
+                <tr>
+                  <th class="tablecolor" scope="row">Friends and Leaderboards</th>
+                  <td>Yes. Users can add community users as friends and view users' and friends' stats.</td>
+                  <td>Yes. Users can add community users as friends and view users' and friends' stats.</td>
+                  <td>Yes. Users can use the Multitap feature to stay updated on friends' progress on games. However, there are no leaderboards.</td>
+                  <td>Yes. Users can add community users as friends and view users' and friends' stats.</td>
+                  <td>Yes, but users must manually add friends by first/last names, location. This friends list is primarily used to keep track of game and hardware loans from friends.
+                    <div class="smallpadding"></div>
+                    <img class="gametrackimg3" src='media/gametrackapp/mygamecollectionfriends.png' alt='completionator chat picture' /></td>
+                </tr>
+                <tr>
+                  <th class="tablecolor" scope="row">Specific Game Information</th>
+                  <td>Yes. Each game has an overview that describes what the game is, its developer, publisher, and the length of the game and its DLCs and expansions.</td>
+                  <td>Yes. Similar compared to HLTB, plus user's progress can be compared with other users and friends.</td>
+                  <td>No. Each game is manually added so no information is available except for the game's platform.</td>
+                  <td>Yes. Each game has an overview that describes what the game is, its developer, publisher, and users can submit reviews of the game for others to read.</td>
+                  <td>None.</td>
+                </tr>
+                <tr>
+                  <th class="tablecolor" scope="row">Advertisement/Premium Version</th>
+                  <td>No advertisements and no premium version. Can donate.</td>
+                  <td>No ads and no premium version. Nowhere to donate.</td>
+                  <td>No ads and no premium version. Nowhere to donate, but there is a contact form.</td>
+                  <td>There are banner ads. There is a Grouvee Gold membership that removes those ads, access to giveaways, and other benefits. $10 a year.</td>
+                  <td>There are ads. There is a premium version that removes ads, allow for Dropbox and Google Drive support, and more features.</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="mediumpadding"></div>
           </div>
-          <div class="smallpadding"></div>
-          <div class="mediumpadding"></div>
-          <h1>Competitive Analysis</h1>
-          <div id="companalysis" class="smallpadding"></div>
-          <p>Before designing the app, I wanted to outline some of the use cases to identify how exactly the app would be used.</p>
-          <div class="smallpadding"></div>
-          <table class="table table-hover table-inverse">
-            <thead>
-              <tr class="tablecolor">
-                <th>#</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Username</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="mediumpadding"></div>
         </div>
       </div>
       <div class="textwrapper">
