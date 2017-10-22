@@ -69,7 +69,7 @@ a {
 
 /* SHRINKS TEXT WIDTH */
 
-.textwrapper p, .textwrapper span, .textwrapper h1, .textwrapper h2, .textwrapper h3, .textwrapper h4 {
+.textwrapper p, .textwrapper span, .textwrapper h1, .textwrapper h2, .textwrapper h3, .textwrapper h4, .textwrapper table {
   width: 60%;
   margin: 0 auto;
   text-align: left;
@@ -185,6 +185,10 @@ a {
   to {
     opacity: 1;
   }
+}
+
+.tablecolor {
+  background: #034f84
 }
 
 
