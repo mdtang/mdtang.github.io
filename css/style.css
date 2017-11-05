@@ -263,6 +263,7 @@ input[type=checkbox]:checked~label>img {
 
 .menufont {
   font-size: 15px;
+  padding: 5px
 }
 
 .nasaview, .immigrationview, .gametrackview, .fpsUIview, .mobilegameview, .flyerview, .CANview, .fordview, .sqview, .dayspaview, .tutorview, .UMSIview, .socioUXview, .pygameview, .AIview, .miscview, .foodview {
