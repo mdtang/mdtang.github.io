@@ -47,6 +47,13 @@ a {
   text-decoration: underline;
 }
 
+.linkhover:hover {
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: .35s;
+}
+
 .extrapadding {
   padding-top: 250px;
   padding-bottom: 250px;
