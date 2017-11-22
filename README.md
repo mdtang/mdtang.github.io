@@ -1,2 +1,2 @@
-# https://mdtang.github.io/
+# https://www.mingda-tang.com/
 My personal website
